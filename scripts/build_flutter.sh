@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 
 echo "=== Installing Flutter ==="
@@ -6,7 +6,7 @@ FLUTTER_VERSION="3.44.8"
 FLUTTER_DIR="$HOME/flutter"
 
 if [ ! -d "$FLUTTER_DIR" ]; then
-  wget -q "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz" -O flutter.tar.xz
+  curl -sL "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz" -o flutter.tar.xz
   tar xf flutter.tar.xz -C "$HOME"
   rm flutter.tar.xz
 fi
