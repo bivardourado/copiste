@@ -8,7 +8,7 @@ class RevelarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Jogo de Revelar')),
+      appBar: AppBar(title: const Text('Perguntas Bíblicas')),
       body: BlocBuilder<RevelarCubit, RevelarState>(
         builder: (context, state) {
           if (state is RevelarPerguntaOculta) {
@@ -105,6 +105,12 @@ class RevelarPage extends StatelessWidget {
                 padding: const EdgeInsets.all(32.0),
                 child: Column(
                   children: [
+                    Text(
+                      state.perguntaAtual.pergunta,
+                      style: const TextStyle(fontSize: 18, color: Colors.black87),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 16),
                     Text(
                       state.perguntaAtual.resposta,
                       style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.blueAccent),

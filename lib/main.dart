@@ -5,6 +5,7 @@ import 'modules/revelar/models/pergunta_revelar.dart';
 import 'modules/revelar/repositories/perguntas_repository.dart';
 import 'modules/revelar/bloc/revelar_cubit.dart';
 import 'modules/revelar/ui/pages/revelar_page.dart';
+import 'modules/revelar/ui/pages/config_page.dart';
 
 void main() {
   runApp(const MeuJogoApp());
@@ -16,7 +17,7 @@ class MeuJogoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Jogo Bíblico',
+      title: 'Perguntas Bíblicas',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: FutureBuilder<List<PerguntaRevelar>>(
         future: PerguntasRepository().carregarPerguntas(),
@@ -43,12 +44,7 @@ class MeuJogoApp extends StatelessWidget {
           }
 
           final perguntas = snapshot.data!;
-          final times = ["Equipe Fé", "Equipe Esperança"];
-
-          return BlocProvider(
-            create: (context) => RevelarCubit(perguntas, times),
-            child: RevelarPage(),
-          );
+          return ConfigPage(perguntas: perguntas);
         },
       ),
     );

@@ -62,12 +62,19 @@ def parse_livro(input_file="livro.md", output_file="perguntas_revelar.json"):
             blocos_perguntas = re.split(r'^(?:Q|Pergunta):', '\n'.join(dif_lines), flags=re.MULTILINE|re.IGNORECASE)[1:]
             
             for bloco in blocos_perguntas:
-                pergunta_match = re.match(r'(.*?)(?:^R:|^Resposta:)(.*?)(?:^C:|^Curiosidade:)(.*)', bloco, flags=re.MULTILINE|re.IGNORECASE|re.DOTALL)
+                # Matches Q/Pergunta, then R/Resposta, then C/Curiosidade, then optionally T/Textos and L/Link
+                pergunta_match = re.match(
+                    r'(.*?)(?:^R:|^Resposta:)(.*?)(?:^C:|^Curiosidade:)(.*?)(?:(?:^T:|^Textos[^\n]*:)(.*?))?(?:(?:^L:|^Link:)(.*?))?$',
+                    bloco,
+                    flags=re.MULTILINE | re.IGNORECASE | re.DOTALL
+                )
                 
                 if pergunta_match:
                     pergunta_texto = pergunta_match.group(1).strip()
                     resposta_texto = pergunta_match.group(2).strip()
                     curiosidade_texto = pergunta_match.group(3).strip()
+                    textos_texto = pergunta_match.group(4).strip() if pergunta_match.group(4) else ""
+                    link_texto = pergunta_match.group(5).strip() if pergunta_match.group(5) else ""
                     
                     item = {
                         "id_pergunta": f"rev_{pergunta_id_counter:03d}",
@@ -78,6 +85,11 @@ def parse_livro(input_file="livro.md", output_file="perguntas_revelar.json"):
                         "resposta": resposta_texto,
                         "curiosidade_extra": curiosidade_texto
                     }
+                    if textos_texto:
+                        item["textosBiblicos"] = textos_texto
+                    if link_texto:
+                        item["link"] = link_texto
+                        
                     perguntas.append(item)
                     pergunta_id_counter += 1
 
