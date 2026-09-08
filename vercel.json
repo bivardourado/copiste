@@ -1,6 +1,6 @@
 {
-  "buildCommand": "bash scripts/build_flutter.sh",
   "outputDirectory": "build/web",
+  "buildCommand": "echo 'Using pre-built Flutter web output'",
   "installCommand": "echo skip",
   "framework": null
 }
