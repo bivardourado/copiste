@@ -1,6 +1,5 @@
 {
-  "outputDirectory": "build/web",
-  "buildCommand": "bash scripts/build_flutter.sh",
-  "installCommand": "echo 'Instalação feita no buildCommand'",
-  "framework": null
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }

@@ -1,0 +1,261 @@
+import { useState } from 'react'
+import perguntasData from '../../assets/perguntas_revelar.json'
+import { ArrowLeft } from 'lucide-react'
+
+// Tipos
+export type Pergunta = {
+  id_pergunta: string
+  capitulo: number
+  titulo_capitulo: string
+  dificuldade: string
+  pergunta: string
+  resposta: string
+  curiosidade_extra: string
+  textosBiblicos?: string
+  link?: string
+}
+
+type GameState = 'CONFIG' | 'PLAYING' | 'GAMEOVER'
+
+export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
+  const [gameState, setGameState] = useState<GameState>('CONFIG')
+  
+  // Config state
+  const [isGroup, setIsGroup] = useState(false)
+  const [team1, setTeam1] = useState('Equipe Fé')
+  const [team2, setTeam2] = useState('Equipe Esperança')
+
+  // Playing state
+  const [teams, setTeams] = useState<string[]>([])
+  const [scores, setScores] = useState<Record<string, number>>({})
+  const [questions, setQuestions] = useState<Pergunta[]>([])
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [turnIndex, setTurnIndex] = useState(0)
+  const [isAnswerRevealed, setIsAnswerRevealed] = useState(false)
+
+  const startGame = () => {
+    const selectedTeams = isGroup ? [team1.trim(), team2.trim()] : ['Jogador 1']
+    if (isGroup && (!selectedTeams[0] || !selectedTeams[1])) {
+      alert('Preencha o nome das duas equipes!')
+      return
+    }
+
+    // Shuffle questions
+    const shuffled = [...(perguntasData as Pergunta[])].sort(() => Math.random() - 0.5)
+    
+    setTeams(selectedTeams)
+    setScores(selectedTeams.reduce((acc, team) => ({ ...acc, [team]: 0 }), {}))
+    setQuestions(shuffled)
+    setCurrentQuestionIndex(0)
+    setTurnIndex(0)
+    setIsAnswerRevealed(false)
+    setGameState('PLAYING')
+  }
+
+  const handleAnswer = (correct: boolean) => {
+    if (correct) {
+      const currentTeam = teams[turnIndex % teams.length]
+      setScores(prev => ({ ...prev, [currentTeam]: prev[currentTeam] + 10 }))
+    }
+
+    if (currentQuestionIndex + 1 >= questions.length) {
+      setGameState('GAMEOVER')
+    } else {
+      setCurrentQuestionIndex(prev => prev + 1)
+      setTurnIndex(prev => prev + 1)
+      setIsAnswerRevealed(false)
+    }
+  }
+
+  const restartGame = () => setGameState('CONFIG')
+
+  return (
+    <div className="flex flex-col h-full relative">
+      {/* Header */}
+      <header className="flex items-center p-4 bg-white border-b border-slate-200 shrink-0">
+        <button onClick={onBackToHub} className="p-2 -ml-2 text-slate-500 hover:text-slate-800 rounded-full hover:bg-slate-100 transition-colors">
+          <ArrowLeft size={24} />
+        </button>
+        <h1 className="text-xl font-bold ml-2 text-slate-800">Perguntas Bíblicas</h1>
+      </header>
+
+      {/* Main Content Area */}
+      <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 pb-24">
+        {gameState === 'CONFIG' && (
+          <ConfigScreen 
+            isGroup={isGroup} setIsGroup={setIsGroup}
+            team1={team1} setTeam1={setTeam1}
+            team2={team2} setTeam2={setTeam2}
+            onStart={startGame}
+          />
+        )}
+
+        {gameState === 'PLAYING' && (
+          <PlayingScreen
+            currentTeam={teams[turnIndex % teams.length]}
+            question={questions[currentQuestionIndex]}
+            isRevealed={isAnswerRevealed}
+            onReveal={() => setIsAnswerRevealed(true)}
+            onAnswer={handleAnswer}
+          />
+        )}
+
+        {gameState === 'GAMEOVER' && (
+          <GameOverScreen scores={scores} onRestart={restartGame} />
+        )}
+      </main>
+    </div>
+  )
+}
+
+// --- Subcomponents ---
+
+function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, onStart }: any) {
+  return (
+    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-8 pb-12">
+      <h2 className="text-2xl font-bold text-center text-slate-800">Selecione o Modo</h2>
+      
+      <div className="flex space-x-4">
+        <button
+          onClick={() => setIsGroup(false)}
+          className={`flex-1 py-4 rounded-2xl font-bold transition-all ${!isGroup ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-200 text-slate-600 hover:bg-slate-300'}`}
+        >
+          Modo Solo
+        </button>
+        <button
+          onClick={() => setIsGroup(true)}
+          className={`flex-1 py-4 rounded-2xl font-bold transition-all ${isGroup ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-200 text-slate-600 hover:bg-slate-300'}`}
+        >
+          Modo Grupo
+        </button>
+      </div>
+
+      {isGroup && (
+        <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
+          <div>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
+            <input 
+              type="text" value={team1} onChange={e => setTeam1(e.target.value)}
+              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
+            <input 
+              type="text" value={team2} onChange={e => setTeam2(e.target.value)}
+              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+        </div>
+      )}
+
+      <div className="flex-1" />
+
+      <button onClick={onStart} className="w-full py-4 bg-green-500 text-white font-extrabold text-xl rounded-2xl shadow-lg hover:bg-green-600 active:scale-95 transition-all">
+        COMEÇAR JOGO
+      </button>
+    </div>
+  )
+}
+
+function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }: any) {
+  const diffColors: Record<string, string> = {
+    facil: 'bg-green-500',
+    medio: 'bg-orange-500',
+    dificil: 'bg-red-500'
+  }
+
+  return (
+    <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
+      <div className="text-center mb-6">
+        <span className="text-sm uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
+        <h2 className="text-2xl font-black text-slate-800">{currentTeam}</h2>
+      </div>
+
+      <div className="relative flex-1 w-full perspective-1000">
+        <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
+          
+          {/* FRENTE (Pergunta) */}
+          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-6 flex flex-col backface-hidden">
+            <div className="self-end">
+              <span className={`px-3 py-1 rounded-full text-xs font-bold text-white uppercase ${diffColors[question.dificuldade] || 'bg-slate-500'}`}>
+                {question.dificuldade}
+              </span>
+            </div>
+            <div className="flex-1 flex flex-col items-center justify-center space-y-4">
+              <h3 className="text-2xl font-bold text-slate-800 text-center leading-snug">
+                {question.pergunta}
+              </h3>
+              {question.textosBiblicos && (
+                <p className="text-sm italic text-slate-400 text-center">{question.textosBiblicos}</p>
+              )}
+            </div>
+          </div>
+
+          {/* VERSO (Resposta) */}
+          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-6 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
+             <div className="flex-1 flex flex-col items-center justify-center space-y-6">
+              <p className="text-lg text-slate-600 text-center font-medium">
+                {question.pergunta}
+              </p>
+              <div className="w-12 h-1 bg-blue-200 rounded-full" />
+              <h3 className="text-3xl font-black text-blue-600 text-center leading-tight">
+                {question.resposta}
+              </h3>
+              {question.curiosidade_extra && (
+                <div className="bg-white/60 p-4 rounded-2xl w-full">
+                  <p className="text-sm font-bold text-blue-800 mb-1">💡 Curiosidade</p>
+                  <p className="text-sm text-slate-700 italic">{question.curiosidade_extra}</p>
+                </div>
+              )}
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="h-24 mt-6 shrink-0 flex items-center">
+        {!isRevealed ? (
+          <button onClick={onReveal} className="w-full py-4 bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-md hover:bg-blue-700 active:scale-95 transition-all">
+            Ver Resposta
+          </button>
+        ) : (
+          <div className="flex w-full space-x-4 animate-in slide-in-from-bottom-4 duration-300">
+            <button onClick={() => onAnswer(false)} className="flex-1 py-4 bg-red-100 text-red-600 font-bold text-lg rounded-2xl border border-red-200 active:scale-95 transition-transform">
+              Errei
+            </button>
+            <button onClick={() => onAnswer(true)} className="flex-1 py-4 bg-green-500 text-white font-bold text-lg rounded-2xl shadow-md active:scale-95 transition-transform">
+              Acertei
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function GameOverScreen({ scores, onRestart }: any) {
+  const entries = Object.entries(scores).sort((a: any, b: any) => b[1] - a[1])
+  
+  return (
+    <div className="flex flex-col items-center justify-center h-full max-w-md mx-auto space-y-8">
+      <h2 className="text-4xl font-black text-slate-800">Fim de Jogo!</h2>
+      
+      <div className="w-full bg-white rounded-3xl shadow-sm border border-slate-100 p-6 space-y-4">
+        {entries.map(([team, score]: any, i) => (
+          <div key={team} className="flex justify-between items-center p-4 bg-slate-50 rounded-2xl">
+            <div className="flex items-center space-x-4">
+              <span className="text-2xl font-black text-slate-300">#{i+1}</span>
+              <span className="text-xl font-bold text-slate-700">{team}</span>
+            </div>
+            <span className="text-2xl font-black text-blue-600">{score} pt</span>
+          </div>
+        ))}
+      </div>
+
+      <button onClick={onRestart} className="w-full py-4 bg-blue-600 text-white font-bold text-xl rounded-2xl shadow-md active:scale-95 transition-all">
+        Jogar Novamente
+      </button>
+    </div>
+  )
+}
