@@ -118,7 +118,26 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
   )
 }
 
-// --- Subcomponents ---
+// Subcomponents
+function parseBiblicalTexts(text: string) {
+  if (!text) return [];
+  const references = text.split(';');
+  const grouped: string[] = [];
+  let currentGroup: string[] = [];
+  
+  references.forEach(ref => {
+     // Se tiver letras (nome do livro), começa um novo grupo
+     if (/[a-zA-ZÀ-ÿ]/.test(ref)) {
+        if (currentGroup.length > 0) grouped.push(currentGroup.join('; '));
+        currentGroup = [ref.trim()];
+     } else {
+        // Se for só número (capítulo/versículo), junta no livro anterior
+        currentGroup.push(ref.trim());
+     }
+  });
+  if (currentGroup.length > 0) grouped.push(currentGroup.join('; '));
+  return grouped;
+}
 
 function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxQuestions, setMaxQuestions, onStart }: any) {
   return (
@@ -234,16 +253,25 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
               <h3 className="text-lg font-bold text-slate-800 text-center leading-snug">
                 {question.pergunta}
               </h3>
+              
               {question.textosBiblicos && (
-                <a 
-                  href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(question.textosBiblicos)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-1.5 text-xs italic text-slate-400 hover:text-blue-600 transition-colors bg-slate-50 hover:bg-blue-50 px-3 py-1.5 rounded-full"
-                >
-                  <span>{question.textosBiblicos}</span>
-                  <ExternalLink size={12} className="shrink-0" />
-                </a>
+                <div className="flex flex-col items-center pt-4 space-y-2 w-full">
+                  <span className="text-[10px] uppercase tracking-wider font-bold text-slate-400">Não sabe? Leia na Bíblia:</span>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    {parseBiblicalTexts(question.textosBiblicos).map((ref, idx) => (
+                      <a 
+                        key={idx}
+                        href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(ref)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-1.5 text-xs italic text-slate-600 hover:text-blue-600 transition-colors bg-slate-100 hover:bg-blue-100 px-3 py-1.5 rounded-full border border-slate-200"
+                      >
+                        <span>{ref}</span>
+                        <ExternalLink size={12} className="shrink-0 opacity-50" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
               )}
             </div>
           </div>
