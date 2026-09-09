@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import perguntasData from '../../assets/perguntas_revelar.json'
-import { ArrowLeft, Check, X } from 'lucide-react'
+import { ArrowLeft, Check, X, ExternalLink } from 'lucide-react'
 
 // Tipos
 export type Pergunta = {
@@ -235,7 +235,15 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
                 {question.pergunta}
               </h3>
               {question.textosBiblicos && (
-                <p className="text-xs italic text-slate-400 text-center">{question.textosBiblicos}</p>
+                <a 
+                  href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(question.textosBiblicos)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-1.5 text-xs italic text-slate-400 hover:text-blue-600 transition-colors bg-slate-50 hover:bg-blue-50 px-3 py-1.5 rounded-full"
+                >
+                  <span>{question.textosBiblicos}</span>
+                  <ExternalLink size={12} className="shrink-0" />
+                </a>
               )}
             </div>
           </div>
