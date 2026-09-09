@@ -248,7 +248,7 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
         <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
           
           {/* FRENTE (Pergunta) */}
-          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-5 flex flex-col backface-hidden overflow-y-auto">
+          <div className="absolute inset-0 w-full h-full bg-sky-50 rounded-3xl shadow-lg border border-sky-100 p-5 flex flex-col backface-hidden overflow-y-auto">
             <div className="self-end shrink-0 mb-2">
               <span className={`px-3 py-1 rounded-full text-xs font-bold text-white uppercase ${diffColors[question.dificuldade] || 'bg-slate-500'}`}>
                 {question.dificuldade}
