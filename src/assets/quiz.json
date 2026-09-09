@@ -1,0 +1,62 @@
+[
+  {
+    "id": "quiz_001",
+    "pergunta": "Quantos dias durou a chuva do Dilúvio?",
+    "opcoes": [
+      "7 dias e 7 noites",
+      "40 dias e 40 noites",
+      "100 dias e 100 noites",
+      "1 ano inteiro"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 7:12 relata que a chuva caiu sobre a terra durante 40 dias e 40 noites."
+  },
+  {
+    "id": "quiz_002",
+    "pergunta": "Qual foi a arma usada por Davi para derrotar Golias?",
+    "opcoes": [
+      "Uma lança de bronze",
+      "Uma espada de ferro",
+      "Um arco e flecha",
+      "Uma funda e uma pedra"
+    ],
+    "resposta_correta": 3,
+    "explicacao": "Davi derrotou o gigante filisteu usando apenas uma funda e uma pedra lisa (1 Samuel 17:50)."
+  },
+  {
+    "id": "quiz_003",
+    "pergunta": "Em qual rio Jesus foi batizado por João Batista?",
+    "opcoes": [
+      "Rio Nilo",
+      "Rio Eufrates",
+      "Rio Jordão",
+      "Rio Tigre"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Jesus foi batizado no Rio Jordão (Mateus 3:13)."
+  },
+  {
+    "id": "quiz_004",
+    "pergunta": "Qual apóstolo andou sobre as águas em direção a Jesus?",
+    "opcoes": [
+      "Tiago",
+      "João",
+      "Pedro",
+      "André"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Pedro pediu a Jesus para ir até Ele por sobre as águas (Mateus 14:28-29)."
+  },
+  {
+    "id": "quiz_005",
+    "pergunta": "Quantas pragas Deus enviou ao Egito?",
+    "opcoes": [
+      "7",
+      "10",
+      "12",
+      "40"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Deus enviou 10 pragas para forçar o Faraó a libertar os israelitas (Êxodo 7-12)."
+  }
+]

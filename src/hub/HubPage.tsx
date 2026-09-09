@@ -1,4 +1,4 @@
-import { BookOpen, Search } from 'lucide-react'
+import { BookOpen, Search, CheckSquare } from 'lucide-react'
 
 export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => void }) {
   return (
@@ -32,6 +32,19 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
           <div className="ml-4 text-left">
             <h2 className="text-xl font-bold text-slate-800">Jogo das Pistas</h2>
             <p className="text-sm text-slate-500">Acerte com menos pistas!</p>
+          </div>
+        </button>
+
+        <button
+          onClick={() => onSelectGame('quiz')}
+          className="flex items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md hover:border-purple-300 transition-all active:scale-95 group"
+        >
+          <div className="bg-purple-100 text-purple-600 p-3 rounded-xl group-hover:bg-purple-500 group-hover:text-white transition-colors">
+            <CheckSquare size={28} />
+          </div>
+          <div className="ml-4 text-left">
+            <h2 className="text-xl font-bold text-slate-800">Quiz Bíblico</h2>
+            <p className="text-sm text-slate-500">Múltipla escolha clássica</p>
           </div>
         </button>
       </div>

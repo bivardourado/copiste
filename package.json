@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/bivardourado/copiste#readme",
   "dependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "canvas-confetti": "^1.9.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
