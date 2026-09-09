@@ -312,20 +312,29 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
       </div>
 
       {/* Floating Bottom Bar */}
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-slate-50/90 backdrop-blur-md border-t border-slate-200 z-50">
+      <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
         <div className="max-w-md mx-auto flex items-center">
           {!isRevealed ? (
-            <button onClick={onReveal} className="w-full py-4 bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-[0_8px_30px_rgb(37,99,235,0.3)] hover:bg-blue-700 active:scale-95 transition-all">
+            <button 
+              onClick={onReveal} 
+              className="w-full py-4 bg-sky-500 text-white font-black text-lg tracking-widest uppercase rounded-2xl shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px] transition-all flex items-center justify-center"
+            >
               Ver Resposta
             </button>
           ) : (
             <div className="flex w-full space-x-4 animate-in slide-in-from-bottom-4 duration-300">
-              <button onClick={() => onAnswer(false)} className="flex-1 py-4 bg-white text-red-500 border-2 border-red-100 font-bold text-lg rounded-2xl active:scale-95 transition-all flex items-center justify-center space-x-2 shadow-sm hover:border-red-500 hover:bg-red-50">
-                <X strokeWidth={3} size={20} />
+              <button 
+                onClick={() => onAnswer(false)} 
+                className="flex-1 py-4 bg-rose-50 text-rose-600 border-2 border-rose-200 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#fecdd3] active:shadow-[0_0px_0_0_#fecdd3] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2"
+              >
+                <X strokeWidth={4} size={24} />
                 <span>Errei</span>
               </button>
-              <button onClick={() => onAnswer(true)} className="flex-1 py-4 bg-green-500 text-white font-bold text-lg rounded-2xl shadow-[0_8px_30px_rgb(34,197,94,0.3)] hover:bg-green-600 active:scale-95 transition-all flex items-center justify-center space-x-2">
-                <Check strokeWidth={3} size={20} />
+              <button 
+                onClick={() => onAnswer(true)} 
+                className="flex-1 py-4 bg-emerald-500 text-white font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2"
+              >
+                <Check strokeWidth={4} size={24} />
                 <span>Acertei</span>
               </button>
             </div>
