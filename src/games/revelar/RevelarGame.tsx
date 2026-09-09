@@ -167,42 +167,42 @@ function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }
 
   return (
     <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
-      <div className="text-center mb-6">
-        <span className="text-sm uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
-        <h2 className="text-2xl font-black text-slate-800">{currentTeam}</h2>
+      <div className="text-center mb-3">
+        <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
+        <h2 className="text-xl font-black text-slate-800">{currentTeam}</h2>
       </div>
 
       <div className="relative flex-1 w-full perspective-1000">
         <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
           
           {/* FRENTE (Pergunta) */}
-          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-6 flex flex-col backface-hidden">
+          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-5 flex flex-col backface-hidden">
             <div className="self-end">
               <span className={`px-3 py-1 rounded-full text-xs font-bold text-white uppercase ${diffColors[question.dificuldade] || 'bg-slate-500'}`}>
                 {question.dificuldade}
               </span>
             </div>
-            <div className="flex-1 flex flex-col items-center justify-center space-y-4">
-              <h3 className="text-2xl font-bold text-slate-800 text-center leading-snug">
+            <div className="flex-1 flex flex-col items-center justify-center space-y-3">
+              <h3 className="text-lg font-bold text-slate-800 text-center leading-snug">
                 {question.pergunta}
               </h3>
               {question.textosBiblicos && (
-                <p className="text-sm italic text-slate-400 text-center">{question.textosBiblicos}</p>
+                <p className="text-xs italic text-slate-400 text-center">{question.textosBiblicos}</p>
               )}
             </div>
           </div>
 
           {/* VERSO (Resposta) */}
-          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-6 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
-             <div className="flex-1 flex flex-col items-center justify-center space-y-6">
-              <div className="w-12 h-1 bg-blue-200 rounded-full" />
-              <h3 className="text-3xl font-black text-blue-600 text-center leading-tight">
+          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-5 flex flex-col backface-hidden rotate-y-180">
+             <div className="flex-1 flex flex-col items-center justify-center space-y-4">
+              <div className="w-10 h-1 bg-blue-200 rounded-full" />
+              <h3 className="text-2xl font-black text-blue-600 text-center leading-tight">
                 {question.resposta}
               </h3>
               {question.curiosidade_extra && (
-                <div className="bg-white/60 p-4 rounded-2xl w-full">
-                  <p className="text-sm font-bold text-blue-800 mb-1">💡 Curiosidade</p>
-                  <p className="text-sm text-slate-700 italic">{question.curiosidade_extra}</p>
+                <div className="bg-white/60 p-3 rounded-2xl w-full">
+                  <p className="text-xs font-bold text-blue-800 mb-1">💡 Curiosidade</p>
+                  <p className="text-xs text-slate-700 italic leading-relaxed">{question.curiosidade_extra}</p>
                 </div>
               )}
             </div>
@@ -211,9 +211,9 @@ function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }
         </div>
       </div>
 
-      <div className="h-24 mt-6 shrink-0 flex items-center">
+      <div className="h-20 mt-3 shrink-0 flex items-center">
         {!isRevealed ? (
-          <button onClick={onReveal} className="w-full py-4 bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-md hover:bg-blue-700 active:scale-95 transition-all">
+          <button onClick={onReveal} className="w-full py-3 bg-blue-600 text-white font-bold text-base rounded-2xl shadow-md hover:bg-blue-700 active:scale-95 transition-all">
             Ver Resposta
           </button>
         ) : (
