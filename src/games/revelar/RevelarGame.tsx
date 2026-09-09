@@ -264,10 +264,9 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
                         href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(ref)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-1.5 text-xs italic text-slate-600 hover:text-blue-600 transition-colors bg-slate-100 hover:bg-blue-100 px-3 py-1.5 rounded-full border border-slate-200"
+                        className="text-xs text-blue-600 underline underline-offset-2 italic hover:text-blue-800 transition-colors"
                       >
-                        <span>{ref}</span>
-                        <ExternalLink size={12} className="shrink-0 opacity-50" />
+                        {ref}
                       </a>
                     ))}
                   </div>
