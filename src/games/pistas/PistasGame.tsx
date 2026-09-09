@@ -325,7 +325,7 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
   }
 
   return (
-    <div className="flex flex-col h-full relative">
+    <div className="flex flex-col h-full relative bg-slate-950 text-slate-100">
       <header className="flex items-center p-4 bg-slate-950 border-b border-slate-800 shrink-0">
         <button onClick={onBackToHub} className="p-2 -ml-2 text-slate-400 hover:text-white rounded-full hover:bg-slate-800 transition-colors">
           <ArrowLeft size={24} />
