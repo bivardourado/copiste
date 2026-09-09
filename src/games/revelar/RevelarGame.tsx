@@ -24,6 +24,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
   const [isGroup, setIsGroup] = useState(false)
   const [team1, setTeam1] = useState('Equipe Fé')
   const [team2, setTeam2] = useState('Equipe Esperança')
+  const [maxQuestions, setMaxQuestions] = useState(10)
 
   // Playing state
   const [teams, setTeams] = useState<string[]>([])
@@ -41,7 +42,10 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
     }
 
     // Shuffle questions
-    const shuffled = [...(perguntasData as Pergunta[])].sort(() => Math.random() - 0.5)
+    let shuffled = [...(perguntasData as Pergunta[])].sort(() => Math.random() - 0.5)
+    if (maxQuestions < 9999) {
+      shuffled = shuffled.slice(0, maxQuestions)
+    }
     
     setTeams(selectedTeams)
     setScores(selectedTeams.reduce((acc, team) => ({ ...acc, [team]: 0 }), {}))
@@ -86,6 +90,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
             isGroup={isGroup} setIsGroup={setIsGroup}
             team1={team1} setTeam1={setTeam1}
             team2={team2} setTeam2={setTeam2}
+            maxQuestions={maxQuestions} setMaxQuestions={setMaxQuestions}
             onStart={startGame}
           />
         )}
@@ -96,8 +101,13 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
             isGroup={isGroup}
             question={questions[currentQuestionIndex]}
             isRevealed={isAnswerRevealed}
+            scores={scores}
+            teams={teams}
+            totalQuestions={questions.length}
+            currentIndex={currentQuestionIndex}
             onReveal={() => setIsAnswerRevealed(true)}
             onAnswer={handleAnswer}
+            onEndGame={() => setGameState('GAMEOVER')}
           />
         )}
 
@@ -111,7 +121,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
 
 // --- Subcomponents ---
 
-function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, onStart }: any) {
+function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxQuestions, setMaxQuestions, onStart }: any) {
   return (
     <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-8 pb-12">
       <h2 className="text-2xl font-bold text-center text-slate-800">Selecione o Modo</h2>
@@ -150,6 +160,20 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, o
         </div>
       )}
 
+      <div className="animate-in fade-in slide-in-from-top-4 duration-300">
+        <label className="block text-sm font-medium text-slate-700 mb-1">Número de Perguntas</label>
+        <select 
+          value={maxQuestions} 
+          onChange={e => setMaxQuestions(Number(e.target.value))}
+          className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white"
+        >
+          <option value={10}>10 Perguntas (Rápido)</option>
+          <option value={20}>20 Perguntas (Normal)</option>
+          <option value={30}>30 Perguntas (Longo)</option>
+          <option value={9999}>Todas as Perguntas</option>
+        </select>
+      </div>
+
       <div className="flex-1" />
 
       <button onClick={onStart} className="w-full py-4 bg-green-500 text-white font-extrabold text-xl rounded-2xl shadow-lg hover:bg-green-600 active:scale-95 transition-all">
@@ -159,7 +183,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, o
   )
 }
 
-function PlayingScreen({ currentTeam, isGroup, question, isRevealed, onReveal, onAnswer }: any) {
+function PlayingScreen({ currentTeam, isGroup, question, isRevealed, scores, teams, totalQuestions, currentIndex, onReveal, onAnswer, onEndGame }: any) {
   const diffColors: Record<string, string> = {
     facil: 'bg-green-500',
     medio: 'bg-orange-500',
@@ -168,12 +192,23 @@ function PlayingScreen({ currentTeam, isGroup, question, isRevealed, onReveal, o
 
   return (
     <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
-      {isGroup && (
-        <div className="text-center mb-3">
-          <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
-          <h2 className="text-xl font-black text-slate-800">{currentTeam}</h2>
-        </div>
-      )}
+      <div className="flex justify-between items-center mb-2 shrink-0">
+        <button onClick={onEndGame} className="text-[10px] font-bold text-slate-500 uppercase bg-slate-200 hover:bg-red-100 hover:text-red-600 px-3 py-1.5 rounded-full transition-colors">
+          Encerrar
+        </button>
+        <span className="text-[10px] font-bold text-slate-400 uppercase">
+          {currentIndex + 1} / {totalQuestions}
+        </span>
+      </div>
+
+      <div className="flex justify-center space-x-8 mb-4 shrink-0">
+        {teams.map((t: string) => (
+          <div key={t} className={`flex flex-col items-center transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
+            <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold max-w-[80px] truncate">{t}</span>
+            <span className={`text-2xl font-black ${t === currentTeam ? 'text-blue-600' : 'text-slate-600'}`}>{scores[t]}</span>
+          </div>
+        ))}
+      </div>
 
       <div className="relative flex-1 w-full perspective-1000">
         <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
