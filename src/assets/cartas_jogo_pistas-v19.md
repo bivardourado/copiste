@@ -1,3 +1,6 @@
+# Jogo das Pistas Bíblico — 500 Cartas em JSON
+
+```json
 [
   {
     "id": "pis_001",
@@ -6500,3 +6503,4 @@
     "curiosidade": "O livro do Apocalipse (Apocalipse 22:20) encerra o cânon bíblico com a oração fervorosa: 'Amém! Venha, Senhor Jesus'."
   }
 ]
+```
