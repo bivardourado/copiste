@@ -93,6 +93,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
         {gameState === 'PLAYING' && (
           <PlayingScreen
             currentTeam={teams[turnIndex % teams.length]}
+            isGroup={isGroup}
             question={questions[currentQuestionIndex]}
             isRevealed={isAnswerRevealed}
             onReveal={() => setIsAnswerRevealed(true)}
@@ -158,7 +159,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, o
   )
 }
 
-function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }: any) {
+function PlayingScreen({ currentTeam, isGroup, question, isRevealed, onReveal, onAnswer }: any) {
   const diffColors: Record<string, string> = {
     facil: 'bg-green-500',
     medio: 'bg-orange-500',
@@ -167,10 +168,12 @@ function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }
 
   return (
     <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
-      <div className="text-center mb-3">
-        <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
-        <h2 className="text-xl font-black text-slate-800">{currentTeam}</h2>
-      </div>
+      {isGroup && (
+        <div className="text-center mb-3">
+          <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">Vez de</span>
+          <h2 className="text-xl font-black text-slate-800">{currentTeam}</h2>
+        </div>
+      )}
 
       <div className="relative flex-1 w-full perspective-1000">
         <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
