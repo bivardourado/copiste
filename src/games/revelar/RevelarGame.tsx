@@ -201,12 +201,23 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
       </div>
 
       <div className="flex justify-center space-x-8 mb-4 shrink-0">
-        {teams.map((t: string) => (
-          <div key={t} className={`flex flex-col items-center transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
-            <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold max-w-[80px] truncate">{t}</span>
-            <span className={`text-2xl font-black ${t === currentTeam ? 'text-blue-600' : 'text-slate-600'}`}>{scores[t]}</span>
+        {teams.length === 1 ? (
+          <div className="flex flex-col items-center">
+            <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Pontuação</span>
+            <span className="text-3xl font-black text-blue-600">
+              {scores[teams[0]]} <span className="text-sm font-bold opacity-50">pts</span>
+            </span>
           </div>
-        ))}
+        ) : (
+          teams.map((t: string) => (
+            <div key={t} className={`flex flex-col items-center transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
+              <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold max-w-[80px] truncate">{t}</span>
+              <span className={`text-2xl font-black ${t === currentTeam ? 'text-blue-600' : 'text-slate-600'}`}>
+                {scores[t]} <span className="text-xs font-bold opacity-50">pts</span>
+              </span>
+            </div>
+          ))
+        )}
       </div>
 
       <div className="relative flex-1 w-full perspective-1000">
@@ -275,6 +286,7 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
 
 function GameOverScreen({ scores, onRestart }: any) {
   const entries = Object.entries(scores).sort((a: any, b: any) => b[1] - a[1])
+  const isSolo = entries.length === 1
   
   return (
     <div className="flex flex-col items-center justify-center h-full max-w-md mx-auto space-y-8">
@@ -284,10 +296,10 @@ function GameOverScreen({ scores, onRestart }: any) {
         {entries.map(([team, score]: any, i) => (
           <div key={team} className="flex justify-between items-center p-4 bg-slate-50 rounded-2xl">
             <div className="flex items-center space-x-4">
-              <span className="text-2xl font-black text-slate-300">#{i+1}</span>
-              <span className="text-xl font-bold text-slate-700">{team}</span>
+              {!isSolo && <span className="text-2xl font-black text-slate-300">#{i+1}</span>}
+              <span className="text-xl font-bold text-slate-700">{isSolo ? 'Pontos Acumulados' : team}</span>
             </div>
-            <span className="text-2xl font-black text-blue-600">{score} pt</span>
+            <span className="text-2xl font-black text-blue-600">{score} pts</span>
           </div>
         ))}
       </div>
