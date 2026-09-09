@@ -149,15 +149,23 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
       <div className="flex space-x-4">
         <button
           onClick={() => setIsGroup(false)}
-          className={`flex-1 py-4 rounded-2xl font-bold transition-all ${!isGroup ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-200 text-slate-600 hover:bg-slate-300'}`}
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
+            ${!isGroup
+              ? 'bg-sky-500 text-white shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px]'
+              : 'bg-slate-200 text-slate-500 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
+            }`}
         >
-          Modo Solo
+          👤 Solo
         </button>
         <button
           onClick={() => setIsGroup(true)}
-          className={`flex-1 py-4 rounded-2xl font-bold transition-all ${isGroup ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-200 text-slate-600 hover:bg-slate-300'}`}
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
+            ${isGroup
+              ? 'bg-sky-500 text-white shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px]'
+              : 'bg-slate-200 text-slate-500 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
+            }`}
         >
-          Modo Grupo
+          👥 Grupo
         </button>
       </div>
 
@@ -199,8 +207,8 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
 
       <div className="flex-1" />
 
-      <button onClick={onStart} className="w-full py-4 bg-green-500 text-white font-extrabold text-xl rounded-2xl shadow-lg hover:bg-green-600 active:scale-95 transition-all">
-        COMEÇAR JOGO
+      <button onClick={onStart} className="w-full py-5 bg-emerald-500 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[8px] transition-all">
+        🚀 Começar Jogo
       </button>
     </div>
   )
@@ -216,8 +224,8 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
   return (
     <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
       <div className="flex justify-between items-center mb-2 shrink-0">
-        <button onClick={onEndGame} className="text-[10px] font-bold text-slate-500 uppercase bg-slate-200 hover:bg-red-100 hover:text-red-600 px-3 py-1.5 rounded-full transition-colors">
-          Encerrar
+        <button onClick={onEndGame} className="text-[10px] font-black text-slate-500 uppercase tracking-widest bg-slate-200 px-3 py-2 rounded-xl shadow-[0_4px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[4px] transition-all">
+          ✕ Encerrar
         </button>
         <span className="text-[10px] font-bold text-slate-400 uppercase">
           {currentIndex + 1} / {totalQuestions}
