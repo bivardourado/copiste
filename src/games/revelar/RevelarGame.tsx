@@ -195,9 +195,6 @@ function PlayingScreen({ currentTeam, question, isRevealed, onReveal, onAnswer }
           {/* VERSO (Resposta) */}
           <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-6 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
              <div className="flex-1 flex flex-col items-center justify-center space-y-6">
-              <p className="text-lg text-slate-600 text-center font-medium">
-                {question.pergunta}
-              </p>
               <div className="w-12 h-1 bg-blue-200 rounded-full" />
               <h3 className="text-3xl font-black text-blue-600 text-center leading-tight">
                 {question.resposta}
