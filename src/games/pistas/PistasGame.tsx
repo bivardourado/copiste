@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import pistasData from '../../assets/pistas.json'
 import { ArrowLeft, Eye, CheckCircle, XCircle, Lightbulb } from 'lucide-react'
 
