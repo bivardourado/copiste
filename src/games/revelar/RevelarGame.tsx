@@ -98,7 +98,6 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
         {gameState === 'PLAYING' && (
           <PlayingScreen
             currentTeam={teams[turnIndex % teams.length]}
-            isGroup={isGroup}
             question={questions[currentQuestionIndex]}
             isRevealed={isAnswerRevealed}
             scores={scores}
@@ -183,7 +182,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
   )
 }
 
-function PlayingScreen({ currentTeam, isGroup, question, isRevealed, scores, teams, totalQuestions, currentIndex, onReveal, onAnswer, onEndGame }: any) {
+function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, totalQuestions, currentIndex, onReveal, onAnswer, onEndGame }: any) {
   const diffColors: Record<string, string> = {
     facil: 'bg-green-500',
     medio: 'bg-orange-500',

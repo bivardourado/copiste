@@ -8,9 +8,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Perguntas Bíblicas',
-        short_name: 'Perguntas',
-        description: 'Um ecossistema de jogos bíblicos modular e instalável.',
+        name: 'Copiste',
+        short_name: 'Copiste',
+        description: 'Seu ecossistema de jogos bíblicos.',
         theme_color: '#ffffff',
         icons: [
           {
