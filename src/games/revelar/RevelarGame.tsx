@@ -78,7 +78,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
   return (
     <div className="flex flex-col h-full relative">
       {/* Header */}
-      <header className="flex items-center p-4 bg-white border-b border-slate-200 shrink-0">
+      <header className="flex items-center p-4 bg-amber-50 border-b border-amber-200 shrink-0">
         <button onClick={onBackToHub} className="p-2 -ml-2 text-slate-500 hover:text-slate-800 rounded-full hover:bg-slate-100 transition-colors">
           <ArrowLeft size={24} />
         </button>
