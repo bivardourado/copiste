@@ -281,10 +281,10 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
           </div>
 
           {/* VERSO (Resposta) */}
-          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-5 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
+          <div className="absolute inset-0 w-full h-full bg-amber-400 rounded-3xl shadow-lg border border-amber-500 p-5 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
              <div className="flex-1 flex flex-col items-center justify-center space-y-4">
-              <div className="w-10 h-1 bg-blue-200 rounded-full shrink-0" />
-              <h3 className="text-2xl font-black text-blue-600 text-center leading-tight">
+              <div className="w-10 h-1 bg-amber-500/50 rounded-full shrink-0" />
+              <h3 className="text-2xl font-black text-slate-900 text-center leading-tight">
                 {question.resposta}
               </h3>
               {question.versiculo_direto && (
@@ -295,7 +295,7 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
                       href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(ref)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs text-blue-500 underline underline-offset-2 italic hover:text-blue-700 transition-colors"
+                      className="text-xs font-bold text-amber-900 underline underline-offset-2 italic hover:text-slate-900 transition-colors"
                     >
                       📖 {ref}
                     </a>
@@ -303,9 +303,9 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
                 </div>
               )}
               {question.curiosidade_extra && (
-                <div className="bg-white/60 p-3 rounded-2xl w-full shrink-0">
-                  <p className="text-xs font-bold text-blue-800 mb-1">💡 Curiosidade</p>
-                  <p className="text-xs text-slate-700 italic leading-relaxed">{question.curiosidade_extra}</p>
+                <div className="bg-white/80 p-3 rounded-2xl w-full shrink-0 shadow-sm">
+                  <p className="text-xs font-black text-amber-600 mb-1">💡 Curiosidade</p>
+                  <p className="text-xs text-slate-800 italic leading-relaxed font-medium">{question.curiosidade_extra}</p>
                 </div>
               )}
             </div>
