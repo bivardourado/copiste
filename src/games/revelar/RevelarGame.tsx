@@ -213,8 +213,8 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
         <div className={`w-full h-full transition-all duration-700 transform-style-3d ${isRevealed ? 'rotate-y-180' : ''}`}>
           
           {/* FRENTE (Pergunta) */}
-          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-5 flex flex-col backface-hidden">
-            <div className="self-end">
+          <div className="absolute inset-0 w-full h-full bg-white rounded-3xl shadow-lg border border-slate-100 p-5 flex flex-col backface-hidden overflow-y-auto">
+            <div className="self-end shrink-0 mb-2">
               <span className={`px-3 py-1 rounded-full text-xs font-bold text-white uppercase ${diffColors[question.dificuldade] || 'bg-slate-500'}`}>
                 {question.dificuldade}
               </span>
@@ -230,14 +230,14 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
           </div>
 
           {/* VERSO (Resposta) */}
-          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-5 flex flex-col backface-hidden rotate-y-180">
+          <div className="absolute inset-0 w-full h-full bg-blue-50 rounded-3xl shadow-lg border border-blue-100 p-5 flex flex-col backface-hidden rotate-y-180 overflow-y-auto">
              <div className="flex-1 flex flex-col items-center justify-center space-y-4">
-              <div className="w-10 h-1 bg-blue-200 rounded-full" />
+              <div className="w-10 h-1 bg-blue-200 rounded-full shrink-0" />
               <h3 className="text-2xl font-black text-blue-600 text-center leading-tight">
                 {question.resposta}
               </h3>
               {question.curiosidade_extra && (
-                <div className="bg-white/60 p-3 rounded-2xl w-full">
+                <div className="bg-white/60 p-3 rounded-2xl w-full shrink-0">
                   <p className="text-xs font-bold text-blue-800 mb-1">💡 Curiosidade</p>
                   <p className="text-xs text-slate-700 italic leading-relaxed">{question.curiosidade_extra}</p>
                 </div>
