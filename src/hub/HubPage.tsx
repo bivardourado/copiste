@@ -1,4 +1,4 @@
-import { BookOpen, HelpCircle } from 'lucide-react'
+import { BookOpen, Search } from 'lucide-react'
 
 export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => void }) {
   return (
@@ -23,15 +23,15 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
         </button>
 
         <button
-          disabled
-          className="flex items-center p-4 bg-slate-50 rounded-2xl shadow-sm border border-slate-200 opacity-60 cursor-not-allowed"
+          onClick={() => onSelectGame('pistas')}
+          className="flex items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md hover:border-amber-300 transition-all active:scale-95 group"
         >
-          <div className="bg-slate-200 text-slate-400 p-3 rounded-xl">
-            <HelpCircle size={28} />
+          <div className="bg-amber-100 text-amber-600 p-3 rounded-xl group-hover:bg-amber-500 group-hover:text-white transition-colors">
+            <Search size={28} />
           </div>
           <div className="ml-4 text-left">
-            <h2 className="text-xl font-bold text-slate-600">Em Breve...</h2>
-            <p className="text-sm text-slate-500">Novos jogos a caminho</p>
+            <h2 className="text-xl font-bold text-slate-800">Jogo das Pistas</h2>
+            <p className="text-sm text-slate-500">Adivinhe com menos pistas!</p>
           </div>
         </button>
       </div>

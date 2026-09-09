@@ -1,0 +1,262 @@
+[
+  {
+    "id": "pis_001",
+    "tipo": "personagem",
+    "resposta": "Matusalém",
+    "pistas": [
+      "Vivi mais do que qualquer ser humano registrado na história.",
+      "Meu nome significa 'homem do dardo' ou 'enviado à morte'.",
+      "Meu pai foi Enoque, que foi levado por Deus sem morrer.",
+      "Sou avô de Noé, o construtor da arca.",
+      "Vivi 969 anos — sou o mais velho da Bíblia."
+    ],
+    "curiosidade": "Matusalém (Gênesis 5:27) morreu no mesmo ano do dilúvio, segundo os cronologistas bíblicos."
+  },
+  {
+    "id": "pis_002",
+    "tipo": "personagem",
+    "resposta": "Sansão",
+    "pistas": [
+      "Minha força era sobre-humana e vinha de uma fonte especial.",
+      "Era nazireno desde o ventre materno.",
+      "Matei um leão com as próprias mãos.",
+      "Uma mulher chamada Dalila me traiu cortando meu cabelo.",
+      "Derrubei um templo sobre os filisteus, matando mais ao morrer do que em vida."
+    ],
+    "curiosidade": "Sansão (Juízes 13-16) é um dos juízes mais famosos de Israel, símbolo de força e fraqueza humanas."
+  },
+  {
+    "id": "pis_003",
+    "tipo": "personagem",
+    "resposta": "Moisés",
+    "pistas": [
+      "Fui colocado num cesto de juncos no rio quando bebê para salvar minha vida.",
+      "Cresci no palácio do Faraó, mas era hebreu.",
+      "Falei com Deus através de uma sarça ardente.",
+      "Abri o mar para que meu povo atravessasse em terra seca.",
+      "Recebi os Dez Mandamentos no monte Sinai."
+    ],
+    "curiosidade": "Moisés (Êxodo 2) liderou Israel por 40 anos no deserto, mas nunca entrou na terra prometida."
+  },
+  {
+    "id": "pis_004",
+    "tipo": "personagem",
+    "resposta": "Davi",
+    "pistas": [
+      "Era o mais novo de oito irmãos e cuidava de ovelhas.",
+      "Fui ungido rei enquanto ainda era jovem pastor.",
+      "Matei um gigante com apenas uma pedra e uma funda.",
+      "Toquei harpa para acalmar o rei Saul.",
+      "Sou chamado de 'homem segundo o coração de Deus' e escrevi muitos salmos."
+    ],
+    "curiosidade": "Davi (1 Samuel 17) derrotou Golias com uma pedra, tornando-se herói de Israel antes de ser rei."
+  },
+  {
+    "id": "pis_005",
+    "tipo": "personagem",
+    "resposta": "Jonas",
+    "pistas": [
+      "Recebi uma missão de Deus, mas fugi na direção oposta.",
+      "Embarquei num navio que foi atingido por uma grande tempestade.",
+      "Os marinheiros me jogaram ao mar para acalmar a tempestade.",
+      "Fiquei três dias e três noites dentro de um grande peixe.",
+      "Fui enviado a Nínive para pregar arrependimento."
+    ],
+    "curiosidade": "Jonas (Jonas 1-4) é um tipo profético de Cristo, que também ficou três dias 'no coração da terra' (Mateus 12:40)."
+  },
+  {
+    "id": "pis_006",
+    "tipo": "personagem",
+    "resposta": "Raabe",
+    "pistas": [
+      "Era uma mulher que não pertencia ao povo de Israel.",
+      "Vivia numa casa construída sobre a muralha de uma grande cidade.",
+      "Escondi espiões israelitas em seu telhado.",
+      "Pendure um fio de cordão vermelho na janela para ser salva.",
+      "Minha cidade foi Jericó e sou antepassada de Davi e de Jesus."
+    ],
+    "curiosidade": "Raabe (Josué 2 e 6) é mencionada no genealogia de Jesus em Mateus 1:5 como exemplo de fé."
+  },
+  {
+    "id": "pis_007",
+    "tipo": "personagem",
+    "resposta": "Elias",
+    "pistas": [
+      "Anunciei uma seca de três anos e meio em Israel.",
+      "Fui alimentado por corvos junto ao ribeiro de Querite.",
+      "Desafiei 450 profetas de Baal num confronto no monte Carmelo.",
+      "Fugi de uma rainha chamada Jezabel e me escondi numa caverna.",
+      "Fui levado ao céu num carro de fogo sem passar pela morte."
+    ],
+    "curiosidade": "Elias (1 Reis 17-2 Reis 2) é um dos dois únicos seres humanos que a Bíblia registra como não tendo morrido, junto com Enoque."
+  },
+  {
+    "id": "pis_008",
+    "tipo": "personagem",
+    "resposta": "Rute",
+    "pistas": [
+      "Nasci em Moabe, terra estrangeira para Israel.",
+      "Fiquei viúva jovem, assim como minha sogra.",
+      "Disse as famosas palavras: 'Onde você for, eu irei; onde você morrer, eu morrerei'.",
+      "Fui catar espigas de trigo nos campos de um homem rico.",
+      "Me casei com Boaz e me tornei bisavó do rei Davi."
+    ],
+    "curiosidade": "Rute (Rute 1-4) é uma das apenas duas mulheres com um livro da Bíblia com seu nome, junto com Ester."
+  },
+  {
+    "id": "pis_009",
+    "tipo": "evento",
+    "resposta": "O Dilúvio",
+    "pistas": [
+      "Foi o maior desastre natural da história humana registrado na Bíblia.",
+      "Durou 40 dias e 40 noites de chuva intensa.",
+      "Um único homem e sua família foram salvos por obedecer a Deus.",
+      "Uma embarcação gigantesca de madeira foi construída para abrigar animais.",
+      "Um arco-íris foi dado como sinal de aliança após o evento."
+    ],
+    "curiosidade": "O Dilúvio (Gênesis 6-9) destruiu toda a humanidade exceto Noé e sua família — 8 pessoas ao total."
+  },
+  {
+    "id": "pis_010",
+    "tipo": "evento",
+    "resposta": "A Queda de Jericó",
+    "pistas": [
+      "Foi uma batalha sem espadas nem arcos — apenas obediência.",
+      "Aconteceu quando Israel entrou na terra prometida.",
+      "Os soldados marcharam ao redor de uma cidade durante sete dias.",
+      "No sétimo dia, marcharam sete vezes e tocaram as trombetas.",
+      "As muralhas desabaram com o som das buzinas e o grito do povo."
+    ],
+    "curiosidade": "A queda de Jericó (Josué 6) demonstra que as vitórias de Deus dependem de fé e obediência, não de força militar."
+  },
+  {
+    "id": "pis_011",
+    "tipo": "lugar",
+    "resposta": "O Jardim do Éden",
+    "pistas": [
+      "Era um lugar de perfeição e harmonia criado por Deus.",
+      "Dois rios famosos, o Tigre e o Eufrates, brotavam de lá.",
+      "Os primeiros seres humanos viveram neste lugar.",
+      "Havia uma árvore especial cujo fruto foi proibido.",
+      "A humanidade foi expulsa daqui após a primeira desobediência."
+    ],
+    "curiosidade": "O Éden (Gênesis 2-3) significa 'deleite' em hebraico. Querubins com espada flamejante foram postos para guardar a entrada."
+  },
+  {
+    "id": "pis_012",
+    "tipo": "lugar",
+    "resposta": "Babilônia",
+    "pistas": [
+      "Era uma das maiores e mais poderosas cidades do mundo antigo.",
+      "Seus jardins suspensos eram considerados uma das maravilhas do mundo.",
+      "Foi o lugar onde Israel ficou cativo por 70 anos.",
+      "Um rei chamado Nabucodonosor a governou com grandiosidade.",
+      "Na Bíblia profética é símbolo de corrupção e oposição a Deus."
+    ],
+    "curiosidade": "Babilônia (Daniel 1-6) é mencionada mais de 280 vezes na Bíblia, sendo símbolo de oposição a Jeová desde a torre de Babel."
+  },
+  {
+    "id": "pis_013",
+    "tipo": "personagem",
+    "resposta": "Maria Madalena",
+    "pistas": [
+      "Era uma mulher de quem Jesus expulsou sete demônios.",
+      "Vinha da cidade de Magdala, às margens do mar da Galileia.",
+      "Estava presente na crucificação de Jesus quando muitos discípulos fugiram.",
+      "Foi ao túmulo de madrugada, no primeiro dia após o sábado.",
+      "Fui a primeira pessoa a ver Jesus ressuscitado e a anunciar aos discípulos."
+    ],
+    "curiosidade": "Maria Madalena (João 20:11-18) é chamada de 'apóstola dos apóstolos' por ter sido a primeira a testemunhar a ressurreição."
+  },
+  {
+    "id": "pis_014",
+    "tipo": "personagem",
+    "resposta": "Salomão",
+    "pistas": [
+      "Meu nome significa 'pacífico' ou 'de paz'.",
+      "Fui filho de um rei famoso por matar um gigante.",
+      "Deus me ofereceu qualquer coisa e escolhi sabedoria.",
+      "Construí o primeiro templo de Jeová em Jerusalém.",
+      "Sou considerado o homem mais sábio que já viveu, autor de Provérbios e Eclesiastes."
+    ],
+    "curiosidade": "Salomão (1 Reis 3-11) recebeu visita da rainha de Sabá por sua fama de sabedoria, e escreveu 3.000 provérbios e 1.005 cânticos."
+  },
+  {
+    "id": "pis_015",
+    "tipo": "evento",
+    "resposta": "A Torre de Babel",
+    "pistas": [
+      "Aconteceu quando toda a humanidade ainda falava uma só língua.",
+      "As pessoas queriam construir algo que chegasse até o céu.",
+      "O objetivo era fazer um grande nome para si mesmas.",
+      "Deus interveio confundindo a comunicação entre os construtores.",
+      "O resultado foi a dispersão dos povos pelo mundo inteiro."
+    ],
+    "curiosidade": "A Torre de Babel (Gênesis 11:1-9) explica a origem da diversidade de idiomas no mundo segundo a Bíblia."
+  },
+  {
+    "id": "pis_016",
+    "tipo": "personagem",
+    "resposta": "Daniel",
+    "pistas": [
+      "Fui levado cativo para a Babilônia ainda jovem.",
+      "Recusei a comida do rei para me manter puro diante de Deus.",
+      "Deus me deu a capacidade de interpretar sonhos e visões.",
+      "Interpretei a escrita misteriosa na parede: 'Mene, Mene, Tequel, Parsim'.",
+      "Fui jogado na cova dos leões, mas Deus fechou a boca dos animais."
+    ],
+    "curiosidade": "Daniel (Daniel 6) sobreviveu à cova dos leões e continuou servindo ao governo babilônico até a velhice — um exemplo raro de fidelidade."
+  },
+  {
+    "id": "pis_017",
+    "tipo": "personagem",
+    "resposta": "Ester",
+    "pistas": [
+      "Era judia, mas vivia no estrangeiro como órfã.",
+      "Meu primo Mordecai me criou como a sua filha.",
+      "Me tornei rainha de um poderoso império sem revelar minha origem.",
+      "Um ministro chamado Hamã traçou um plano para destruir meu povo.",
+      "Arrisquei minha vida ao entrar sem ser convidada diante do rei para salvar os judeus."
+    ],
+    "curiosidade": "O livro de Ester é um dos dois livros da Bíblia que não menciona o nome de Deus diretamente — o outro é Cântico dos Cânticos."
+  },
+  {
+    "id": "pis_018",
+    "tipo": "personagem",
+    "resposta": "Paulo",
+    "pistas": [
+      "Era cidadão romano, de nascimento, e fariseu treinado.",
+      "Antes de me converter, perseguia ferozmente os cristãos.",
+      "Fui derrubado por uma luz cegante no caminho para Damasco.",
+      "Viajei por todo o Mediterrâneo para anunciar as boas novas.",
+      "Escrevi a maior parte das cartas do Novo Testamento."
+    ],
+    "curiosidade": "Paulo (Atos 9) escreveu 14 das 27 cartas do Novo Testamento e fundou congregações em toda a Europa e Ásia Menor."
+  },
+  {
+    "id": "pis_019",
+    "tipo": "evento",
+    "resposta": "A Ressurreição de Lázaro",
+    "pistas": [
+      "Aconteceu na cidade de Betânia, perto de Jerusalém.",
+      "O homem estava morto há quatro dias quando o milagre ocorreu.",
+      "Suas irmãs Marta e Maria estavam de luto.",
+      "Jesus chorou — o versículo mais curto da Bíblia.",
+      "Jesus gritou: 'Lázaro, venha para fora!' e ele saiu ainda envolto em faixas."
+    ],
+    "curiosidade": "A ressurreição de Lázaro (João 11) foi o que levou os líderes religiosos a tomarem a decisão final de matar Jesus."
+  },
+  {
+    "id": "pis_020",
+    "tipo": "personagem",
+    "resposta": "Noé",
+    "pistas": [
+      "Vivia numa época em que a maldade humana era grande na terra.",
+      "Era considerado 'justo e íntegro' entre seus contemporâneos.",
+      "Recebi instruções detalhadas de Deus para construir uma grande embarcação.",
+      "Levei animais de todas as espécies — macho e fêmea — para dentro.",
+      "Após as águas baixarem, soltei um corvo e depois uma pomba para explorar."
+    ],
+    "curiosidade": "Noé (Gênesis 6-9) levou 969 anos de construção e tinha 600 anos quando o dilúvio começou. A arca tinha o tamanho de 1,5 campo de futebol."
+  }
+]
