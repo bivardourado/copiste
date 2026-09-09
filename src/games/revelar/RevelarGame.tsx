@@ -12,6 +12,8 @@ export type Pergunta = {
   resposta: string
   curiosidade_extra: string
   textosBiblicos?: string
+  versiculo_direto?: string
+  textos_complementares?: string
   link?: string
 }
 
@@ -254,11 +256,11 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
                 {question.pergunta}
               </h3>
               
-              {question.textosBiblicos && (
+              {(question.versiculo_direto || question.textosBiblicos) && (
                 <div className="flex flex-col items-center pt-4 space-y-2 w-full">
                   <span className="text-[10px] uppercase tracking-wider font-bold text-slate-400">Não sabe? Leia na Bíblia:</span>
                   <div className="flex flex-wrap justify-center gap-2">
-                    {parseBiblicalTexts(question.textosBiblicos).map((ref, idx) => (
+                    {parseBiblicalTexts(question.versiculo_direto || question.textosBiblicos || '').map((ref, idx) => (
                       <a 
                         key={idx}
                         href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(ref)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
@@ -282,6 +284,21 @@ function PlayingScreen({ currentTeam, question, isRevealed, scores, teams, total
               <h3 className="text-2xl font-black text-blue-600 text-center leading-tight">
                 {question.resposta}
               </h3>
+              {question.versiculo_direto && (
+                <div className="flex flex-wrap justify-center gap-1.5 shrink-0">
+                  {parseBiblicalTexts(question.versiculo_direto).map((ref, idx) => (
+                    <a 
+                      key={idx}
+                      href={`https://www.jw.org/pt/busca/?q=${encodeURIComponent(ref)}&link=%2Fresults%2FT%2Fbible%3Fsort%3Drel%26q%3D`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-500 underline underline-offset-2 italic hover:text-blue-700 transition-colors"
+                    >
+                      📖 {ref}
+                    </a>
+                  ))}
+                </div>
+              )}
               {question.curiosidade_extra && (
                 <div className="bg-white/60 p-3 rounded-2xl w-full shrink-0">
                   <p className="text-xs font-bold text-blue-800 mb-1">💡 Curiosidade</p>
