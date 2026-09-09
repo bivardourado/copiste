@@ -82,7 +82,7 @@ export function RevelarGame({ onBackToHub }: { onBackToHub: () => void }) {
         <button onClick={onBackToHub} className="p-2 -ml-2 text-slate-500 hover:text-slate-800 rounded-full hover:bg-slate-100 transition-colors">
           <ArrowLeft size={24} />
         </button>
-        <h1 className="text-xl font-bold ml-2 text-slate-800">Perguntas Bíblicas</h1>
+        <img src="/logo-copiste.png" alt="Copiste" className="h-8 ml-2" />
       </header>
 
       {/* Main Content Area */}
