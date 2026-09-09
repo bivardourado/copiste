@@ -98,7 +98,7 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
 
             <div className="flex-1" />
 
-            <button onClick={startGame} className="w-full py-5 bg-purple-600 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#6b21a8] active:shadow-[0_0px_0_0_#6b21a8] active:translate-y-[8px] transition-all">
+            <button onClick={startGame} className="w-full py-5 bg-slate-200 text-purple-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
               🎮 Iniciar Quiz
             </button>
           </div>
@@ -125,18 +125,18 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
                 const isSelected = selectedOption === idx
                 const isCorrect = idx === perguntaAtual.resposta_correta
                 
-                let btnStyle = "bg-white border-2 border-slate-200 text-slate-700 shadow-[0_4px_0_0_#e2e8f0] active:shadow-[0_0px_0_0_#e2e8f0] active:translate-y-[4px]"
+                let btnStyle = "bg-slate-200 border-none text-slate-700 shadow-[0_4px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[4px]"
                 let icon = null
 
                 if (isAnswered) {
                   if (isCorrect) {
-                    btnStyle = "bg-emerald-50 border-2 border-emerald-500 text-emerald-700 shadow-[0_4px_0_0_#10b981]"
+                    btnStyle = "bg-slate-200 border-2 border-emerald-500 text-emerald-600 shadow-[0_4px_0_0_#94a3b8]"
                     icon = <CheckCircle className="text-emerald-500" />
                   } else if (isSelected && !isCorrect) {
-                    btnStyle = "bg-rose-50 border-2 border-rose-500 text-rose-700 shadow-[0_4px_0_0_#f43f5e]"
+                    btnStyle = "bg-slate-200 border-2 border-rose-500 text-rose-600 shadow-[0_4px_0_0_#94a3b8]"
                     icon = <XCircle className="text-rose-500" />
                   } else {
-                    btnStyle = "bg-slate-50 border-2 border-slate-200 text-slate-400 opacity-50"
+                    btnStyle = "bg-slate-200 border-2 border-slate-300 text-slate-400 opacity-50"
                   }
                 }
 
@@ -164,7 +164,7 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
                   {perguntaAtual.explicacao}
                 </p>
                 <button onClick={handleNext}
-                  className="w-full py-4 bg-purple-600 text-white font-black uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#6b21a8] active:shadow-[0_0px_0_0_#6b21a8] active:translate-y-[6px] transition-all">
+                  className="w-full py-4 bg-slate-200 text-purple-600 font-black uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all">
                   Continuar ➡️
                 </button>
               </div>
@@ -184,7 +184,7 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
             </div>
 
             <button onClick={() => setGameState('CONFIG')}
-              className="w-full py-5 bg-emerald-500 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[8px] transition-all mt-8">
+              className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all mt-8">
               🔄 Jogar Novamente
             </button>
           </div>

@@ -47,8 +47,8 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
           onClick={() => setIsGroup(false)}
           className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
             ${!isGroup
-              ? 'bg-slate-8000 text-white shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px]'
-              : 'bg-slate-800 text-slate-400 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#334155] active:translate-y-[6px]'
+              ? 'bg-slate-8000 text-white shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
+              : 'bg-slate-800 text-slate-400 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
             }`}
         >
           👤 Solo
@@ -57,8 +57,8 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
           onClick={() => setIsGroup(true)}
           className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
             ${isGroup
-              ? 'bg-slate-8000 text-white shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px]'
-              : 'bg-slate-800 text-slate-400 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#334155] active:translate-y-[6px]'
+              ? 'bg-slate-8000 text-white shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
+              : 'bg-slate-800 text-slate-400 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
             }`}
         >
           👥 Grupo
@@ -93,7 +93,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
 
       <div className="flex-1" />
 
-      <button onClick={onStart} className="w-full py-5 bg-emerald-500 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[8px] transition-all">
+      <button onClick={onStart} className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
         🚀 Começar Jogo
       </button>
     </div>
@@ -109,7 +109,7 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
     <div className="flex flex-col h-full max-w-md mx-auto items-stretch">
       {/* Top Bar */}
       <div className="flex justify-between items-center mb-2 shrink-0">
-        <button onClick={onEndGame} className="text-[10px] font-black text-slate-400 uppercase tracking-widest bg-slate-800 px-3 py-2 rounded-xl shadow-[0_4px_0_0_#334155] active:shadow-[0_0px_0_0_#334155] active:translate-y-[4px] transition-all">
+        <button onClick={onEndGame} className="text-[10px] font-black text-slate-400 uppercase tracking-widest bg-slate-800 px-3 py-2 rounded-xl shadow-[0_4px_0_0_#334155] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[4px] transition-all">
           ✕ Encerrar
         </button>
         <span className="text-[10px] font-bold text-slate-400 uppercase">{currentIndex + 1} / {total}</span>
@@ -171,19 +171,19 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
         <div className="max-w-md mx-auto space-y-3">
           {!todasReveladas && (
             <button onClick={onMaisPista}
-              className="w-full py-3 bg-slate-8000 text-white font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              className="w-full py-3 bg-slate-8000 text-white font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
               <Eye size={18} />
               <span>+ Revelar Pista ({carta.pistas.length - pistasVisiveis} restantes)</span>
             </button>
           )}
           <div className="flex space-x-3">
             <button onClick={onErrou}
-              className="flex-1 py-4 bg-rose-50 text-rose-600 border-2 border-rose-200 font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#fecdd3] active:shadow-[0_0px_0_0_#fecdd3] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              className="flex-1 py-4 bg-slate-200 text-rose-600 border-none font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
               <XCircle strokeWidth={3} size={20} />
               <span>Errou</span>
             </button>
             <button onClick={onAcertou}
-              className="flex-1 py-4 bg-emerald-500 text-white font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              className="flex-1 py-4 bg-slate-200 text-emerald-600 font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
               <CheckCircle strokeWidth={3} size={20} />
               <span>Acertou!</span>
             </button>
@@ -212,7 +212,7 @@ function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
       <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
         <div className="max-w-md mx-auto">
           <button onClick={onNext}
-            className="w-full py-5 bg-slate-8000 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#0284c7] active:shadow-[0_0px_0_0_#0284c7] active:translate-y-[8px] transition-all">
+            className="w-full py-5 bg-slate-200 text-sky-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
             Próxima Carta ➡️
           </button>
         </div>
@@ -254,7 +254,7 @@ function GameOverScreen({ scores, teams, onRestart }: any) {
       <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
         <div className="max-w-md mx-auto">
           <button onClick={onRestart}
-            className="w-full py-5 bg-emerald-500 text-white font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#047857] active:shadow-[0_0px_0_0_#047857] active:translate-y-[8px] transition-all">
+            className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
             🔄 Jogar Novamente
           </button>
         </div>
