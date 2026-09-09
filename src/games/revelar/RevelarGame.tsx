@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import perguntasData from '../../assets/perguntas_revelar.json'
-import { ArrowLeft, Check, X, ExternalLink } from 'lucide-react'
+import { ArrowLeft, Check, X } from 'lucide-react'
 
 // Tipos
 export type Pergunta = {
