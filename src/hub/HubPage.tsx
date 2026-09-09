@@ -4,8 +4,8 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
   return (
     <div className="flex flex-col items-center justify-center h-full p-6 space-y-8">
       <div className="text-center space-y-2">
-        <h1 className="text-4xl font-extrabold text-slate-800 tracking-tight">Copiste</h1>
-        <p className="text-slate-500 text-lg">Seu ecossistema de jogos bíblicos</p>
+        <img src="/logo-copiste.png" alt="Copiste" className="h-16 mx-auto" />
+        <p className="text-slate-500 text-base">Seu ecossistema de jogos bíblicos</p>
       </div>
 
       <div className="grid grid-cols-1 gap-4 w-full max-w-sm">
