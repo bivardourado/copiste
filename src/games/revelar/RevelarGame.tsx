@@ -164,15 +164,17 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
       {isGroup && (
         <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
+            <label htmlFor="team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
             <input 
+              id="team1" name="team1"
               type="text" value={team1} onChange={e => setTeam1(e.target.value)}
               className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
+            <label htmlFor="team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
             <input 
+              id="team2" name="team2"
               type="text" value={team2} onChange={e => setTeam2(e.target.value)}
               className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
             />
@@ -181,8 +183,9 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
       )}
 
       <div className="animate-in fade-in slide-in-from-top-4 duration-300">
-        <label className="block text-sm font-medium text-slate-700 mb-1">Número de Perguntas</label>
+        <label htmlFor="maxQuestions" className="block text-sm font-medium text-slate-700 mb-1">Número de Perguntas</label>
         <select 
+          id="maxQuestions" name="maxQuestions"
           value={maxQuestions} 
           onChange={e => setMaxQuestions(Number(e.target.value))}
           className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white"
