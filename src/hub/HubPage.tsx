@@ -31,7 +31,7 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
           </div>
           <div className="ml-4 text-left">
             <h2 className="text-xl font-bold text-slate-800">Jogo das Pistas</h2>
-            <p className="text-sm text-slate-500">Adivinhe com menos pistas!</p>
+            <p className="text-sm text-slate-500">Acerte com menos pistas!</p>
           </div>
         </button>
       </div>
