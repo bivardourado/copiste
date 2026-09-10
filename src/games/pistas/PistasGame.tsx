@@ -8,6 +8,7 @@ type Pista = {
   resposta: string
   pistas: string[]
   curiosidade: string
+  dificuldade?: string
 }
 
 type GameState = 'CONFIG' | 'PLAYING' | 'REVEALED' | 'GAMEOVER'
@@ -33,9 +34,9 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
-function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxRounds, setMaxRounds, onStart }: any) {
+function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxRounds, setMaxRounds, dificuldade, setDificuldade, onStart }: any) {
   return (
-    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-8 pb-12">
+    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-6 pb-12">
       <div className="text-center space-y-1">
         <p className="text-4xl">🕵️</p>
         <h2 className="text-2xl font-black text-slate-800 uppercase tracking-widest">Jogo das Pistas</h2>
@@ -43,24 +44,14 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
       </div>
 
       <div className="flex space-x-4">
-        <button
-          onClick={() => setIsGroup(false)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
-            ${!isGroup
-              ? 'bg-sky-500 text-white shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-              : 'bg-slate-800 text-slate-500 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-            }`}
-        >
+        <button onClick={() => setIsGroup(false)}
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px]
+            ${!isGroup ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
           👤 Solo
         </button>
-        <button
-          onClick={() => setIsGroup(true)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
-            ${isGroup
-              ? 'bg-sky-500 text-white shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-              : 'bg-slate-800 text-slate-500 shadow-[0_6px_0_0_#334155] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-            }`}
-        >
+        <button onClick={() => setIsGroup(true)}
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px]
+            ${isGroup ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
           👥 Grupo
         </button>
       </div>
@@ -70,20 +61,40 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
           <div>
             <label htmlFor="p-team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
             <input id="p-team1" name="p-team1" type="text" value={team1} onChange={e => setTeam1(e.target.value)}
-              className="w-full p-3 border border-slate-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-slate-800 text-white" />
+              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
           </div>
           <div>
             <label htmlFor="p-team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
             <input id="p-team2" name="p-team2" type="text" value={team2} onChange={e => setTeam2(e.target.value)}
-              className="w-full p-3 border border-slate-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-slate-800 text-white" />
+              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
           </div>
         </div>
       )}
 
+      {/* Nível de Dificuldade */}
+      <div>
+        <p className="text-sm font-medium text-slate-700 mb-2">Nível de Dificuldade</p>
+        <div className="flex space-x-3">
+          {([
+            { key: 'facil',   emoji: '🟢', label: 'Fácil',   sub: 'Histórias conhecidas' },
+            { key: 'medio',   emoji: '🟡', label: 'Médio',   sub: 'Nível intermediário'  },
+            { key: 'dificil', emoji: '🔴', label: 'Difícil', sub: 'Pouco conhecidas'    },
+          ] as const).map(({ key, emoji, label, sub }) => (
+            <button key={key} onClick={() => setDificuldade(key)}
+              className={`flex-1 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex flex-col items-center
+                ${dificuldade === key ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
+              <span className="text-2xl mb-1">{emoji}</span>
+              <span className="text-xs font-black">{label}</span>
+              <span className="text-[9px] normal-case font-normal opacity-70 mt-0.5 text-center leading-tight">{sub}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div>
         <label htmlFor="p-rounds" className="block text-sm font-medium text-slate-700 mb-1">Número de Rodadas</label>
         <select id="p-rounds" name="p-rounds" value={maxRounds} onChange={e => setMaxRounds(Number(e.target.value))}
-          className="w-full p-3 border border-slate-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-slate-800 text-white">
+          className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800">
           <option value={5}>5 Rodadas (Rápido)</option>
           <option value={10}>10 Rodadas (Normal)</option>
           <option value={15}>15 Rodadas (Longo)</option>
@@ -93,7 +104,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
 
       <div className="flex-1" />
 
-      <button onClick={onStart} className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
+      <button onClick={onStart} className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
         🚀 Começar Jogo
       </button>
     </div>
@@ -271,6 +282,7 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
   const [team1, setTeam1] = useState('Equipe Fé')
   const [team2, setTeam2] = useState('Equipe Esperança')
   const [maxRounds, setMaxRounds] = useState(5)
+  const [dificuldade, setDificuldade] = useState<'facil' | 'medio' | 'dificil'>('facil')
 
   const [cartas, setCartas] = useState<Pista[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -290,7 +302,8 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
     setTurnIndex(0)
     setCurrentIndex(0)
     setPistasVisiveis(1)
-    const shuffled = shuffle(pistasData as Pista[]).slice(0, Math.min(maxRounds, pistasData.length))
+    const filtradas = (pistasData as Pista[]).filter(c => c.dificuldade === dificuldade)
+    const shuffled = shuffle(filtradas).slice(0, Math.min(maxRounds, filtradas.length))
     setCartas(shuffled)
     setGameState('PLAYING')
   }
@@ -340,6 +353,7 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
             team1={team1} setTeam1={setTeam1}
             team2={team2} setTeam2={setTeam2}
             maxRounds={maxRounds} setMaxRounds={setMaxRounds}
+            dificuldade={dificuldade} setDificuldade={setDificuldade}
             onStart={startGame}
           />
         )}
