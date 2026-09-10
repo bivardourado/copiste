@@ -438,7 +438,7 @@
   },
   {
     "id": "quiz_035",
-    "pergunta": "Quem era o governador romano que condenou Jesus à morte na estaca/cruz?",
+    "pergunta": "Quem era o governador romano que condenou Jesus à morte na estaca de tortura?",
     "opcoes": [
       "Herodes Antipas",
       "Pôncio Pilatos",
@@ -451,7 +451,7 @@
   },
   {
     "id": "quiz_036",
-    "pergunta": "Em qual monte Jesus foi crucificado/pregado na estaca?",
+    "pergunta": "Em qual monte Jesus foi pregado na estaca?",
     "opcoes": [
       "Monte das Oliveiras",
       "Monte Calvário/Gólgota",
