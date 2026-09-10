@@ -9,6 +9,7 @@ type Quiz = {
   opcoes: string[]
   resposta_correta: number
   explicacao: string
+  dificuldade?: 'facil' | 'medio' | 'dificil'
 }
 
 type GameState = 'CONFIG' | 'PLAYING' | 'GAMEOVER'
@@ -20,6 +21,7 @@ function shuffle<T>(arr: T[]): T[] {
 export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
   const [gameState, setGameState] = useState<GameState>('CONFIG')
   const [maxQuestions, setMaxQuestions] = useState(10)
+  const [dificuldade, setDificuldade] = useState<'facil' | 'medio' | 'dificil'>('facil')
   
   const [perguntas, setPerguntas] = useState<Quiz[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -29,7 +31,9 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
   const [isAnswered, setIsAnswered] = useState(false)
 
   const startGame = () => {
-    const shuffled = shuffle(quizData as Quiz[]).slice(0, Math.min(maxQuestions, quizData.length))
+    // Filtra pela dificuldade e embaralha
+    const filtradas = (quizData as Quiz[]).filter(q => q.dificuldade === dificuldade || !q.dificuldade)
+    const shuffled = shuffle(filtradas).slice(0, Math.min(maxQuestions, filtradas.length))
     setPerguntas(shuffled)
     setCurrentIndex(0)
     setScore(0)
@@ -87,11 +91,30 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
             </div>
 
             <div>
+              <p className="text-sm font-bold text-purple-800 mb-2">Nível de Dificuldade</p>
+              <div className="flex space-x-3">
+                {([
+                  { key: 'facil',   emoji: '🟢', label: 'Fácil' },
+                  { key: 'medio',   emoji: '🟡', label: 'Médio' },
+                  { key: 'dificil', emoji: '🔴', label: 'Difícil' },
+                ] as const).map(({ key, emoji, label }) => (
+                  <button key={key} onClick={() => setDificuldade(key)}
+                    className={`flex-1 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex flex-col items-center
+                      ${dificuldade === key ? 'bg-slate-200 text-purple-600' : 'bg-slate-200 text-slate-400'}`}>
+                    <span className="text-2xl mb-1">{emoji}</span>
+                    <span className="text-xs font-black">{label}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div>
               <label htmlFor="q-rounds" className="block text-sm font-bold text-purple-800 mb-1">Número de Perguntas</label>
               <select id="q-rounds" value={maxQuestions} onChange={e => setMaxQuestions(Number(e.target.value))}
                 className="w-full p-4 border-2 border-purple-200 rounded-2xl focus:border-purple-500 focus:outline-none bg-white font-bold text-purple-900 shadow-sm">
                 <option value={5}>5 Perguntas</option>
                 <option value={10}>10 Perguntas</option>
+                <option value={20}>20 Perguntas</option>
                 <option value={9999}>Todas as Perguntas</option>
               </select>
             </div>

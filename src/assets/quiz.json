@@ -58,5 +58,3905 @@
     ],
     "resposta_correta": 1,
     "explicacao": "Deus enviou 10 pragas para forçar o Faraó a libertar os israelitas (Êxodo 7-12)."
+  },
+  {
+    "id": "quiz_006",
+    "pergunta": "Quantos dias e noites durou a chuva do Dilúvio?",
+    "opcoes": [
+      "7 dias e 7 noites",
+      "40 dias e 40 noites",
+      "100 dias e 100 noites",
+      "1 ano inteiro"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 7:12 relata que a chuva caiu sobre a terra durante 40 dias e 40 noites.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_007",
+    "pergunta": "Quem foi instruído por Deus a construir a arca para sobreviver ao Dilúvio?",
+    "opcoes": [
+      "Abraão",
+      "Moisés",
+      "Noé",
+      "Ló"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 6:13, 14 mostra que Deus ordenou a Noé que fizesse uma arca de madeira de resina.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_008",
+    "pergunta": "Qual foi o primeiro livro da Bíblia a ser escrito?",
+    "opcoes": [
+      "Gênesis",
+      "Êxodo",
+      "Jó",
+      "Salmos"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O livro de Gênesis abre o canão bíblico, escrito por Moisés no deserto.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_009",
+    "pergunta": "Quem foi vendido como escravo por seus próprios irmãos e levado para o Egito?",
+    "opcoes": [
+      "Benjamim",
+      "José",
+      "Judá",
+      "Rubem"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 37:28 relata que os irmãos de José o venderam aos midianitas por 20 moedas de prata.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_010",
+    "pergunta": "Qual era o nome da primeira mulher criada por Deus?",
+    "opcoes": [
+      "Sara",
+      "Maria",
+      "Eva",
+      "Ester"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 3:20 registra que Adão chamou sua esposa de Eva, por ser mãe de todos os viventes.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_011",
+    "pergunta": "Em qual jardim Adão e Eva moravam antes da expulsão?",
+    "opcoes": [
+      "Jardim de Getsêmani",
+      "Jardim do Éden",
+      "Jardim de Babilônia",
+      "Jardim de Samaria"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 2:8 afirma que Jeová Deus plantou um jardim no Éden, no leste, e pôs ali o homem.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_012",
+    "pergunta": "Quem recebeu os Dez Mandamentos no Monte Sinai?",
+    "opcoes": [
+      "Arão",
+      "Moisés",
+      "Josué",
+      "Gideão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 19:20 e 20:1-17 mostram Moisés subindo ao Monte Sinai para receber a Lei de Deus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_013",
+    "pergunta": "Quantas pragas foram lançadas sobre o Egito até que Faraó libertasse os israelitas?",
+    "opcoes": [
+      "7",
+      "10",
+      "12",
+      "40"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo capítulos 7 a 12 narra o relato das 10 pragas do Egito.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_014",
+    "pergunta": "Que mar se abriu para que o povo de Israel atravessasse em terra seca?",
+    "opcoes": [
+      "Mar da Galileia",
+      "Mar Morto",
+      "Mar Vermelho",
+      "Mar Mediterrâneo"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Êxodo 14:21, 22 relata a abertura do mar Vermelho por intervenção divina.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_015",
+    "pergunta": "Qual alimento milagroso caiu do céu para sustentar os israelitas no deserto?",
+    "opcoes": [
+      "Trigo",
+      "Maná",
+      "Cevada",
+      "Mel de abelha"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 16:14, 15 descreve o surgimento do maná no deserto como pão do céu.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_016",
+    "pergunta": "Quem assumiu a liderança de Israel logo após a morte de Moisés?",
+    "opcoes": [
+      "Calebe",
+      "Gideão",
+      "Josué",
+      "Samuel"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Josué 1:1, 2 relata a designação de Josué, filho de Num, para guiar Israel à Terra Prometida.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_017",
+    "pergunta": "Qual foi a primeira cidade cujas muralhas caíram após Israel marchar ao redor dela?",
+    "opcoes": [
+      "Jerusalém",
+      "Jericó",
+      "Ai",
+      "Hebrom"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Josué 6:20 relata a queda milagrosa das muralhas de Jericó.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_018",
+    "pergunta": "Quem derrotou os filisteus usando apenas uma queixada de jumento?",
+    "opcoes": [
+      "Gideão",
+      "Sansão",
+      "Davi",
+      "Saul"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 15:15 relata que Sansão matou mil homens com uma queixada fresca de jumento.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_019",
+    "pergunta": "Qual jovem pastor derrotou o gigante filisteu Golias?",
+    "opcoes": [
+      "Saul",
+      "Jonathan",
+      "Davi",
+      "Salomão"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "1 Samuel 17:49, 50 relata como Davi venceu Golias com uma atiradeira e uma pedra.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_020",
+    "pergunta": "Quem foi o primeiro rei da nação de Israel?",
+    "opcoes": [
+      "Davi",
+      "Saul",
+      "Salomão",
+      "Samuel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 10:1 mostra o profeta Samuel ungindo Saul como o primeiro rei de Israel.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_021",
+    "pergunta": "Quem sucedeu ao rei Davi no trono de Israel e construiu o primeiro templo?",
+    "opcoes": [
+      "Roboão",
+      "Salomão",
+      "Absalão",
+      "Adonias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 2:12 e 6:1 mostram Salomão assentado no trono de Davi e iniciando a construção do templo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_022",
+    "pergunta": "Qual profeta foi levado ao céu num tordo/carro de fogo em um furacão?",
+    "opcoes": [
+      "Eliseu",
+      "Elias",
+      "Isaías",
+      "Jeremias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 2:11 relata que Elias subiu ao céu num furacão junto a um carro de fogo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_023",
+    "pergunta": "Qual profeta passou três dias e três noites no ventre de um grande peixe?",
+    "opcoes": [
+      "Daniel",
+      "Jonas",
+      "Joel",
+      "Amós"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Jonas 1:17 relata que Jonas ficou no ventre do peixe por três dias e três noites.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_024",
+    "pergunta": "Quem foi lançado na cova dos leões por continuar orando a Deus?",
+    "opcoes": [
+      "Misael",
+      "Daniel",
+      "Ezequiel",
+      "Jeremias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Daniel 6:16, 22 mostra Daniel sendo lançado na cova dos leões e preservado por um anjo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_025",
+    "pergunta": "Qual rainha arriscou a vida para salvar o povo judeu da destruição na Pérsia?",
+    "opcoes": [
+      "Vasti",
+      "Ester",
+      "Rute",
+      "Saba"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O livro de Ester (capítulos 4 a 7) relata a intervenção da rainha Ester em favor dos judeus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_026",
+    "pergunta": "Em qual cidade nasceu Jesus Cristo?",
+    "opcoes": [
+      "Nazaré",
+      "Jerusalém",
+      "Belém",
+      "Cafarnaum"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 2:1 confirma que Jesus nasceu em Belém da Judeia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_027",
+    "pergunta": "Em qual cidade Jesus cresceu durante sua infância e juventude?",
+    "opcoes": [
+      "Belém",
+      "Jerusalém",
+      "Nazaré",
+      "Jericó"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Lucas 2:39, 51 mostra que a família de Jesus retornou para Nazaré, na Galileia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_028",
+    "pergunta": "Quem foi o precursor de Jesus que pregava no deserto e batizava no rio Jordão?",
+    "opcoes": [
+      "João Evangelista",
+      "João Batista",
+      "Simão Pedro",
+      "Tiago"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 3:1-6 narra o ministério de pregação e batismo de João Batista.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_029",
+    "pergunta": "Quantos apóstolos principais Jesus escolheu para seu ministério terrestre?",
+    "opcoes": [
+      "7",
+      "10",
+      "12",
+      "70"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 10:2-4 lista os nomes dos doze apóstolos escolhidos por Jesus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_030",
+    "pergunta": "Qual é o primeiro livro das Escrituras Gregas Cristãs (Novo Testamento)?",
+    "opcoes": [
+      "Marcos",
+      "Mateus",
+      "Lucas",
+      "Atos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O Evangelho de Mateus é o primeiro livro registrado no Novo Testamento.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_031",
+    "pergunta": "Qual foi o primeiro milagre de Jesus registrado no Evangelho de João?",
+    "opcoes": [
+      "Curar um cego",
+      "Mudar água em vinho",
+      "Acalmar a tempestade",
+      "Ressuscitar Lázaro"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 2:11 declara que transformar água em vinho nas bodas de Caná foi o início dos seus sinais.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_032",
+    "pergunta": "Quantos pães e peixes Jesus usou para alimentar milagrosamente cerca de 5.000 homens?",
+    "opcoes": [
+      "5 pães e 2 peixes",
+      "7 pães e 3 peixes",
+      "12 pães e 2 peixes",
+      "3 pães e 5 peixes"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Mateus 14:17-21 mostra o milagre da multiplicação de 5 pães e 2 peixes.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_033",
+    "pergunta": "Quem traiu Jesus entregando-o aos líderes religiosos por 30 moedas de prata?",
+    "opcoes": [
+      "Pedro",
+      "Judas Iscariotes",
+      "Pontos Pilatos",
+      "Barrabás"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 26:14-15 relata o acordo de Judas Iscariotes por 30 moedas de prata.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_034",
+    "pergunta": "Qual apóstolo negou Jesus três vezes antes de o galo cantar?",
+    "opcoes": [
+      "João",
+      "Tiago",
+      "Pedro",
+      "Tomé"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 26:74, 75 registra que Pedro negou conhecer Jesus três vezes antes do cantar do galo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_035",
+    "pergunta": "Quem era o governador romano que condenou Jesus à morte na estaca/cruz?",
+    "opcoes": [
+      "Herodes Antipas",
+      "Pôncio Pilatos",
+      "César Augusto",
+      "Félix"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 27:24-26 relata o julgamento e a sentença proferida por Pôncio Pilatos.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_036",
+    "pergunta": "Em qual monte Jesus foi crucificado/pregado na estaca?",
+    "opcoes": [
+      "Monte das Oliveiras",
+      "Monte Calvário/Gólgota",
+      "Monte Sinai",
+      "Monte Carmelo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 19:17, 18 relata que o levaram ao Lugar da Caveira, em hebraico Gólgota (Calvário).",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_037",
+    "pergunta": "Quantos dias após a sua morte Jesus foi ressuscitado?",
+    "opcoes": [
+      "1 dia",
+      "3 dias",
+      "7 dias",
+      "40 dias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 16:21 e Atos 10:40 declaram que Jesus foi ressuscitado no terceiro dia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_038",
+    "pergunta": "Quantos dias Jesus permaneceu na terra aparecendo aos discípulos após a sua ressurreição?",
+    "opcoes": [
+      "7 dias",
+      "12 dias",
+      "40 dias",
+      "50 dias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Atos 1:3 afirma que Jesus se apresentou vivo aos apóstolos ao longo de 40 dias.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_039",
+    "pergunta": "O que aconteceu no dia de Pentecostes descrito em Atos capítulo 2?",
+    "opcoes": [
+      "Derramamento do espírito santo",
+      "A prisão de Paulo",
+      "A destruição de Jerusalém",
+      "A conversão de Saulo"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 2:1-4 narra o derramamento do espírito santo sobre os discípulos reunidos.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_040",
+    "pergunta": "Quem era conhecido originalmente como Saulo de Tarso antes de sua conversão ao cristianismo?",
+    "opcoes": [
+      "Pedro",
+      "Barnabé",
+      "Paulo",
+      "Silas"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Atos 9:1-19 e 13:9 mostram que Saulo de Tarso passou a ser chamado de Paulo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_041",
+    "pergunta": "Qual é o último livro do canão bíblico?",
+    "opcoes": [
+      "Judas",
+      "Hebreus",
+      "Apocalipse (Revelação)",
+      "3 João"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "O livro de Apocalipse (ou Revelação) encerra as Escrituras Sagradas.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_042",
+    "pergunta": "Qual patriarca teve seu nome mudado para 'Israel' após lutar com um anjo?",
+    "opcoes": [
+      "Abraão",
+      "Isaque",
+      "Jacó",
+      "José"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 32:28 registra que o anjo disse que seu nome não seria mais Jacó, mas Israel.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_043",
+    "pergunta": "Quem era o irmão mais velho de Moisés e o primeiro sumo sacerdote de Israel?",
+    "opcoes": [
+      "Josué",
+      "Arão",
+      "Hur",
+      "Calebe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 28:1 mostra Arão sendo separado para servir como o primeiro sumo sacerdote de Israel.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_044",
+    "pergunta": "Qual gigante guerreiro tinha uma armadura pesada e desafiou o exército do Deus vivo?",
+    "opcoes": [
+      "Golias",
+      "Ogue",
+      "Sisa",
+      "Nimrod"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Samuel 17:4-10 descreve Golias de Gate desafiando os exércitos de Israel.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_045",
+    "pergunta": "Quem foi a mulher de Ló que olhou para trás durante a fuga de Sodoma e virou uma coluna de sal?",
+    "opcoes": [
+      "Ela não teve seu nome mencionado na Bíblia",
+      "Sara",
+      "Agar",
+      "Sefora"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Gênesis 19:26 menciona a esposa de Ló olhando para trás, tornando-se uma coluna de sal, sem citar nome próprio.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_046",
+    "pergunta": "Qual dos apóstolos era conhecido por duvidar da ressurreição até ver as feridas de Jesus?",
+    "opcoes": [
+      "Filipe",
+      "Tomé",
+      "Bartolomeu",
+      "André"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 20:24-28 narra como Tomé só creu ao ver pessoalmente as marcas nas mãos de Jesus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_047",
+    "pergunta": "Quem foi o homem mais idoso mencionado na Bíblia, vivendo 969 anos?",
+    "opcoes": [
+      "Adão",
+      "Enoque",
+      "Matusalém",
+      "Noé"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 5:27 declara que todos os dias de Matusalém somaram 969 anos.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_048",
+    "pergunta": "Em qual rio Jesus foi batizado por João Batista?",
+    "opcoes": [
+      "Rio Nilo",
+      "Rio Eufrates",
+      "Rio Jordão",
+      "Rio Tigre"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 3:13 mostra Jesus vindo da Galileia ao Jordão para ser batizado por João.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_049",
+    "pergunta": "Qual inseto e mel silvestre constituíam o alimento de João Batista no deserto?",
+    "opcoes": [
+      "Moscas",
+      "Gafanhotos",
+      "Formigas",
+      "Percevejos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 3:4 descreve que a comida de João Batista era gafanhotos e mel silvestre.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_050",
+    "pergunta": "Qual jovem foi atirado em uma cova de leões porque preferiu orar a Jeová do que ao rei?",
+    "opcoes": [
+      "Daniel",
+      "Ezequiel",
+      "Neemias",
+      "Mordecai"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Daniel 6:10, 16 relata a fidelidade de Daniel em orar três vezes ao dia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_051",
+    "pergunta": "O que cobria os olhos de Saulo de Tarso logo após ele ter visto a luz no caminho de Damasco?",
+    "opcoes": [
+      "Pano preto",
+      "Escamas",
+      "Sangue",
+      "Poeira"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 9:18 relata que imediatamente caíram dos olhos de Saulo algo parecido com escamas.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_052",
+    "pergunta": "Qual dos evangelhos foi escrito por um médico amado e companheiro de Paulo?",
+    "opcoes": [
+      "Mateus",
+      "Marcos",
+      "Lucas",
+      "João"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Colossenses 4:14 identifica Lucas como 'o médico amado'.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_053",
+    "pergunta": "Quantos dias Jesus jejuou no deserto antes de ser tentado pelo Diabo?",
+    "opcoes": [
+      "7 dias",
+      "12 dias",
+      "40 dias",
+      "100 dias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 4:1, 2 relata que Jesus jejuou durante 40 dias e 40 noites no deserto.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_054",
+    "pergunta": "Qual profissão Pedro e seu irmão André exerciam antes de seguirem Jesus?",
+    "opcoes": [
+      "Carpinteiros",
+      "Pescadores",
+      "Publicanos",
+      "Pastores"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 4:18 mostra Pedro e André lançando redes ao mar, pois eram pescadores.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_055",
+    "pergunta": "Qual cidade caiu quando os israelitas gritaram e tocaram as buzinas/trombetas?",
+    "opcoes": [
+      "Babel",
+      "Jericó",
+      "Sodoma",
+      "Nínive"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Josué 6:20 relata o clamor do povo e o toque das cornetas fazendo ruir as muralhas de Jericó.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_056",
+    "pergunta": "Quem era o pai de Isaque?",
+    "opcoes": [
+      "Terá",
+      "Abraão",
+      "Ló",
+      "Naor"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 21:2, 3 confirma que Sara deu um filho a Abraão, a quem chamou Isaque.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_057",
+    "pergunta": "Qual era a profissão de José, o pai adotivo de Jesus?",
+    "opcoes": [
+      "Pescador",
+      "Carpinteiro",
+      "Agricultor",
+      "Sacerdote"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 13:55 faz referência a Jesus como 'o filho do carpinteiro'.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_058",
+    "pergunta": "Quem libertou os israelitas da servidão no Egito sob a direção de Deus?",
+    "opcoes": [
+      "Moisés",
+      "Josué",
+      "Davi",
+      "Gideão"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Êxodo 3:10 e 12:51 mostram Jeová usando Moisés para tirar Israel do Egito.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_059",
+    "pergunta": "O que significa o nome 'Imanuel' citado em profecia bíblica?",
+    "opcoes": [
+      "Deus é amor",
+      "Deus conosco",
+      "Deus reina",
+      "Deus salva"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 1:23 explica que o nome Imanuel traduzido significa 'Deus conosco'.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_060",
+    "pergunta": "Quem construiu o altar no Monte Carmelo para provar quem era o verdadeiro Deus perante os profetas de Baal?",
+    "opcoes": [
+      "Eliseu",
+      "Elias",
+      "Samuel",
+      "Jeremias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 18:30-38 relata o confronto de Elias com os profetas de Baal no Monte Carmelo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_061",
+    "pergunta": "Qual é a oração modelo dada por Jesus aos seus discípulos em Mateus capítulo 6?",
+    "opcoes": [
+      "Oração de Jefté",
+      "Pai Nosso",
+      "Cântico de Moisés",
+      "Salmo de Davi"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 6:9-13 registra a oração modelo ensinada por Jesus Cristo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_062",
+    "pergunta": "O que Deus colocou no céu como sinal do seu pacto de nunca mais destruir a terra por um dilúvio?",
+    "opcoes": [
+      "Uma estrela cadente",
+      "Um arco-íris",
+      "Uma nuvem brilhante",
+      "Um eclipse"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 9:12, 13 mostra Jeová estabelecendo o arco-íris nas nuvens como sinal do pacto.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_063",
+    "pergunta": "Em quantos dias Deus criou/preparou os céus e a terra e tudo o que neles há, antes de descansar no sétimo?",
+    "opcoes": [
+      "3 dias",
+      "6 dias",
+      "10 dias",
+      "12 dias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 1:31 a 2:2 relata os seis dias de criação e o descanso no sétimo dia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_064",
+    "pergunta": "Qual apóstolo escreveu a maioria das cartas/epístolas do Novo Testamento?",
+    "opcoes": [
+      "Pedro",
+      "João",
+      "Paulo",
+      "Tiago"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "O apóstolo Paulo escreveu 14 cartas inspiradas, de Romanos a Hebreus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_065",
+    "pergunta": "Quem foi o discípulo amado que escreveu o Apocalipse na ilha de Patmos?",
+    "opcoes": [
+      "Pedro",
+      "João",
+      "Paulo",
+      "Lucas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Apocalipse 1:1, 9 identifica o apóstolo João na ilha de Patmos recebendo a Revelação.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_066",
+    "pergunta": "Qual personagem bíblico era famoso por sua grande sabedoria e riquezas?",
+    "opcoes": [
+      "Saul",
+      "Salomão",
+      "Ezequias",
+      "Josias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 3:12 e 10:23 destacam a sabedoria e a riqueza extraordinárias de Salomão.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_067",
+    "pergunta": "Quem era a mãe de João Batista?",
+    "opcoes": [
+      "Maria",
+      "Isabel",
+      "Ana",
+      "Marta"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 1:57, 60 confirma que Isabel deu à luz um filho chamado João.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_068",
+    "pergunta": "Qual rei de Babilônia teve um sonho com uma enorme estátua feita de vários metais?",
+    "opcoes": [
+      "Ciro",
+      "Dario",
+      "Nabucodonosor",
+      "Belsazar"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Daniel 2:1, 31 descreve o sonho do rei Nabucodonosor interpretado por Daniel.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_069",
+    "pergunta": "Qual rio é mencionado no Gênesis como um dos quatro rios que saíam do Éden?",
+    "opcoes": [
+      "Jordão",
+      "Eufrates",
+      "Nilo",
+      "Reno"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 2:14 menciona expressamente o quarto rio como sendo o Eufrates.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_070",
+    "pergunta": "Como é chamada a primeira parte da Bíblia, escrita originalmente em hebraico e aramaico?",
+    "opcoes": [
+      "Evangelhos",
+      "Escrituras Hebraicas (Antigo Testamento)",
+      "Cartas Apostólicas",
+      "Apocalipse"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "A primeira seção do canão bíblico abrange os 39 livros das Escrituras Hebraico-Aramaicas.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_071",
+    "pergunta": "Qual mulher se tornou esposa de Isaque após o servo de Abraão ser guiado até ela num poço?",
+    "opcoes": [
+      "Raquel",
+      "Lia",
+      "Rebeca",
+      "Sefora"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 24:15, 67 relata o encontro de Rebeca no poço e seu casamento com Isaque.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_072",
+    "pergunta": "Quem era o pai de Jacó e Esaú?",
+    "opcoes": [
+      "Abraão",
+      "Isaque",
+      "Labão",
+      "Ló"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 25:21, 26 declara que Isaque era o pai dos gêmeos Esaú e Jacó.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_073",
+    "pergunta": "Como era chamado o lugar santíssimo onde ficava a Arca da Aliança no Tabernáculo?",
+    "opcoes": [
+      "Pátio",
+      "Lugar Santo",
+      "Santíssimo (Lugar Santíssimo)",
+      "Pórtico"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Êxodo 26:33, 34 explica a divisão entre o Lugar Santo e o Santíssimo onde ficava a Arca.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_074",
+    "pergunta": "Quem foi o irmão de Maria e Marta a quem Jesus ressuscitou quatro dias após a morte?",
+    "opcoes": [
+      "Simão",
+      "Lázaro",
+      "Nicodemos",
+      "Zaqueu"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 11:39-44 narra a ressurreição milagrosa de Lázaro em Betânia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_075",
+    "pergunta": "Qual cobrador de impostos de baixa estatura subiu numa árvore para ver Jesus passar em Jericó?",
+    "opcoes": [
+      "Mateus",
+      "Zaqueu",
+      "Cornélio",
+      "Gamaliel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 19:1-5 relata que Zaqueu subiu num sicômoro para enxergar Jesus.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_076",
+    "pergunta": "Qual profeta foi alimentado por corvos perto do ribeiro de Querite?",
+    "opcoes": [
+      "Eliseu",
+      "Elias",
+      "Isaías",
+      "Samuel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 17:4-6 mostra que os corvos traziam pão e carne para Elias de manhã e à noite.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_077",
+    "pergunta": "Quem foi escolhido para substituir Judas Iscariotes como apóstolo?",
+    "opcoes": [
+      "Matias",
+      "Barnabé",
+      "Estêvão",
+      "Filipe"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 1:23-26 relata a escolha de Matias por sorteio para integrar o grupo dos doze.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_078",
+    "pergunta": "Qual jovem foi o primeiro mártir cristão a ser apedrejado até a morte registrado em Atos?",
+    "opcoes": [
+      "Filipe",
+      "Estêvão",
+      "Tiago",
+      "Timóteo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 7:58-60 narra o apedrejamento e morte do fiel discípulo Estêvão.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_079",
+    "pergunta": "Qual centurião romano foi o primeiro gentio incircunciso a se converter ao cristianismo?",
+    "opcoes": [
+      "Lívio",
+      "Cornélio",
+      "Júlio",
+      "Cláudio"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 10:1, 44-48 relata a conversão do centurião Cornélio e sua família.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_080",
+    "pergunta": "Quem ajudou Paulo a escrever várias de suas cartas e era tratado como seu 'filho amado no Senhor'?",
+    "opcoes": [
+      "Tito",
+      "Timóteo",
+      "Apolo",
+      "Marcos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Coríntios 4:17 e 2 Timóteo 1:2 referem-se a Timóteo como filho amado no Senhor.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_081",
+    "pergunta": "Qual monte foi o local onde as tábuas da Lei foram entregues a Moisés?",
+    "opcoes": [
+      "Monte das Oliveiras",
+      "Monte Sinai (Horebe)",
+      "Monte Nebo",
+      "Monte Gerizim"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 31:18 confirma a entrega das tábuas no Monte Sinai.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_082",
+    "pergunta": "Qual o nome do anjo que anunciou a Maria que ela daria à luz o Filho de Deus?",
+    "opcoes": [
+      "Miguel",
+      "Gabriel",
+      "Rafael",
+      "Uriel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 1:26, 31 relata que o anjo Gabriel foi enviado por Deus a Maria.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_083",
+    "pergunta": "Qual foi a última praga que caiu sobre o Egito antes da saída de Israel?",
+    "opcoes": [
+      "Praga das rãs",
+      "Praga dos gafanhotos",
+      "Morte dos primogênitos",
+      "Trevas de três dias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Êxodo 11:4, 5 e 12:29 narram a décima praga: a morte de todos os primogênitos no Egito.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_084",
+    "pergunta": "Quem era o marido de Rute no final do livro bíblico que leva seu nome?",
+    "opcoes": [
+      "Elimeleque",
+      "Marlom",
+      "Boaz",
+      "Obede"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Rute 4:13 confirma que Boaz tomou Rute e ela se tornou sua esposa.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_085",
+    "pergunta": "Qual o nome do jardim onde Jesus orou intensamente na noite antes de sua morte?",
+    "opcoes": [
+      "Éden",
+      "Getsêmani",
+      "Siloé",
+      "Betânia"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 26:36 narra Jesus indo com seus discípulos ao lugar chamado Getsêmani.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_086",
+    "pergunta": "Qual alimento os israelitas reclamaram de comer repetidamente, desejando carne no deserto?",
+    "opcoes": [
+      "Maná",
+      "Trigo",
+      "Pão",
+      "Ervas"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Números 11:4-6 mostra o povo reclamando do maná diário e exigindo carne.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_087",
+    "pergunta": "Quem era a irmã de Moisés e Arão que cantou um cântico de vitória após a travessia do Mar Vermelho?",
+    "opcoes": [
+      "Sefora",
+      "Miriã",
+      "Debora",
+      "Rebeca"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 15:20 identifica Miriã, a profetisa, irmã de Arão, liderando os pandeiros.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_088",
+    "pergunta": "Qual dos apóstolos era conhecido como o 'filho do trovão' junto com seu irmão Tiago?",
+    "opcoes": [
+      "Pedro",
+      "João",
+      "Filipe",
+      "Tomé"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Marcos 3:17 registra que Jesus deu a Tiago e João o sobrenome Boanerges, que significa 'Filhos do Trovão'.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_089",
+    "pergunta": "Como é conhecida a famosa mensagem de Jesus registrada em Mateus capítulos 5 a 7?",
+    "opcoes": [
+      "Discurso das Oliveiras",
+      "Sermão do Monte",
+      "Parábola do Semeador",
+      "Última Ceia"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 5:1, 2 relata Jesus subindo ao monte e ensinando a multidão (Sermão do Monte).",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_090",
+    "pergunta": "Qual rei mandou jogar Sadraque, Mesaque e Abednego numa fornalha de fogo ardente?",
+    "opcoes": [
+      "Ciro",
+      "Dario",
+      "Nabucodonosor",
+      "Assuero"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Daniel 3:19, 20 relata a ordem do rei Nabucodonosor de lançar os três hebreus na fornalha.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_091",
+    "pergunta": "Quantos livros compõem o conjunto total da Bíblia Sagrada na maioria das versões protestantes/NWT?",
+    "opcoes": [
+      "39",
+      "66",
+      "73",
+      "12"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O canão bíblico completo contém 66 livros inspirados (39 Hebraicos e 27 Gregos).",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_092",
+    "pergunta": "Qual instrumento musical Davi tocava com perícia para acalmar o espírito agitado do rei Saul?",
+    "opcoes": [
+      "Flauta",
+      "Harpa/Lira",
+      "Tamborim",
+      "Trombeta"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 16:23 mostra Davi pegando a harpa e tocando para aliviar o rei Saul.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_093",
+    "pergunta": "Quem era o sogro de Moisés, sacerdote de Midiã?",
+    "opcoes": [
+      "Jetro (Reuel)",
+      "Arão",
+      "Balaão",
+      "Balaque"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Êxodo 3:1 identifica Jetro como sacerdote de Midiã e sogro de Moisés.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_094",
+    "pergunta": "Qual cidade famosa foi destruída junto com Gomorra devido à extrema maldade de seus habitantes?",
+    "opcoes": [
+      "Jericó",
+      "Sodoma",
+      "Tiro",
+      "Babel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 19:24 relata a destruição de Sodoma e Gomorra com enxofre e fogo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_095",
+    "pergunta": "Qual o nome da festa judaica que celebrava a libertação dos israelitas da escravidão do Egito?",
+    "opcoes": [
+      "Pentecostes",
+      "Páscoa",
+      "Festividade das Barracas",
+      "Purim"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 12:26, 27 explica que a celebração da Páscoa comemorava a passagem do anjo e a libertação do Egito.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_096",
+    "pergunta": "Quem viveu na terra antes do dilúvio e 'andou com o verdadeiro Deus' até que Deus o tomou?",
+    "opcoes": [
+      "Matusalém",
+      "Lameque",
+      "Enoque",
+      "Jarede"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 5:24 relata que Enoque andou com o verdadeiro Deus e depois não foi mais visto.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_097",
+    "pergunta": "Qual patriarca comprou o campo de Macpela com uma caverna para sepultar sua esposa Sara?",
+    "opcoes": [
+      "Isaque",
+      "Abraão",
+      "Jacó",
+      "José"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 23:19 registra que Abraão sepultou Sara na caverna do campo de Macpela.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_098",
+    "pergunta": "Qual salmo declara 'Aquietem-se e saibam que eu sou Deus'?",
+    "opcoes": [
+      "Salmo 23",
+      "Salmo 46",
+      "Salmo 91",
+      "Salmo 119"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Salmo 46:10 traz a declaração divina: 'Aquietem-se e saibam que eu sou Deus'.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_099",
+    "pergunta": "Em qual cidade Jesus realizou seu primeiro milagre transformando água em vinho?",
+    "opcoes": [
+      "Nazaré",
+      "Caná da Galileia",
+      "Belém",
+      "Cafarnaum"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 2:11 confirma que Jesus realizou esse primeiro milagre em Caná da Galileia.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_100",
+    "pergunta": "Qual era o título do governante do Egito no tempo de Moisés e do Êxodo?",
+    "opcoes": [
+      "César",
+      "Faraó",
+      "Rei",
+      "Sátrapa"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 5:1 relata Moisés e Arão apresentando-se perante Faraó, rei do Egito.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_101",
+    "pergunta": "Qual apóstolo era cobrador de impostos (publicano) antes de ser chamado por Jesus?",
+    "opcoes": [
+      "Pedro",
+      "Mateus",
+      "João",
+      "André"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 9:9 narra Jesus chamando Mateus no posto de cobrança de impostos.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_102",
+    "pergunta": "Quem foi engolido vivo pela terra junto com Abirão e On por se rebelar contra Moisés?",
+    "opcoes": [
+      "Corá",
+      "Balaão",
+      "Balaque",
+      "Acan"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Números 16:31-33 relata a terra se abrindo e engolindo Corá, Datan e Abirão.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_103",
+    "pergunta": "Qual discípula em Jope era conhecida por fazer túnicas e roupas para as viúvas necessitadas?",
+    "opcoes": [
+      "Marta",
+      "Dorcas (Tabita)",
+      "Maria",
+      "Lídia"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 9:36, 39 descreve Tabita (Dorcas) e as vestes que ela fazia para as viúvas.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_104",
+    "pergunta": "Qual líder judaico supervisionou a reconstrução do Templo após o retorno de Babilônia?",
+    "opcoes": [
+      "Neemias",
+      "Zorobabel",
+      "Mordecai",
+      "Gamaliel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Esdras 3:8 mostra Zorobabel iniciando e liderando a reconstrução do Templo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_105",
+    "pergunta": "Quem foi colocado numa cesta de juncos no rio Nilo para ser salvo do decreto de morte?",
+    "opcoes": [
+      "Arão",
+      "Moisés",
+      "Samuel",
+      "Josué"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 2:3 narra a mãe de Moisés colocando o bebê numa cesta de juncos no rio Nilo.",
+    "dificuldade": "facil"
+  },
+  {
+    "id": "quiz_106",
+    "pergunta": "Qual era o nome da mãe do rei Salomão?",
+    "opcoes": [
+      "Mical",
+      "Bate-Seba",
+      "Ana",
+      "Abigail"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 12:24 e 1 Reis 1:11 confirmam que Bate-Seba era a mãe de Salomão.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_107",
+    "pergunta": "Quantos anos Noé tinha quando as águas do Dilúvio vieram sobre a terra?",
+    "opcoes": [
+      "120 anos",
+      "500 anos",
+      "600 anos",
+      "950 anos"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Gênesis 7:6 registra que Noé tinha 600 anos de idade quando o Dilúvio ocorreu.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_108",
+    "pergunta": "Qual foi a duração exata do cerco ou da estada de Israel no Egito registrada em Êxodo 12:40?",
+    "opcoes": [
+      "40 anos",
+      "120 anos",
+      "430 anos",
+      "500 anos"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Êxodo 12:40 declara que a morada dos israelitas que moraram no Egito somou 430 anos.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_109",
+    "pergunta": "Qual era o nome da esposa de Oseias, que simbolizou a infidelidade de Israel?",
+    "opcoes": [
+      "Gomer",
+      "Penina",
+      "Tamar",
+      "Sefora"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Oseias 1:2, 3 relata que Jeová mandou Oseias casar-se com Gomer, filha de Diblaim.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_110",
+    "pergunta": "Qual juiz de Israel derrotou os midianitas com um pequeno exército de apenas 300 homens?",
+    "opcoes": [
+      "Baruque",
+      "Gideão",
+      "Jefté",
+      "Sansão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 7:7 mostra Jeová reduzindo o exército de Gideão a 300 homens para dar a vitória.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_111",
+    "pergunta": "Qual era o nome da cidade de onde Abraão partiu quando Deus o chamou para ir à terra de Canaã?",
+    "opcoes": [
+      "Harã",
+      "Ur dos Caldeus",
+      "Babel",
+      "Damasco"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 11:31 e 15:7 mostram que Jeová tirou Abraão de Ur dos Caldeus.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_112",
+    "pergunta": "Quem era o pai de João Batista, que ficou mudo até o nascimento do filho?",
+    "opcoes": [
+      "Simeão",
+      "Zacarias",
+      "Caifás",
+      "Gamaliel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 1:13, 20 relata o anúncio do anjo a Zacarias e sua mudez temporária por falta de fé.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_113",
+    "pergunta": "Qual era o nome da mulher juíza e profetisa que liderou Israel juntamente com Baruque?",
+    "opcoes": [
+      "Jael",
+      "Débora",
+      "Atalia",
+      "Hulda"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 4:4, 6 descreve Débora, uma profetisa, julgando Israel naquele tempo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_114",
+    "pergunta": "Em qual cidade o apóstolo Paulo proferiu seu famoso discurso no Areópago?",
+    "opcoes": [
+      "Éfeso",
+      "Corinto",
+      "Atenas",
+      "Roma"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Atos 17:22 relata Paulo em pé no meio do Areópago, em Atenas, ensinando sobre o Deus Desconhecido.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_115",
+    "pergunta": "Qual rei de Judá teve sua vida prolongada por mais 15 anos após orar fervorosamente a Deus?",
+    "opcoes": [
+      "Josias",
+      "Ezequias",
+      "Josafá",
+      "Manassés"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 20:5, 6 relata a resposta de Deus à oração de Ezequias, acrescentando 15 anos à sua vida.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_116",
+    "pergunta": "Qual tribunal supremo judaico julgou Jesus e mais tarde prendeu os apóstolos em Jerusalém?",
+    "opcoes": [
+      "Sinédrio",
+      "Pretório",
+      "Areópago",
+      "Conselho dos Dez"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Mateus 26:59 e Atos 5:27 referem-se ao Sinédrio como a suprema corte judaica.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_117",
+    "pergunta": "Quantos espias foram enviados por Moisés para reter informações sobre a terra de Canaã?",
+    "opcoes": [
+      "2",
+      "7",
+      "12",
+      "70"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Números 13:2-16 mostra a escolha de 12 homens, um de cada tribo, para espionar Canaã.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_118",
+    "pergunta": "Quais foram os dois únicos espias que trouxeram um relato confiante e encorajador sobre Canaã?",
+    "opcoes": [
+      "Moisés e Arão",
+      "Josué e Calebe",
+      "Gideão e Baruque",
+      "Eldade e Medade"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Números 14:6-9 mostra Josué e Calebe exortando o povo a confiar em Jeová para tomar a terra.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_119",
+    "pergunta": "Qual era o nome do jovem que dormiu e caiu da janela do terceiro andar durante o longo discurso de Paulo?",
+    "opcoes": [
+      "Tíquico",
+      "Êutico",
+      "Onésimo",
+      "Epafrodito"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 20:9, 10 narra a queda de Êutico da janela em Trôade e sua ressurreição por Paulo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_120",
+    "pergunta": "Qual rainha perversa mandou matar os profetas de Jeová e perseguiu o profeta Elias?",
+    "opcoes": [
+      "Atalia",
+      "Jezabel",
+      "Herodias",
+      "Vasti"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 18:4 e 19:1, 2 relatam a crueldade da rainha Jezabel contra os profetas de Deus.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_121",
+    "pergunta": "Em qual montanha a arca de Noé pousou após o abaixamento das águas do Dilúvio?",
+    "opcoes": [
+      "Monte Sinai",
+      "Monte Ararat",
+      "Monte Hermom",
+      "Monte Carmelo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 8:4 afirma que no sétimo mês a arca pousou nas montanhas de Ararat.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_122",
+    "pergunta": "Quem era o rei de Salém e sacerdote do Deus Altíssimo que abençoou Abraão?",
+    "opcoes": [
+      "Abimeleque",
+      "Melquisedeque",
+      "Jethro",
+      "Balaão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 14:18-20 relata o encontro de Melquisedeque, rei de Salém, com Abraão.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_123",
+    "pergunta": "Qual profeta viu uma visão do trono celestial de Deus acompanhado de seres viventes e rodas com olhos?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Ezequiel 1:4-28 descreve a impressionante visão do carro celestial e dos querubins.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_124",
+    "pergunta": "Quem foi o discípulo que hospedou Paulo em Cesareia e tinha quatro filhas profetisas?",
+    "opcoes": [
+      "Filipe, o evangelizador",
+      "Barnabé",
+      "Simão, o curtidor",
+      "Lídia"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 21:8, 9 menciona Filipe, o evangelizador, que tinha quatro filhas virgens que profetizavam.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_125",
+    "pergunta": "Em qual ilha o apóstolo Paulo naufragou a caminho de Roma?",
+    "opcoes": [
+      "Chipre",
+      "Creta",
+      "Malta",
+      "Patmos"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Atos 28:1 relata que após o naufrágio a tripulação descobriu que a ilha se chamava Malta.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_126",
+    "pergunta": "Qual profeta teve os lábios purificados por um serafim com uma brasa viva tirada do altar?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Isaías 6:6, 7 narra o serafim tocando a boca de Isaías com uma brasa do altar.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_127",
+    "pergunta": "Quantas peças de prata a gananciosa Delila recebeu de cada senhor filisteu para trair Sansão?",
+    "opcoes": [
+      "100",
+      "500",
+      "1.100",
+      "3.000"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Juízes 16:5 mostra cada um dos senhores dos filisteus oferecendo 1.100 moedas de prata a Delila.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_128",
+    "pergunta": "Qual sumo sacerdote caiu para trás de sua cadeira e quebrou o pescoço ao ouvir que a Arca fora capturada?",
+    "opcoes": [
+      "Aimeleque",
+      "Eli",
+      "Abiatar",
+      "Zadoque"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 4:18 relata a morte do idoso Eli ao saber da perda da Arca da Aliança.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_129",
+    "pergunta": "Quem era o filho de Jonathan, aleijado de ambos os pés, a quem Davi tratou com amor leal?",
+    "opcoes": [
+      "Is-Bosete",
+      "Mefibosete",
+      "Adonias",
+      "Absalão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 9:6, 7 mostra Davi restaurando terras e mostrando bondade a Mefibosete.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_130",
+    "pergunta": "Qual discípula de Jope era abundante em boas ações e esmolas e foi ressuscitada por Pedro?",
+    "opcoes": [
+      "Lídia",
+      "Dorcas (Tabita)",
+      "Priscila",
+      "Febe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 9:36, 40 relata a ressurreição de Tabita, também chamada Dorcas, em Jope.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_131",
+    "pergunta": "Qual rei de Judá começou a reinar com apenas 8 anos e promoveu uma grande reforma religiosa?",
+    "opcoes": [
+      "Manassés",
+      "Josias",
+      "Ezequias",
+      "Joás"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 22:1 e 23:1-25 descrevem o reinado virtuoso e as reformas do jovem rei Josias.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_132",
+    "pergunta": "Qual cidade foi chamada por Jesus de 'cidade do grande Rei' no Sermão do Monte?",
+    "opcoes": [
+      "Belém",
+      "Nazaré",
+      "Jerusalém",
+      "Samaria"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Mateus 5:35 refere-se a Jerusalém como a cidade do grande Rei.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_133",
+    "pergunta": "Quantos anos durou a jornada e peregrinação do povo de Israel pelo deserto?",
+    "opcoes": [
+      "7 anos",
+      "12 anos",
+      "40 anos",
+      "70 anos"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Números 14:33, 34 confirma a punição de peregrinar 40 anos no deserto.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_134",
+    "pergunta": "Qual era o nome do discípulo de Antioquia que acompanhou Paulo em sua primeira viagem missionária?",
+    "opcoes": [
+      "Silas",
+      "Barnabé",
+      "Lucas",
+      "Timóteo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 13:2, 3 mostra o espírito santo separando Barnabé e Saulo para a obra missionária.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_135",
+    "pergunta": "Qual festival bíblico ocorria 50 dias após a oferta das primícias da colheita de cevada?",
+    "opcoes": [
+      "Páscoa",
+      "Pentecostes (Festa das Semanas)",
+      "Festividade das Barracas",
+      "Dia da Expiação"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Levítico 23:15, 16 e Atos 2:1 mostram o cálculo dos 50 dias para o Pentecostes.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_136",
+    "pergunta": "Qual rei da Pérsia emitiu o decreto permitindo que os judeus retornassem a Jerusalém para reconstruir o templo?",
+    "opcoes": [
+      "Ciro",
+      "Dario",
+      "Xerxes (Assuero)",
+      "Artaxerxes"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Esdras 1:1-3 registra o histórico decreto de Ciro, rei da Pérsia.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_137",
+    "pergunta": "Quem era a mulher vendedora de púrpura da cidade de Tiatira que hospedou Paulo em Filipos?",
+    "opcoes": [
+      "Febe",
+      "Priscila",
+      "Lídia",
+      "Evódia"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Atos 16:14, 15 relata a conversão e hospitalidade de Lídia em Filipos.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_138",
+    "pergunta": "Qual era o nome do monte onde Elias desafiou os 450 profetas de Baal?",
+    "opcoes": [
+      "Monte Sinai",
+      "Monte Hermom",
+      "Monte Carmelo",
+      "Monte das Oliveiras"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "1 Reis 18:19 mostra Elias convocando todo o Israel e os profetas de Baal ao Monte Carmelo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_139",
+    "pergunta": "Qual era a tribo bíblica encarregada exclusivamente do serviço sagrado e do Tabernáculo?",
+    "opcoes": [
+      "Judá",
+      "Benjamim",
+      "Levi",
+      "Efraim"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Números 1:47-53 mostra a separação da tribo de Levi para cuidar do Tabernáculo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_140",
+    "pergunta": "Quem era o pai do rei Davi?",
+    "opcoes": [
+      "Boaz",
+      "Obede",
+      "Jessé",
+      "Samuel"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "1 Samuel 16:11, 12 confirma que Davi era o filho caçula de Jessé de Belém.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_141",
+    "pergunta": "Em qual cidade o Apóstolo Paulo foi aprisionado e sofreu um terremoto que abriu as portas da prisão?",
+    "opcoes": [
+      "Atenas",
+      "Filipos",
+      "Tessalônica",
+      "Roma"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 16:12, 25, 26 narra a prisão de Paulo e Silas em Filipos e o terremoto divino.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_142",
+    "pergunta": "Quem foi a primeira pessoa a ver Jesus ressuscitado perto do túmulo no domingo de manhã?",
+    "opcoes": [
+      "Maria, mãe de Jesus",
+      "Maria Madalena",
+      "Marta",
+      "Salomé"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 20:14-16 e Marcos 16:9 mostram que Jesus apareceu primeiro a Maria Madalena.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_143",
+    "pergunta": "Qual era o nome do artesão principal cheio do espírito de Deus para desenhar a obra do Tabernáculo?",
+    "opcoes": [
+      "Ooliabe",
+      "Bezalel",
+      "Hiram",
+      "Jubal"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 31:2-5 menciona Bezalel, da tribo de Judá, capacitado com sabedoria e habilidade artística.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_144",
+    "pergunta": "Qual instrumento de madeira com varais era transportado nos ombros dos levitas coatitas?",
+    "opcoes": [
+      "Candelabro de Ouro",
+      "Altar de Incenso",
+      "Arca do Pacto/Aliança",
+      "Mesa dos Pães"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Números 7:9 confirma que a obra sagrada dos coatitas era carregar as coisas sagradas nos ombros.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_145",
+    "pergunta": "Qual profeta repreendeu o rei Davi pelo seu pecado com Bate-Seba usando uma parábola sobre uma ovelhinha?",
+    "opcoes": [
+      "Samuel",
+      "Natã",
+      "Gad",
+      "Aías"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 12:1-7 relata a parábola profética contada pelo profeta Natã ao rei Davi.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_146",
+    "pergunta": "Em qual livro bíblico encontramos o relato detalhado do cavalo branco, vermelho, preto e pálido?",
+    "opcoes": [
+      "Ezequiel",
+      "Daniel",
+      "Zacarias",
+      "Apocalipse (Revelação)"
+    ],
+    "resposta_correta": 3,
+    "explicacao": "Apocalipse 6:1-8 descreve a cavalgada dos quatro cavaleiros simbólicos.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_147",
+    "pergunta": "Qual era o nome da esposa de Moisés, filha do sacerdote de Midiã?",
+    "opcoes": [
+      "Miriã",
+      "Sefora (Zípora)",
+      "Agar",
+      "Debora"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 2:21 relata que Reuel deu sua filha Sefora em casamento a Moisés.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_148",
+    "pergunta": "Qual general sírio foi curado da lepra após mergulhar sete vezes no rio Jordão?",
+    "opcoes": [
+      "Ben-Hadade",
+      "Hazael",
+      "Naamã",
+      "Rezim"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "2 Reis 5:14 narra a cura milagrosa do general Naamã pelas instruções de Eliseu.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_149",
+    "pergunta": "Qual jovem rei achou o Livro da Lei esquecido no Templo durante as obras de reparo?",
+    "opcoes": [
+      "Manassés",
+      "Josias",
+      "Ezequias",
+      "Joás"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 22:8 relata Hilquias, o sumo sacerdote, encontrando o Livro da Lei na casa de Jeová no reinado de Josias.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_150",
+    "pergunta": "Qual foi a promessa dada a Abraão em Gênesis 22:18 sobre a sua descendência?",
+    "opcoes": [
+      "Dominar o Egito",
+      "Abençoar todas as nações da terra",
+      "Construir uma grande torre",
+      "Viver 500 anos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 22:18 declara que por meio da descendência de Abraão todas as nações da terra se abençoariam.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_151",
+    "pergunta": "Qual o nome do riacho ou vale onde Davi pegou cinco pedras lisas para enfrentar Golias?",
+    "opcoes": [
+      "Vale de Jzreel",
+      "Vale de Elá",
+      "Vale de Cedrom",
+      "Vale de Hinom"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 17:2, 40 relata o confronto no vale de Elá e a escolha das pedras no riacho.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_152",
+    "pergunta": "Em qual dia do mês judaico de Tishri ocorria o Dia da Expiação (Yom Kippur)?",
+    "opcoes": [
+      "1º dia",
+      "10º dia",
+      "14º dia",
+      "15º dia"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Levítico 23:27 estabelece o décimo dia do sétimo mês (Tishri) como o Dia da Expiação.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_153",
+    "pergunta": "Qual rei de Judá ficou leproso porque tentou queimar incenso no altar do Templo, tarefa exclusiva dos sacerdotes?",
+    "opcoes": [
+      "Acaz",
+      "Uzias (Azarias)",
+      "Ezequias",
+      "Manassés"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Crônicas 26:18-21 relata que Uzias foi atingido por lepra após agir presunçosamente no Templo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_154",
+    "pergunta": "Quem era o companheiro de Paulo que foi libertado da prisão em Filipos juntamente com ele?",
+    "opcoes": [
+      "Barnabé",
+      "Silas",
+      "Marcos",
+      "Lucas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 16:19, 25 mostra Paulo e Silas orando e cantando louvores na prisão de Filipos.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_155",
+    "pergunta": "Qual era a língua comum falada por Jesus e seus discípulos na Galileia do primeiro século?",
+    "opcoes": [
+      "Hebraico clássico",
+      "Aramaico",
+      "Latim",
+      "Egípcio"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O aramaico era a língua vernacular diária usada na região da Galileia no século I.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_156",
+    "pergunta": "Qual profeta foi enviado a Nínive para proclamar o julgamento de Deus sobre aquela cidade assíria?",
+    "opcoes": [
+      "Naum",
+      "Jonas",
+      "Obadias",
+      "Miqueias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Jonas 1:1, 2 mostra a comissão de Jonas para ir pregar contra a grande cidade de Nínive.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_157",
+    "pergunta": "Quem era o pai do rei Salomão?",
+    "opcoes": [
+      "Saul",
+      "Davi",
+      "Samuel",
+      "Jesse"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 12:24 e 1 Crônicas 3:5 confirmam que Davi foi o pai de Salomão com Bate-Seba.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_158",
+    "pergunta": "Qual casal cristão trabalhava como fabricantes de tendas e instruiu Apolo de forma mais exata?",
+    "opcoes": [
+      "Ananias e Safira",
+      "Áquila e Priscila",
+      "Filemon e Áfia",
+      "Lídia e Silas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 18:2, 3, 26 descreve Áquila e Priscila trabalhando como fabricantes de tendas e ensinando Apolo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_159",
+    "pergunta": "Qual tribunal condenou o rei de Israel Acabe após ele cobiçar a vinha de Nabote?",
+    "opcoes": [
+      "Ele foi julgado por Jeová e repreendido por Elias",
+      "Sinédrio",
+      "Tribunal da Samaria",
+      "Conselho dos Anciãos"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 21:17-19 mostra Elias levando o julgamento direto de Jeová contra Acabe pela morte de Nabote.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_160",
+    "pergunta": "Quem era o filho de Abraão nascido de Agar, a serva egípcia de Sara?",
+    "opcoes": [
+      "Isaque",
+      "Ismael",
+      "Midiã",
+      "Jocsã"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 16:15 relata o nascimento de Ismael, filho de Abraão e Agar.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_161",
+    "pergunta": "Qual foi a última palavra de Jesus registrada em João 19:30 antes de entregar seu espírito?",
+    "opcoes": [
+      "Tenho sede",
+      "Pai, perdoa-lhes",
+      "Está consumado (Está realizado)",
+      "Deus meu, por que me abandonaste"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "João 19:30 registra que Jesus disse 'Está consumado!' (ou 'Está realizado!'), curvou a cabeça e entregou o espírito.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_162",
+    "pergunta": "O que representava o candelabro de ouro (Menorá) no Tabernáculo?",
+    "opcoes": [
+      "O trono divina",
+      "A iluminação do santuário",
+      "A oferta de alimentos",
+      "O sacrifício anual"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 25:31-37 descreve o candelabro feito para iluminar o espaço sagrado do Tabernáculo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_163",
+    "pergunta": "Qual apóstolo foi libertado da prisão por um anjo enquanto a congregação orava na casa de Maria, mãe de Marcos?",
+    "opcoes": [
+      "Paulo",
+      "Pedro",
+      "Tiago",
+      "João"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 12:5-11 narra a libertação milagrosa de Pedro da prisão de Herodes por um anjo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_164",
+    "pergunta": "Quem foi o jovem rei que começou a reinar aos 7 anos sob a instrução do sumo sacerdote Jeoiada?",
+    "opcoes": [
+      "Josias",
+      "Joás",
+      "Ezequias",
+      "Manassés"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 11:21 e 12:1, 2 relatam que Joás tinha 7 anos ao começar a reinar e fez o que era reto enquanto Jeoiada o instruía.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_165",
+    "pergunta": "Qual o nome da festa bíblica em que os israelitas moravam em tendas ou cabanas temporárias por sete dias?",
+    "opcoes": [
+      "Festividade dos Pães Sem Fermento",
+      "Festividade das Barracas (Tabernáculos)",
+      "Purim",
+      "Pentecostes"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Levítico 23:34, 42, 43 descreve a Festividade das Barracas em memória da morada em tendas no deserto.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_166",
+    "pergunta": "Qual profeta previu que a Virgem conceberia e daria à luz um filho cujo nome seria Imanuel?",
+    "opcoes": [
+      "Jeremias",
+      "Isaías",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Isaías 7:14 profetiza que a jovem conceberá e dará à luz um filho chamado Imanuel.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_167",
+    "pergunta": "Qual rei de Judá destruiu os altos sagrados e a serpente de cobre Neustã?",
+    "opcoes": [
+      "Ezequias",
+      "Josias",
+      "Asa",
+      "Josafá"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 18:4 relata que Ezequias removeu os altos sagrados e despedaçou a serpente de cobre Neustã.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_168",
+    "pergunta": "Em qual monte Moisés contemplou a Terra Prometida antes de morrer?",
+    "opcoes": [
+      "Monte Sinai",
+      "Monte Nebo (Pisga)",
+      "Monte Carmelo",
+      "Monte Hermom"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Deuteronômio 34:1 mostra Moisés subindo ao Monte Nebo, ao cume do Pisga, para ver a terra.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_169",
+    "pergunta": "Qual era o nome do juiz que fez um voto a Deus antes de ir para a batalha contra os amonitas?",
+    "opcoes": [
+      "Gideão",
+      "Jefté",
+      "Sansão",
+      "Baruque"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 11:30, 31 narra o voto solene feito por Jefté antes da vitória contra Amom.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_170",
+    "pergunta": "Qual profeta teve uma visão de quatro animais saindo do mar (leão, urso, leopardo e animal aterrorizante)?",
+    "opcoes": [
+      "Isaías",
+      "Ezequiel",
+      "Daniel",
+      "Zacarias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Daniel 7:2, 3 descreve os quatro animais imensos subindo do mar.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_171",
+    "pergunta": "Quem era o sumo sacerdote no tempo da infância do profeta Samuel?",
+    "opcoes": [
+      "Eli",
+      "Aimeleque",
+      "Abiatar",
+      "Zadoque"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Samuel 1:9 e 3:1 mostram o idoso sumo sacerdote Eli servindo no Tabernáculo em Silo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_172",
+    "pergunta": "Qual homem rico de Arimateia cedeu seu próprio túmulo novo para o sepultamento de Jesus?",
+    "opcoes": [
+      "Nicodemos",
+      "José de Arimateia",
+      "Simão de Cirene",
+      "Zaqueu"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 27:57-60 relata José de Arimateia colocando o corpo de Jesus em seu túmulo novo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_173",
+    "pergunta": "Quantas talhas de pedra foram cheias de água nas bodas de Caná antes de Jesus mudar a água em vinho?",
+    "opcoes": [
+      "3 talhas",
+      "6 talhas",
+      "7 talhas",
+      "12 talhas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 2:6 especifica que havia ali seis talhas de pedra para purificação.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_174",
+    "pergunta": "Quem era a profetisa idosa que servia no Templo e deu graças a Deus ao ver o bebê Jesus?",
+    "opcoes": [
+      "Isabel",
+      "Ana",
+      "Maria",
+      "Dorcas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 2:36-38 descreve Ana, uma profetisa de 84 anos da tribo de Aser.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_175",
+    "pergunta": "Qual rei de Israel mandou colocar dois bezerros de ouro, um em Betel e outro em Dã?",
+    "opcoes": [
+      "Acabe",
+      "Jeroboão I",
+      "Baasa",
+      "Jeú"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 12:28, 29 relata Jeroboão I erguendo os dois bezerros de ouro para afastar o povo de Jerusalém.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_176",
+    "pergunta": "Quem ajudou Jesus a carregar a estaca de tortura a caminho do Gólgota?",
+    "opcoes": [
+      "Simão de Cirene",
+      "José de Arimateia",
+      "João",
+      "Nicodemos"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Mateus 27:32 registra que obrigaram Simão de Cirene a carregar a estaca de Jesus.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_177",
+    "pergunta": "Qual o nome do comandante romano de Jerusalém que enviou Paulo sob custódia para Cesareia?",
+    "opcoes": [
+      "Pôncio Pilatos",
+      "Cláudio Lísias",
+      "Félix",
+      "Festo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 23:23-26 menciona a carta do comandante Cláudio Lísias ao governador Félix.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_178",
+    "pergunta": "Qual o nome da esposa de Áquila com quem Paulo trabalhou em Corinto?",
+    "opcoes": [
+      "Priscila",
+      "Febe",
+      "Lídia",
+      "Evódia"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 18:2 relata o encontro de Paulo com Áquila e sua esposa Priscila.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_179",
+    "pergunta": "Qual rainha visitou Salomão para testá-lo com perguntas difíceis?",
+    "opcoes": [
+      "Rainha de Sabá",
+      "Rainha Vasti",
+      "Rainha Ester",
+      "Rainha de Candace"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 10:1 narra a visita da Rainha de Sabá impressionada com a sabedoria de Salomão.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_180",
+    "pergunta": "Quantas cidades de refúgio foram designadas ao todo na Terra Prometida?",
+    "opcoes": [
+      "3 cidades",
+      "6 cidades",
+      "12 cidades",
+      "48 cidades"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Números 35:6 confirma que 6 cidades de refúgio foram separadas.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_181",
+    "pergunta": "Quem teve o braço/mão ressequido curado por Jesus numa sinagoga no sábado?",
+    "opcoes": [
+      "Um homem com a mão ressequida",
+      "O filho do centurião",
+      "O cego Bartimeu",
+      "O paralisático de Betsaida"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Mateus 12:10-13 relata a cura do homem da mão ressequida no sábado.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_182",
+    "pergunta": "Qual apóstolo foi lançado na prisão por Herodes Agripa I e liberto por um anjo?",
+    "opcoes": [
+      "Pedro",
+      "Paulo",
+      "Tiago",
+      "João"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 12:5-11 relata a prisão e libertação milagrosa de Pedro.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_183",
+    "pergunta": "Quem era a sogra de Rute?",
+    "opcoes": [
+      "Orfa",
+      "Noemi",
+      "Sara",
+      "Ana"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Rute 1:14, 22 mostra Rute apegando-se à sua sogra Noemi.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_184",
+    "pergunta": "Qual discípulo pregou ao eunuco etíope no caminho para Gaza e o batizou?",
+    "opcoes": [
+      "Filipe, o evangelizador",
+      "Pedro",
+      "Estêvão",
+      "Barnabé"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 8:26-38 narra Filipe explicando Isaías ao eunuco etíope e batizando-o.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_185",
+    "pergunta": "Qual homem de Jericó era chefe dos cobradores de impostos e prometeu dar metade dos seus bens aos pobres?",
+    "opcoes": [
+      "Mateus",
+      "Zaqueu",
+      "Nicodemos",
+      "Cornélio"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 19:2, 8 relata a declaração de Zaqueu de doar metade dos seus bens.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_186",
+    "pergunta": "Qual rei de Babilônia viu uma mão escrevendo na parede durante um grande banquete?",
+    "opcoes": [
+      "Belsazar",
+      "Nabucodonosor",
+      "Ciro",
+      "Dario"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Daniel 5:1, 5 narra a escrita misteriosa na parede durante o banquete de Belsazar.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_187",
+    "pergunta": "Qual era o nome do monte onde Jeová conversou com Moisés no espinheiro ardente?",
+    "opcoes": [
+      "Monte Hermom",
+      "Monte Horebe (Sinai)",
+      "Monte Carmelo",
+      "Monte Tabor"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 3:1 relata Moisés conduzindo o rebanho até Horebe, o monte do verdadeiro Deus.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_188",
+    "pergunta": "Qual tribo de Israel quase foi exterminada durante uma guerra civil descrita no livro de Juízes?",
+    "opcoes": [
+      "Judá",
+      "Benjamim",
+      "Efraim",
+      "Manassés"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 20:46, 47 narra a quase extinção da tribo de Benjamim.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_189",
+    "pergunta": "Quem era o profeta que andava vestido com manto de pelos de camelo e cinto de couro?",
+    "opcoes": [
+      "Elias",
+      "João Batista",
+      "Eliseu",
+      "Jeremias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 3:4 descreve a vestimenta simples de João Batista.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_190",
+    "pergunta": "Quantas pessoas foram salvas na arca durante o Dilúvio segundo 1 Pedro 3:20?",
+    "opcoes": [
+      "3 pessoas",
+      "8 pessoas",
+      "12 pessoas",
+      "40 pessoas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Pedro 3:20 especifica que poucas pessoas, isto é, oito almas, foram salvas através da água.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_191",
+    "pergunta": "Qual foi o nome dado por Deus à cidade onde Ele confundiu os idiomas da humanidade?",
+    "opcoes": [
+      "Babel",
+      "Ur",
+      "Siquém",
+      "Nínive"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Gênesis 11:9 registra que o nome da cidade foi chamado Babel por causa da confusão dos idiomas.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_192",
+    "pergunta": "Quem era a esposa de Jacó que ele mais amava e por quem trabalhou 14 anos?",
+    "opcoes": [
+      "Lia",
+      "Raquel",
+      "Bila",
+      "Zilpa"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 29:18, 30 relata o amor de Jacó por Raquel e os 14 anos de serviço a Labão.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_193",
+    "pergunta": "Qual o nome do servo de Abraão que foi enviado à Mesopotâmia buscar uma esposa para Isaque?",
+    "opcoes": [
+      "Eliézer",
+      "Gérson",
+      "Hur",
+      "Misael"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Gênesis 15:2 e 24:2 referem-se ao servo caseiro de Abraão, Eliézer de Damasco.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_194",
+    "pergunta": "Qual era o nome da mãe de Timóteo?",
+    "opcoes": [
+      "Lóide",
+      "Eunice",
+      "Priscila",
+      "Febe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Timóteo 1:5 identifica Eunice como a mãe crente de Timóteo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_195",
+    "pergunta": "Qual profeta teve que comprar um cinto de linho e escondê-lo junto ao rio Eufrates como sinal profético?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Jeremias 13:1-7 descreve o sinal do cinto de linho escondido junto ao Eufrates.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_196",
+    "pergunta": "Qual profeta viu uma visão de um vale repleto de ossos secos que ganhavam vida?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Ezequiel 37:1-10 relata a visão do vale de ossos secos se cobrindo de carne e espírito.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_197",
+    "pergunta": "Em qual cidade da Galileia Jesus realizou o milagre de ressuscitar o filho único de uma viúva?",
+    "opcoes": [
+      "Nazaré",
+      "Naim",
+      "Cafarnaum",
+      "Caná"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Lucas 7:11-15 narra o milagre da ressurreição no portão da cidade de Naim.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_198",
+    "pergunta": "Qual rei de Israel mandou matar todos os descendentes da casa de Acabe e os adoradores de Baal?",
+    "opcoes": [
+      "Jeú",
+      "Jeroboão II",
+      "Onri",
+      "Baasa"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 10:11, 28 relata o zelo e a execução promovidos por Jeú em Israel.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_199",
+    "pergunta": "Qual parente de Ester descobriu uma conspiração contra o rei Assuero e depois se tornou segundo no reino?",
+    "opcoes": [
+      "Mordecai",
+      "Hamã",
+      "Neemias",
+      "Esdras"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Ester 2:21-23 e 10:3 registram a lealdade e elevação de Mordecai.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_200",
+    "pergunta": "Qual apóstolo teve uma visão em Simão, o curtidor, vendo um lençol descer do céu com animais impuros?",
+    "opcoes": [
+      "Paulo",
+      "Pedro",
+      "João",
+      "Filipe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 10:9-16 descreve a visão de Pedro em Jope antes de ir à casa de Cornélio.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_201",
+    "pergunta": "Qual profeta declarou 'O meu povo é destruído por falta de conhecimento'?",
+    "opcoes": [
+      "Amós",
+      "Oseias",
+      "Joel",
+      "Miqueias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Oseias 4:6 registra a repreensão divina: 'Meu povo será silenciado por falta de conhecimento'.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_202",
+    "pergunta": "Quem era o discípulo que Jesus chamou de 'verdadeiro israelita, em quem não há engano' antes de vê-lo debaixo da figueira?",
+    "opcoes": [
+      "Filipe",
+      "Natanael (Bartolomeu)",
+      "Tomé",
+      "Simão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "João 1:47, 48 narra Jesus elogiando Natanael antes de chamá-lo.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_203",
+    "pergunta": "Qual rei de Judá começou a reinar com 25 anos e removeu os altos, os postes sagrados e a serpente de cobre?",
+    "opcoes": [
+      "Josias",
+      "Ezequias",
+      "Asa",
+      "Josafá"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 18:1, 4 relata o bom reinado de Ezequias e a remoção da idolatria.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_204",
+    "pergunta": "Quantos talheres/pratos de ouro foram oferecidos pelos maiorais das tribos no dia da inauguração do Tabernáculo?",
+    "opcoes": [
+      "12 tigelas de prata e 12 bacias",
+      "7 pratos de ouro",
+      "40 taças de bronze",
+      "10 pratos de ouro"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Números 7:84 especifica os 12 pratos de prata, 12 bacias de prata e 12 tigelas de ouro oferecidos.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_205",
+    "pergunta": "Quem foi a mulher que escondeu os dois espias israelitas em Jericó debaixo de manojos de linho no terraço?",
+    "opcoes": [
+      "Raabe",
+      "Rute",
+      "Débora",
+      "Jael"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Josué 2:1, 6 narra Raabe escondendo os espias de Israel debaixo de manojos de linho no terraço.",
+    "dificuldade": "medio"
+  },
+  {
+    "id": "quiz_206",
+    "pergunta": "Qual profeta ordenou que o general Naamã se banhasse sete vezes no rio Jordão para ser curado?",
+    "opcoes": [
+      "Elias",
+      "Eliseu",
+      "Isaías",
+      "Miqueias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 5:10 relata Eliseu enviando um mensageiro a Naamã com a instrução de se lavar 7 vezes no Jordão.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_207",
+    "pergunta": "Qual era o nome do pai do rei Josafá de Judá?",
+    "opcoes": [
+      "Asa",
+      "Abias",
+      "Roboão",
+      "Jorão"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 22:41 declara que Josafá era filho do rei Asa de Judá.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_208",
+    "pergunta": "Qual era o nome do pai do profeta Isaías citado logo no primeiro versículo do seu livro?",
+    "opcoes": [
+      "Amós",
+      "Amoz",
+      "Buzi",
+      "Hilquias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Isaías 1:1 menciona 'A visão de Isaías, filho de Amoz'.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_209",
+    "pergunta": "Quantos anos tinha Abraão quando seu filho Isaque nasceu?",
+    "opcoes": [
+      "75 anos",
+      "86 anos",
+      "99 anos",
+      "100 anos"
+    ],
+    "resposta_correta": 3,
+    "explicacao": "Gênesis 21:5 confirma que Abraão tinha 100 anos de idade quando Isaque nasceu.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_210",
+    "pergunta": "Qual era o nome do secretário/escriba fiel que registrava as profecias ditadas por Jeremias?",
+    "opcoes": [
+      "Gedalias",
+      "Baruque",
+      "Seraías",
+      "Safã"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Jeremias 36:4 relata Jeremias chamando Baruque, filho de Nerias, para escrever todas as palavras de Jeová.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_211",
+    "pergunta": "Qual profeta menor escreveu um livro de apenas um capítulo pronunciando o julgamento contra Edom?",
+    "opcoes": [
+      "Obadias",
+      "Naum",
+      "Habacuque",
+      "Ageu"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O livro de Obadias contém um único capítulo focado na profecia de julgamento contra Edom.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_212",
+    "pergunta": "Qual era o nome da esposa de Moisés que circuncidou seu próprio filho com uma pedra afiada?",
+    "opcoes": [
+      "Miriã",
+      "Sefora",
+      "Agar",
+      "Quetura"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 4:24-26 relata Sefora pegando uma pedra afiada e realizando a circuncisão do filho.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_213",
+    "pergunta": "Quem era o pai de Josué, o sucessor de Moisés na liderança de Israel?",
+    "opcoes": [
+      "Calebe",
+      "Num",
+      "Eleazar",
+      "Hur"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Josué 1:1 refere-se constantemente a 'Josué, filho de Num'.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_214",
+    "pergunta": "Qual era o nome do lugar onde o rei Saul consultou uma mulher médium/espírita antes de sua batalha final?",
+    "opcoes": [
+      "Endor",
+      "Gibeá",
+      "Gilboa",
+      "Acon"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Samuel 28:7 relata Saul indo a Endor para consultar uma médium espírita.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_215",
+    "pergunta": "Qual cidade da Tribo de Benjamim foi o local de nascimento do profeta Jeremias?",
+    "opcoes": [
+      "Anatote",
+      "Betel",
+      "Tecoia",
+      "Silo"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Jeremias 1:1 registra que Jeremias era filho de Hilquias, dos sacerdotes de Anatote.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_216",
+    "pergunta": "Qual era o nome da mãe de Samuel que orou no Tabernáculo em Silo pedindo um filho a Deus?",
+    "opcoes": [
+      "Penina",
+      "Ana",
+      "Nomi",
+      "Rute"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 1:10, 20 relata a oração fervorosa de Ana e o nascimento de Samuel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_217",
+    "pergunta": "Qual o nome do servo do sumo sacerdote Caifás cuja orelha direita foi cortada por Pedro no Getsêmani?",
+    "opcoes": [
+      "Malco",
+      "Marcos",
+      "Malfas",
+      "Manoá"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "João 18:10 especifica que o nome do escravo cuja orelha Pedro cortou era Malco.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_218",
+    "pergunta": "Quantos metros ou côvados tinha a altura do templo construído por Salomão conforme 1 Reis 6:2?",
+    "opcoes": [
+      "10 côvados",
+      "20 côvados",
+      "30 côvados",
+      "60 côvados"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "1 Reis 6:2 especifica que o templo tinha 60 côvados de comprimento, 20 de largura e 30 côvados de altura.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_219",
+    "pergunta": "Qual o nome das duas colunas de cobre colocadas no pórtico do Templo de Salomão?",
+    "opcoes": [
+      "Urim e Tumim",
+      "Jaquim e Boaz",
+      "Gibeão e Silo",
+      "Alfa e Ômega"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 7:21 identifica a coluna da direita como Jaquim e a da esquerda como Boaz.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_220",
+    "pergunta": "Qual rei de Judá foi atingido por uma flecha em Megido ao lutar contra o Faraó Neco do Egito?",
+    "opcoes": [
+      "Ezequias",
+      "Josias",
+      "Jeoacaz",
+      "Jeoaquim"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 23:29, 30 relata a morte do rei Josias em combate contra o Faraó Neco em Megido.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_221",
+    "pergunta": "Qual era o nome do discípulo de Tarso que instruiu Paulo antes da sua conversão (um doutor da Lei muito respeitado)?",
+    "opcoes": [
+      "Nicodemos",
+      "Gamaliel",
+      "Caifás",
+      "Ananias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 22:3 relata Paulo afirmando ter sido instruído aos pés de Gamaliel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_222",
+    "pergunta": "Qual profeta descreveu o Messias como 'um renovo do toco de Jessé' em Isaías capítulo 11?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Zacarias"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Isaías 11:1 profetiza que um ramo sairá do toco de Jessé.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_223",
+    "pergunta": "Quem era o marido da profetisa Débora citado em Juízes 4:4?",
+    "opcoes": [
+      "Baruque",
+      "Lepidote",
+      "Heber",
+      "Gideão"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 4:4 declara que Débora era esposa de Lepidote.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_224",
+    "pergunta": "Qual era o nome da cidade natal do profeta Amós nas colinas de Judá?",
+    "opcoes": [
+      "Anatote",
+      "Tecoa",
+      "Moresete",
+      "Tibe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Amós 1:1 registra que Amós era um dos criadores de ovelhas de Tecoa.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_225",
+    "pergunta": "Qual o nome do rei de Moabe que ofereceu seu próprio filho mais velho em sacrifício sobre a muralha?",
+    "opcoes": [
+      "Balaque",
+      "Mesa",
+      "Eglom",
+      "Sihon"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 3:26, 27 relata o rei Mesa de Moabe sacrificando seu primogênito sobre a muralha.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_226",
+    "pergunta": "Qual profeta profetizou que o Messias seria vendido por exatamente 30 moedas de prata e o dinheiro lançado na casa de Jeová?",
+    "opcoes": [
+      "Isaías",
+      "Miqueias",
+      "Zacarias",
+      "Malaquias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Zacarias 11:12, 13 profetiza sobre as 30 moedas de prata jogadas no tesouro do Templo.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_227",
+    "pergunta": "Quem era o rei de Tiro que enviou madeira de cedro e operários para ajudar Davi e Salomão nas construções?",
+    "opcoes": [
+      "Hiram (Hirão)",
+      "Ben-Hadade",
+      "Seraías",
+      "Achish"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 5:1-10 relata a aliança e fornecimento de madeira por Hirão, rei de Tiro.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_228",
+    "pergunta": "Qual o nome do primeiro filho de Moisés nascido em Midiã?",
+    "opcoes": [
+      "Eliézer",
+      "Gérson",
+      "Manassés",
+      "Osnazar"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Êxodo 2:22 registra que Sefora deu à luz um filho a quem Moisés chamou Gérson.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_229",
+    "pergunta": "Qual o nome do líder militar dos cananeus que foi derrotado por Débora e Baruque e morto por Jael?",
+    "opcoes": [
+      "Jabim",
+      "Sísera",
+      "Ogue",
+      "Sihon"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 4:15, 21 relata a fuga de Sísera e sua morte nas mãos de Jael com uma estaca de tenda.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_230",
+    "pergunta": "Quem foi o pai do rei Saul de Israel?",
+    "opcoes": [
+      "Abiel",
+      "Quis",
+      "Ner",
+      "Zeror"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 9:1, 2 confirma que Saul era filho de Quis, um benjaminita próspero.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_231",
+    "pergunta": "Qual o nome da festividade judaica instituída nos dias de Ester e Mordecai para comemorar a livramento dos judeus?",
+    "opcoes": [
+      "Hanucá",
+      "Purim",
+      "Shatvout",
+      "Yom Kippur"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Ester 9:26-28 registra a celebração anual dos dias de Purim.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_232",
+    "pergunta": "Em qual cidade o rei Davi reinou durante seus primeiros sete anos e meio sobre a tribo de Judá?",
+    "opcoes": [
+      "Jerusalém",
+      "Hebrom",
+      "Belém",
+      "Siquém"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 2:11 declara que Davi reinou em Hebrom sobre a casa de Judá por 7 anos e 6 meses.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_233",
+    "pergunta": "Qual profeta bíblico viu a visão dos ossos secos se cobrindo de carne e voltando à vida?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Ezequiel 37:1-10 descreve a visão do vale de ossos secos restaurados por Deus.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_234",
+    "pergunta": "Quem era o pai do apóstolo João e de seu irmão Tiago?",
+    "opcoes": [
+      "Alfeu",
+      "Zebedeu",
+      "Simão",
+      "Cleopas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 4:21 refere-se a Tiago e João como 'filhos de Zebedeu'.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_235",
+    "pergunta": "Qual o nome do local onde Abraão ia oferecer Isaque em sacrifício antes do anjo de Jeová o deter?",
+    "opcoes": [
+      "Monte Sinai",
+      "Monte Moriá",
+      "Monte Carmelo",
+      "Monte Nebo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 22:2 instrui Abraão a ir à terra de Moriá para oferecer Isaque.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_236",
+    "pergunta": "Qual profeta teve uma visão de um rolo voador medindo 20 côvados por 10 côvados em Zacarias capítulo 5?",
+    "opcoes": [
+      "Ageu",
+      "Zacarias",
+      "Malaquias",
+      "Sofonias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Zacarias 5:1, 2 descreve a visão do rolo voador com dimensões específicas.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_237",
+    "pergunta": "Qual cidade da Peréia foi o local da ressurreição do filho da viúva mencionada em Lucas 7?",
+    "opcoes": [
+      "Naim",
+      "Sicar",
+      "Betânia",
+      "Jericó"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Lucas 7:11-15 narra Jesus ressuscitando o único filho de uma viúva na cidade chamada Naim.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_238",
+    "pergunta": "Quem era o sumo sacerdote judeu quando Jesus foi julgado e levado à casa de Caifás?",
+    "opcoes": [
+      "Anás",
+      "Caifás",
+      "Ananias",
+      "Scevas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Mateus 26:57 confirma que Jesus foi levado a Caifás, o sumo sacerdote daquele ano.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_239",
+    "pergunta": "Qual o nome do governador romano da Judeia que sucedeu a Félix e perante o qual Paulo fez sua defesa antes de apelar para César?",
+    "opcoes": [
+      "Pôncio Pilatos",
+      "Porcio Festo",
+      "Sérgio Paulo",
+      "Gálio"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 24:27 e 25:1 relatam Pórcio Festo sucedendo a Félix na província da Judeia.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_240",
+    "pergunta": "Qual profeta bíblico profetizou especificamente que o Messias nasceria em Belém Éfrata?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Miqueias",
+      "Malaquias"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Miqueias 5:2 profetiza Belém Éfrata como o local de origem do governante em Israel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_241",
+    "pergunta": "Quem era o avô do rei Davi, filho de Boaz e Rute?",
+    "opcoes": [
+      "Jessé",
+      "Obede",
+      "Salmon",
+      "Ram"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Rute 4:21, 22 registra que Boaz gerou Obede, Obede gerou Jessé, e Jessé gerou Davi.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_242",
+    "pergunta": "Qual dos reis de Israel/Judá foi levado preso com ganchos para Babilônia, mas se humilhou profundamente e foi restaurado ao seu reino?",
+    "opcoes": [
+      "Jeoacaz",
+      "Manassés",
+      "Jeoaquim",
+      "Zedequias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Crônicas 33:11-13 relata a prisão, o arrependimento e a restauração do rei Manassés.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_243",
+    "pergunta": "Qual era o nome do profeta que profetizou contra Nínive declarando 'Ai da cidade de derramamento de sangue'?",
+    "opcoes": [
+      "Jonas",
+      "Naum",
+      "Sofonias",
+      "Habacuque"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Naum 3:1 profetiza a destruição de Nínive com as palavras 'Ai da cidade de derramamento de sangue'.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_244",
+    "pergunta": "Qual o nome da serva que ouviu a voz de Pedro na porta da casa de Maria após ele ter sido libertado por um anjo?",
+    "opcoes": [
+      "Rode",
+      "Lídia",
+      "Febe",
+      "Sintique"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 12:13, 14 relata que uma serva chamada Rode foi atender à porta ao ouvir Pedro bater.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_245",
+    "pergunta": "Quem era o companheiro do profeta Elias que pediu uma 'porção dupla' do seu espírito antes de Elias ser levado no furacão?",
+    "opcoes": [
+      "Geazi",
+      "Eliseu",
+      "Obadias",
+      "Micaías"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 2:9 relata Eliseu pedindo a Elias duas partes (porção dupla) do seu espírito.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_246",
+    "pergunta": "Qual profeta de Israel confrontou o rei Acabe sobre a seca profetizada de três anos e meio?",
+    "opcoes": [
+      "Elias",
+      "Eliseu",
+      "Aías",
+      "Micaías"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 17:1 relata Elias declarando a Acabe que não haveria orvalho nem chuva durante aqueles anos.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_247",
+    "pergunta": "Qual era o nome da mãe de Samuel que fez um voto de dedicá-lo como nazireu a Jeová por todos os dias da sua vida?",
+    "opcoes": [
+      "Penina",
+      "Ana",
+      "Miriã",
+      "Sefora"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 1:11 registra o voto de Ana dedicando seu futuro filho ao serviço sagrado.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_248",
+    "pergunta": "Quantas cidades de refúgio foram estabelecidas no total ao todo em Israel (em ambos os lados do rio Jordão)?",
+    "opcoes": [
+      "3",
+      "6",
+      "12",
+      "48"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Números 35:6, 14 e Josué 20:7, 8 confirmam a separação de 6 cidades de refúgio.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_249",
+    "pergunta": "Qual era o nome da esposa de Aquila, com quem Paulo trabalhou fabricando tendas em Corinto?",
+    "opcoes": [
+      "Priscila (Prisca)",
+      "Febe",
+      "Lídia",
+      "Eunice"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Atos 18:2 identifica Áquila e sua esposa Priscila em Corinto.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_250",
+    "pergunta": "Qual rei judaico derrubou a serpente de cobre (Neuste) feita por Moisés porque o povo a estava adorando idolatricamente?",
+    "opcoes": [
+      "Asa",
+      "Ezequias",
+      "Josias",
+      "Josafá"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 18:4 relata Ezequias despedaçando a serpente de cobre que recebia culto indevido.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_251",
+    "pergunta": "Qual era a tribo da qual descendia o rei Saul e o apóstolo Paulo?",
+    "opcoes": [
+      "Judá",
+      "Benjamim",
+      "Efraim",
+      "Dã"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Samuel 9:1, 2 e Filipenses 3:5 confirmam que ambos pertenciam à tribo de Benjamim.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_252",
+    "pergunta": "Quem era o pai de Matusalém que andou com o verdadeiro Deus e 'não foi mais encontrado porque Deus o tomou'?",
+    "opcoes": [
+      "Jarede",
+      "Enoque",
+      "Lameque",
+      "Sinal"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Gênesis 5:21-24 narra a história do fiel Enoque, pai de Matusalém.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_253",
+    "pergunta": "Qual o nome do local perto de Siquém onde os ossos de José foram finalmente enterrados após a conquista de Canaã?",
+    "opcoes": [
+      "Hebrom",
+      "Campo de Siquém",
+      "Macpela",
+      "Silo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Josué 24:32 relata o sepultamento dos ossos de José na pedaço de terra comprado por Jacó em Siquém.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_254",
+    "pergunta": "Qual o nome do rei arameu de Damasco que feriu o rei Jeorão de Israel e conspirou com Jeú?",
+    "opcoes": [
+      "Ben-Hadade",
+      "Hazael",
+      "Rezim",
+      "Hadadezer"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 8:13, 28 e 9:14 relatam a ascensão de Hazael e seus confrontos com os reis de Israel e Judá.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_255",
+    "pergunta": "Qual era o nome do juiz de Israel que derrotou os filisteus e serviu durante 20 anos nos dias de opressão dos filisteus?",
+    "opcoes": [
+      "Gideão",
+      "Sansão",
+      "Jefté",
+      "Ibzan"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Juízes 15:20 e 16:31 declaram que Sansão julgou a Israel por 20 anos.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_256",
+    "pergunta": "Qual profeta recebeu a ordem de andar nu e descalço durante três anos como sinal contra o Egito e a Etiópia?",
+    "opcoes": [
+      "Jeremias",
+      "Isaías",
+      "Ezequiel",
+      "Oseias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Isaías 20:2, 3 descreve a profecia dramática realizada por Isaías por ordem divina.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_257",
+    "pergunta": "Qual o nome do rei de Judá que sucedeu a Salomão e sob cujo governo o reino de Israel se dividiu em dois?",
+    "opcoes": [
+      "Jeroboão",
+      "Roboão",
+      "Abias",
+      "Asa"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 12:1, 16-20 relata o governo de Roboão e a divisão do reino em 10 tribos ao norte e 2 ao sul.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_258",
+    "pergunta": "Quem era o rei de Israel que liderou as dez tribos do norte imediatamente após a divisão do reino?",
+    "opcoes": [
+      "Roboão",
+      "Jeroboão I",
+      "Onri",
+      "Acabe"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 12:20 relata a coroação de Jeroboão I como rei sobre todo o reino do norte de Israel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_259",
+    "pergunta": "Qual profeta predisse que Salomão perderia dez tribos do seu reino entregando dez pedaços de um manto novo a Jeroboão?",
+    "opcoes": [
+      "Elias",
+      "Aías, o silonita",
+      "Semaías",
+      "Micaías"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 11:29-31 narra a ação profética de Aías rasgando sua capa nova em 12 pedaços e dando 10 a Jeroboão.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_260",
+    "pergunta": "Qual o nome do centurião encarregado de levar o apóstolo Paulo preso de Cesareia a Roma?",
+    "opcoes": [
+      "Cornélio",
+      "Júlio",
+      "Cláudio Lísias",
+      "Festo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 27:1 menciona que Paulo foi entregue a um centurião da coorte de Augusto chamado Júlio.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_261",
+    "pergunta": "Qual rei de Judá mandou assassinar o profeta Zacarias, filho do sumo sacerdote Jeoiada, no pátio da casa de Jeová?",
+    "opcoes": [
+      "Joás",
+      "Amazias",
+      "Acaz",
+      "Manassés"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Crônicas 24:20-22 relata a ingratidão do rei Joás ao mandar apedrejar Zacarias.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_262",
+    "pergunta": "Qual era o nome da mãe de Timóteo, conhecida por sua fé não fingida segundo Paulo em 2 Timóteo 1:5?",
+    "opcoes": [
+      "Lóide",
+      "Eunice",
+      "Febe",
+      "Priscila"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Timóteo 1:5 menciona a fé sincera de sua avó Lóide e de sua mãe Eunice.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_263",
+    "pergunta": "Quem era a avó de Timóteo citada por Paulo em 2 Timóteo 1:5?",
+    "opcoes": [
+      "Eunice",
+      "Lóide",
+      "Ana",
+      "Marta"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Timóteo 1:5 cita expressamente a avó de Timóteo chamada Lóide.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_264",
+    "pergunta": "Qual profeta de Israel viu Jeová num trono elevado na visão em que serafins clamavam 'Santo, santo, santo'?",
+    "opcoes": [
+      "Jeremias",
+      "Isaías",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Isaías 6:1-3 relata a visão grandiosa do templo e o cântico dos serafins.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_265",
+    "pergunta": "Qual o nome da porta de Jerusalém mencionada em Neemias 3:1 que foi reconstruída pelo sumo sacerdote Eliasibe e seus irmãos?",
+    "opcoes": [
+      "Porta do Peixe",
+      "Porta das Ovelhas",
+      "Porta do Vale",
+      "Porta do Leste"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Neemias 3:1 registra Eliasibe e os sacerdotes reconstruindo a Porta das Ovelhas.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_266",
+    "pergunta": "Qual era o nome do rei arameu de Bete-Reobe e Zobá que lutou contra Davi?",
+    "opcoes": [
+      "Ben-Hadade",
+      "Hadadezer",
+      "Hazael",
+      "Rezim"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 8:3 relata a vitória de Davi sobre Hadadezer, filho de Reobe, rei de Zobá.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_267",
+    "pergunta": "Qual rei de Moabe se aliou aos midianitas e contratou Balaão para amaldiçoar Israel?",
+    "opcoes": [
+      "Eglom",
+      "Balaque",
+      "Mesa",
+      "Sihon"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Números 22:2-6 mostra Balaque, filho de Zipor, contratando Balaão para amaldiçoar o povo.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_268",
+    "pergunta": "Quantos mil levitas foram registrados com 30 anos de idade ou mais no final do reinado de Davi conforme 1 Crônicas 23:3?",
+    "opcoes": [
+      "24.000",
+      "38.000",
+      "48.000",
+      "60.000"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Crônicas 23:3 especifica que a contagem dos levitas de 30 anos para cima foi de 38.000.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_269",
+    "pergunta": "Qual era o nome do assistente do profeta Eliseu que ficou leproso por causa de sua ganância pelas riquezas de Naamã?",
+    "opcoes": [
+      "Geazi",
+      "Hazael",
+      "Micaías",
+      "Baruque"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 5:20-27 narra a ganância de Geazi e a lepra que caiu sobre ele.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_270",
+    "pergunta": "Qual profeta menor registrou uma visão na qual viu quatro carpinteiros/artesãos que espantavam os chifres das nações?",
+    "opcoes": [
+      "Ageu",
+      "Zacarias",
+      "Malaquias",
+      "Habacuque"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Zacarias 1:18-21 descreve a visão dos quatro chifres e dos quatro artesãos.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_271",
+    "pergunta": "Qual era o nome do juiz de Israel que sucedeu a Jefté e teve 30 filhos e 30 filhas?",
+    "opcoes": [
+      "Ibzan",
+      "Elom",
+      "Abdom",
+      "Tola"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Juízes 12:8, 9 relata Ibzan de Belém julgando Israel e tendo 30 filhos e 30 filhas.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_272",
+    "pergunta": "Qual foi o primeiro rei do reino do norte (Israel) a transferir a capital para Tirza antes de Samaria ser fundada?",
+    "opcoes": [
+      "Jeroboão I",
+      "Baasa",
+      "Ela",
+      "Zimri"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 14:17 mostra a esposa de Jeroboão retornando a Tirza, nova residência real.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_273",
+    "pergunta": "Qual rei de Israel fundou a cidade de Samaria como nova capital sobre o monte comprado de Semer por dois talentos de prata?",
+    "opcoes": [
+      "Onri",
+      "Acabe",
+      "Jeú",
+      "Jeroboão II"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 16:24 narra o rei Onri comprando o monte de Samaria de Semer por dois talentos de prata.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_274",
+    "pergunta": "Qual o nome da porta de Jerusalém mencionada em Neemias 3:3 que ficava perto do mercado de peixes?",
+    "opcoes": [
+      "Porta das Ovelhas",
+      "Porta do Peixe",
+      "Porta Velha",
+      "Porta do Vale"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Neemias 3:3 registra os filhos de Hassenaá construindo a Porta do Peixe.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_275",
+    "pergunta": "Qual era o nome do comandante do exército de Davi que matou Absalão quando este ficou preso pelos cabelos num carvalho?",
+    "opcoes": [
+      "Abisai",
+      "Joabe",
+      "Benaia",
+      "Asael"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 18:14 relata Joabe cravando três dardos no coração de Absalão no carvalho.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_276",
+    "pergunta": "Quem era a esposa do rei Acabe que promoveu o culto a Baal em Samaria?",
+    "opcoes": [
+      "Atalia",
+      "Jezabel",
+      "Herodias",
+      "Gomer"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 16:31 identifica Jezabel, filha de Etbaal, rei dos sidônios, como esposa de Acabe.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_277",
+    "pergunta": "Qual profeta predisse que o Templo de Salomão seria destruído por causa da maldade de Jerusalém em Miqueias 3:12?",
+    "opcoes": [
+      "Miqueias de Moresete",
+      "Isaías",
+      "Oseias",
+      "Amós"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Miqueias 3:12 profetiza que Sião seria arada como um campo e o monte da Casa coberto de árvores.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_278",
+    "pergunta": "Qual o nome do governador romano que deixou Paulo preso por dois anos em Cesareia esperando receber dinheiro de suborno?",
+    "opcoes": [
+      "Pôncio Pilatos",
+      "Félix",
+      "Festo",
+      "Gálio"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Atos 24:26, 27 relata Félix mantendo Paulo preso por dois anos na esperança de receber suborno.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_279",
+    "pergunta": "Qual rei de Judá foi sepultado na Cidade de Davi, mas não nos túmulos dos reis, por ter abandonado a Jeová no final da vida?",
+    "opcoes": [
+      "Joás",
+      "Jeorão",
+      "Amazias",
+      "Acaz"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Crônicas 24:25 registra que Joás foi sepultado na Cidade de Davi, mas não nos sepulcros dos reis.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_280",
+    "pergunta": "Quantas bacias de bronze foram feitas por Hirão para o Templo de Salomão sobre os dez carrinhos?",
+    "opcoes": [
+      "5 bacias",
+      "10 bacias",
+      "12 bacias",
+      "20 bacias"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 7:38 descreve as dez bacias de cobre feitas para os dez carrinhos do Templo.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_281",
+    "pergunta": "Qual o nome do tio de Ester que a criou quando seus pais morreram?",
+    "opcoes": [
+      "Mordecai",
+      "Jair",
+      "Simei",
+      "Quis"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Ester 2:7 relata Mordecai criando sua prima Hadassa (Ester) como sua própria filha.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_282",
+    "pergunta": "Qual profeta teve uma visão do Senhor com um prumo na mão medindo o povo de Israel?",
+    "opcoes": [
+      "Amós",
+      "Oseias",
+      "Joel",
+      "Zacarias"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Amós 7:7, 8 relata a visão de Jeová em pé com um prumo de pedreiro na mão.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_283",
+    "pergunta": "Quem era o rei da Etiópia (Cuxe) que marchou contra o rei Asa de Judá com um exército de um milhão de homens?",
+    "opcoes": [
+      "Zerá, o etíope",
+      "Tiraca",
+      "Neco",
+      "Sisaque"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Crônicas 14:9 descreve Zerá, o etíope, marchando contra Judá com 1.000.000 de homens.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_284",
+    "pergunta": "Qual homem da tribo de Benjamim amaldiçoou e atirou pedras no rei Davi quando este fugia de Absalão?",
+    "opcoes": [
+      "Simei, filho de Gera",
+      "Seba, filho de Bicri",
+      "Aitofel",
+      "Efraim"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Samuel 16:5, 6 relata Simei, filho de Gera, atirando pedras e amaldiçoando Davi.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_285",
+    "pergunta": "Qual profetisa contemporânea do rei Josias foi consultada quando o Livro da Lei foi achado no Templo?",
+    "opcoes": [
+      "Débora",
+      "Hulda",
+      "Ana",
+      "Miriã"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Reis 22:14 mostra Hilquias e os servos indo consultar a profetisa Hulda em Jerusalém.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_286",
+    "pergunta": "Qual o nome do comandante do exército do rei Saul que mais tarde coroou Is-Bosete como rei sobre Israel?",
+    "opcoes": [
+      "Joabe",
+      "Abner, filho de Ner",
+      "Benaia",
+      "Jonatas"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 2:8, 9 relata Abner, filho de Ner, proclamando Is-Bosete rei sobre Israel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_287",
+    "pergunta": "Qual profeta registrou a promessa 'Derramarei meu espírito sobre todo tipo de carne' citada no Pentecostes?",
+    "opcoes": [
+      "Joel",
+      "Amós",
+      "Isaías",
+      "Ezequiel"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Joel 2:28 contém a profecia do derramamento do espírito santo cumprida em Atos 2:17.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_288",
+    "pergunta": "Quem era o conselheiro de Davi cuja sabedoria era considerada como a própria palavra de Deus, mas que se enforcou após seu conselho ser rejeitado por Absalão?",
+    "opcoes": [
+      "Husai",
+      "Aitofel",
+      "Zadoque",
+      "Abiathar"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "2 Samuel 16:23 e 17:23 relatam a sabedoria e o suicídio de Aitofel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_289",
+    "pergunta": "Qual o nome do monte onde o rei Saul e seus três filhos morreram em combate contra os filisteus?",
+    "opcoes": [
+      "Monte Gilboa",
+      "Monte Carmelo",
+      "Monte Hermom",
+      "Monte Tabor"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Samuel 31:1, 8 relata a queda de Saul e seus filhos no Monte Gilboa.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_290",
+    "pergunta": "Quantos sacerdotes da cidade de Nob foram chacinados por Doegue, o edomita, sob as ordens do rei Saul?",
+    "opcoes": [
+      "12 sacerdotes",
+      "70 sacerdotes",
+      "85 sacerdotes",
+      "100 sacerdotes"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "1 Samuel 22:18 relata Doegue matando 85 homens que usavam o éfode de linho.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_291",
+    "pergunta": "Qual o nome do único filho de Aimeleque que escapou do massacre em Nob e fugiu para se juntar a Davi?",
+    "opcoes": [
+      "Abiatar",
+      "Zadoque",
+      "Aías",
+      "Eli"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Samuel 22:20 relata que Abiatar, filho de Aimeleque, escapou e fugiu para se juntar a Davi.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_292",
+    "pergunta": "Qual profeta repreendeu o rei Jeorão de Judá enviando-lhe uma carta profética escrita avisando sobre sua doença fatal nas entranhas?",
+    "opcoes": [
+      "Elias",
+      "Eliseu",
+      "Isaías",
+      "Micaías"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Crônicas 21:12-15 relata a carta enviada pelo profeta Elias ao rei Jeorão.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_293",
+    "pergunta": "Qual o nome da avó materna/paterna do rei Asa de Judá que foi removida da posição de rainha-mãe por ter feito um ídolo obsceno?",
+    "opcoes": [
+      "Maaca",
+      "Atalia",
+      "Jezabel",
+      "Bate-Seba"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 15:13 relata o rei Asa depondo Maaca do posto de rainha-mãe por sua idolatria.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_294",
+    "pergunta": "Qual era o nome do sumo sacerdote que ungiu o jovem Joás como rei no Templo e mandou executar a perversa Atalia?",
+    "opcoes": [
+      "Jeoiada",
+      "Hilquias",
+      "Azarias",
+      "Aimeleque"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 11:12, 16 relata o papel decisivo do sumo sacerdote Jeoiada.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_295",
+    "pergunta": "Qual profeta menor viu uma visão de cavalos de quatro cores entre as moitas de murta no vale?",
+    "opcoes": [
+      "Zacarias",
+      "Ageu",
+      "Malaquias",
+      "Amós"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Zacarias 1:8 descreve a visão dos cavalos vermelho, baio e branco entre as murtas.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_296",
+    "pergunta": "Qual homem tentou segurar a Arca da Aliança quando os bois quase a derrubaram e foi morto por Jeová?",
+    "opcoes": [
+      "Uzá",
+      "Aió",
+      "Obede-Edom",
+      "Eleazar"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Samuel 6:6, 7 relata que Uzá estendeu a mão à Arca e foi struck morto por sua falta de respeito.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_297",
+    "pergunta": "Qual a duração total das 70 semanas proféticas de anos mencionadas em Daniel 9:24-27?",
+    "opcoes": [
+      "70 anos",
+      "490 anos",
+      "1.260 anos",
+      "2.300 anos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Daniel 9:24 profetiza 70 semanas de anos, que totalizam 490 anos literais.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_298",
+    "pergunta": "Qual rei assírio cercou Jerusalém nos dias do rei Ezequias e teve seu exército de 185.000 homens destruído por um único anjo?",
+    "opcoes": [
+      "Senaqueribe",
+      "Sargon II",
+      "Tiglaste-Pileser",
+      "Salmaneser V"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 19:35, 36 relata o anjo de Jeová matando 185.000 soldados no acampamento de Senaqueribe.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_299",
+    "pergunta": "Qual profeta teve que se casar por ordem divina com uma mulher que cometeu adultério como ilustração de Israel com Jeová?",
+    "opcoes": [
+      "Oseias",
+      "Joel",
+      "Amós",
+      "Jonas"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Oseias 1:2 e 3:1 narram a ordem dada a Oseias para ilustrar a restauração de Israel.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_300",
+    "pergunta": "Qual rei de Judá mandou construir o aqueduto/túnel de Siloé para trazer água para dentro das muralhas de Jerusalém durante o cerco assírio?",
+    "opcoes": [
+      "Ezequias",
+      "Josias",
+      "Asa",
+      "Uzias"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Reis 20:20 e 2 Crônicas 32:30 descrevem o feito de engenharia realizado pelo rei Ezequias.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_301",
+    "pergunta": "Quem foi o rei amonita que insultou os embaixadores de Davi raspando metade da barba deles e cortando suas roupas?",
+    "opcoes": [
+      "Hanum",
+      "Naás",
+      "Baalis",
+      "Tobias"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "2 Samuel 10:4 relata a afronta promovida pelo rei Hanum contra os servos de Davi.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_302",
+    "pergunta": "Qual o nome do profeta que confrontou o rei Jeroboão I em Betel e teve seu braço paralisado momentaneamente?",
+    "opcoes": [
+      "Um homem do verdadeiro Deus de Judá",
+      "Aías",
+      "Ido",
+      "Jeú"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "1 Reis 13:1-4 relata a profecia contra o altar de Betel e o milagre da mão de Jeroboão.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_303",
+    "pergunta": "Qual tribunal em Jerusalém enviou cartas para acusar os reconstrutores do templo no tempo de Artaxerxes?",
+    "opcoes": [
+      "Reum e Simsai",
+      "Tatenai e Setar-Bozenai",
+      "Sambalá e Tobias",
+      "Gessém e Asfenez"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Esdras 4:8, 9 relata a carta enviada por Reum e Simsai contra a reconstrução de Jerusalém.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_304",
+    "pergunta": "Quantos côvados media a bacia redonda de bronze conhecida como 'O Mar de Metal Fundido' de borda a borda no Templo de Salomão?",
+    "opcoes": [
+      "5 côvados",
+      "10 côvados",
+      "20 côvados",
+      "30 côvados"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "1 Reis 7:23 descreve o Mar de metal fundido medindo 10 côvados de borda a borda.",
+    "dificuldade": "dificil"
+  },
+  {
+    "id": "quiz_305",
+    "pergunta": "Qual livro profético termina com a promessa de envio do profeta Elias antes do 'grande e atemorizante dia de Jeová'?",
+    "opcoes": [
+      "Malaquias",
+      "Zacarias",
+      "Joel",
+      "Sofonias"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Malaquias 4:5, 6 encerra o Velho Testamento/Escrituras Hebraicas com a promessa do envio de Elias.",
+    "dificuldade": "dificil"
   }
 ]
