@@ -618,7 +618,7 @@
   {
     "id": "pis_045",
     "tipo": "livro",
-    "resposta": "Atos dos Apóstolos",
+    "resposta": "Atos",
     "pistas": [
       "Seu escritor foi o 'médico amado' Lucas, que também escreveu um dos Evangelhos.",
       "Narra a ascensão de Jesus ao céu e a descida do espírito santo no Pentecostes.",
@@ -627,7 +627,7 @@
       "É o único livro histórico dedicado ao começo e crescimento da congregação cristã primitiva."
     ],
     "curiosidade": "O livro de Atos dos Apóstolos (Atos 1:1) foi endereçado originalmente a um homem chamado Teófilo.",
-    "dificuldade": "dificil"
+    "dificuldade": "facil"
   },
   {
     "id": "pis_046",
@@ -3696,20 +3696,6 @@
     "dificuldade": "dificil"
   },
   {
-    "id": "pis_265",
-    "tipo": "livro",
-    "resposta": "Cântico de Salomão",
-    "pistas": [
-      "É um poema lírico de amor também conhecido como Cântico dos Cânticos.",
-      "Relata o amor inabalável entre uma jovem camponesa sulamita e seu jovem pastor.",
-      "Descreve a resistência da jovem às tentações da riqueza e cortejo do rei em seu palácio.",
-      "Exalta a fidelidade no amor declarando que 'o amor é tão forte como a morte'.",
-      "Apresenta diálogos ricos em metáforas sobre as belezas naturais e o afeto sincero."
-    ],
-    "curiosidade": "O Cântico de Salomão (Cântico de Salomão 8:6) ensina que o amor verdadeiro é uma chama indomável que nem águas abundantes podem apagar.",
-    "dificuldade": "dificil"
-  },
-  {
     "id": "pis_266",
     "tipo": "personagem",
     "resposta": "Mefibosete",
@@ -5037,7 +5023,7 @@
       "Primeiro livro da seção dos doze profetas menores na ordem do Antigo Testamento."
     ],
     "curiosidade": "O livro de Oseias (Oseias 6:6) destaca que Jeová valoriza o amor leal e o conhecimento de Deus acima de meros rituais.",
-    "dificuldade": "dificil"
+    "dificuldade": "medio"
   },
   {
     "id": "pis_361",
@@ -5586,20 +5572,6 @@
     "dificuldade": "dificil"
   },
   {
-    "id": "pis_400",
-    "tipo": "livro",
-    "resposta": "Livro de Jeremias",
-    "pistas": [
-      "Registra as intensas advertências de julgamento contra Jerusalém antes da destruição babilônica.",
-      "Ditado em grande parte ao fiel escriba Baruque pelo profeta conhecido como o 'profeta chorão'.",
-      "Contém a famosa profecia dos setenta anos de desolação para a terra de Judá e Jerusalém.",
-      "Anuncia o futuro estabelecimento de um 'novo pacto' gravado diretamente nos corações.",
-      "É um dos maiores livros proféticos do cânon das Escrituras Hebraicas."
-    ],
-    "curiosidade": "O Livro de Jeremias (Jeremias 25:11, 12) profetizou a duração exata de 70 anos para a desolação de Jerusalém sob Babilônia.",
-    "dificuldade": "dificil"
-  },
-  {
     "id": "pis_401",
     "tipo": "personagem",
     "resposta": "Eúde Juiz de Israel",
@@ -5880,37 +5852,9 @@
     "dificuldade": "dificil"
   },
   {
-    "id": "pis_421",
-    "tipo": "livro",
-    "resposta": "Livro de Esdras",
-    "pistas": [
-      "Narra o retorno do cativeiro babilônico sob o decreto do rei Ciro da Pérsia.",
-      "Descreve a reconstrução do segundo templo em Jerusalém sob liderança de Zorobabel.",
-      "Registra a oposição dos povos vizinhos que tentaram parar a obra de construção.",
-      "Apresenta a chegada de um escriba copista especializado na Lei de Moisés.",
-      "Trata da purificação espiritual do povo e do fim dos casamentos com estrangeiras pagãs."
-    ],
-    "curiosidade": "O Livro de Esdras (Esdras 7:10) destaca a importância de preparar o coração para estudar, praticar e ensinar a Lei.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_422",
-    "tipo": "livro",
-    "resposta": "Livro de Neemias",
-    "pistas": [
-      "Relata a reconstrução dos muros em ruínas de Jerusalém em apenas cinquenta e dois dias.",
-      "Seu escritor principal foi um copo-deiro real que se tornou governador de Judá.",
-      "Menciona as táticas de oposição de Sambalate, Tobias e Gesem contra os judeus.",
-      "Contém a emocionante leitura pública da Lei feita na praça perto da Porta das Águas.",
-      "Encerra os registros históricos das Escrituras Hebraicas no quinto século AEC."
-    ],
-    "curiosidade": "O Livro de Neemias (Neemias 6:15) mostra como os muros de Jerusalém foram reconstruídos com a ajuda de Deus.",
-    "dificuldade": "dificil"
-  },
-  {
     "id": "pis_423",
     "tipo": "livro",
-    "resposta": "Livro de Isaías",
+    "resposta": "Isaías",
     "pistas": [
       "Contém sessenta e seis capítulos repletos de profecias sobre o julgamento e a restauração de Israel.",
       "Registra a famosa visão da glória divina no templo com os serafins clamando 'Santo, santo, santo'.",
@@ -5919,12 +5863,12 @@
       "É frequentemente chamado de o 'Evangelho do Antigo Testamento' devido às suas profecias messiânicas."
     ],
     "curiosidade": "O Livro de Isaías (Isaías 53:5) profetizou detalhadamente o sacrifício do Messias pelas transgressões humanas.",
-    "dificuldade": "dificil"
+    "dificuldade": "medio"
   },
   {
     "id": "pis_424",
     "tipo": "livro",
-    "resposta": "Livro de Juízes",
+    "resposta": "Juízes",
     "pistas": [
       "Registra o período conturbado entre a morte de Josué e a monarquia israelita.",
       "Apresenta o ciclo repetitivo de rebelião, opressão inimiga, clamor e libertação por resgatadores.",
@@ -5933,12 +5877,12 @@
       "Encerra com a frase: 'Naqueles dias não havia rei em Israel; cada um fazia o que era certo aos seus olhos'."
     ],
     "curiosidade": "O Livro de Juízes (Juízes 2:16) mostra como Jeová levantava libertadores misericordiosos para salvar Seu povo.",
-    "dificuldade": "dificil"
+    "dificuldade": "medio"
   },
   {
     "id": "pis_425",
     "tipo": "livro",
-    "resposta": "Livro de 1 Reis",
+    "resposta": "1 Reis",
     "pistas": [
       "Inicia-se com a transição do reinado de Davi para a sabedoria e glória de Salomão.",
       "Descreve a edificação e a dedicação do glorioso primeiro templo de Jerusalém.",
@@ -5947,7 +5891,7 @@
       "Encerra-se com os reinados do perverso Acabe em Israel e do fiel Jeosafá em Judá."
     ],
     "curiosidade": "O Livro de 1 Reis (1 Reis 8:10, 11) relata a glória de Jeová enchendo o templo durante sua dedicação solene.",
-    "dificuldade": "dificil"
+    "dificuldade": "medio"
   },
   {
     "id": "pis_426",
@@ -6288,7 +6232,7 @@
   {
     "id": "pis_450",
     "tipo": "livro",
-    "resposta": "Livro de Oseias",
+    "resposta": "Oséias",
     "pistas": [
       "É o primeiro dos doze chamados profetas menores na organização do Antigo Testamento.",
       "Usa o casamento doloroso do profeta com uma mulher infiel para ilustrar a infidelidade de Israel.",
@@ -6899,104 +6843,6 @@
       "Os habitantes desta cidade foram atingidos por uma praga dolorosa de hemorroidas e pânico."
     ],
     "curiosidade": "Em Asdode (1 Samuel 5:2-4), a imagem de Dagon caiu e foi despedaçada milagrosamente diante da Arca de Jeová.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_494",
-    "tipo": "livro",
-    "resposta": "Livro de Deuteronômio",
-    "pistas": [
-      "Seu nome na versão grega das Escrituras significa 'Segunda Lei' ou 'Repetição da Lei'.",
-      "Consiste em discursos de despedida proferidos pelo grande legislador nas planícies de Moabe.",
-      "Contém a famosa declaração do Shemá: 'Escute, ó Israel: Jeová, nosso Deus, é um só Jeová'.",
-      "Adverte solenemente a nova geração prestes a entrar em Canaã a escolher a vida e a obediência.",
-      "Conclui-se com o relato da morte do profeta Moisés no Monte Nebo."
-    ],
-    "curiosidade": "O livro de Deuteronômio (Deuteronômio 6:4, 5) foi citado diretamente por Jesus ao responder qual era o maior mandamento da Lei.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_495",
-    "tipo": "livro",
-    "resposta": "Livro de Levítico",
-    "pistas": [
-      "É o terceiro livro do Pentateuco bíblico escrito por Moisés no deserto do Sinai.",
-      "Contém as leis detalhadas sobre as ofertas queimadas, de cereais, de participação em comum e pelo pecado.",
-      "Estabelece as instruções para a ordenação do sacerdócio de Arão e a santidade do povo.",
-      "Detalha os procedimentos sagrados e os sacrifícios para a celebração anual do Dia da Expiação.",
-      "Enfatiza o mandamento divino fundamental: 'Devem ser santos, porque eu, Jeová, sou santo'."
-    ],
-    "curiosidade": "O livro de Levítico (Levítico 17:11) declara a verdade bíblica fundamental de que 'a vida da carne está no sangue'.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_496",
-    "tipo": "livro",
-    "resposta": "Livro de Números",
-    "pistas": [
-      "Seu nome em hebraico é 'Bamidbar', que significa 'No Deserto'.",
-      "Registra dois grandes recenseamentos militares realizados no início e no fim da peregrinação.",
-      "Narra a jornada de quarenta anos do povo de Israel desde o Monte Sinai até às fronteiras de Canaã.",
-      "Contém os relatos da rebelião de Coré, do relatório dos doze espiões e da jumenta de Balaão.",
-      "Registra a história da serpente de bronze erguida na haste para curar os picados por serpentes."
-    ],
-    "curiosidade": "O livro de Números (Números 21:9) narra a história da serpente de bronze, usada por Jesus como símbolo de sua execução.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_497",
-    "tipo": "livro",
-    "resposta": "Livro de Josué",
-    "pistas": [
-      "Abre a seção dos livros históricos nas Escrituras Hebraicas.",
-      "Narra a travessia milagrosa do Rio Jordão e a conquista gloriosa da cidade de Jericó.",
-      "Descreve em detalhes a divisão da Terra Prometida por sortes entre as doze tribos de Israel.",
-      "Registra o milagre do sol e da lua que pararam no vale de Gibeão.",
-      "Termina com a famosa declaração: 'Eu e a minha casa serviremos a Jeová'."
-    ],
-    "curiosidade": "O livro de Josué (Josué 24:15) conclui com o renovamento solene do pacto em Siquém antes da morte de Josué.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_498",
-    "tipo": "livro",
-    "resposta": "Livro de Rute",
-    "pistas": [
-      "É um curto livro histórico ambientado na época em que os juízes governavam em Israel.",
-      "Narra a linda história de lealdade e amor entre uma jovem viúva moabita e sua sogra idosa.",
-      "Descreve o trabalho de apanhar as sobras de cevada nos campos de um parente rico em Belém.",
-      "Explica a aplicação prática da lei israelita sobre o casamento de cunhado e o resgatador de parentesco.",
-      "Conclui-se com uma genealogia preciosa que conecta a protagonista ao rei Davi."
-    ],
-    "curiosidade": "O livro de Rute (Rute 4:17) destaca como uma mulher estrangeira moabita foi incluída por fé na linhagem ancestral do Messias.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_499",
-    "tipo": "livro",
-    "resposta": "Livro dos Salmos",
-    "pistas": [
-      "É a maior coletânea de cânticos inspirados, orações e poesias das Escrituras.",
-      "Está dividido originalmente em cinco grandes livros ou seções de poemas espirituais.",
-      "Contém contribuições escritas por Davi, pelos filhos de Coré, por Asafe, Moisés e Salomão.",
-      "Inclui o Salmo vinte e três ('Jeová é o meu Pastor') e o Salmo cento e dezenove com suas estrofes alfabéticas.",
-      "É o livro mais frequentemente citado nas Escrituras Gregas Cristãs a respeito do Messias."
-    ],
-    "curiosidade": "O Livro dos Salmos (Salmo 119) contém o capítulo mais longo de toda a Bíblia, composto de 176 versículos organizados em acróstico.",
-    "dificuldade": "dificil"
-  },
-  {
-    "id": "pis_500",
-    "tipo": "livro",
-    "resposta": "Livro do Apocalipse",
-    "pistas": [
-      "Seu nome em grego significa 'Revelação' ou 'Desvendamento'.",
-      "Foi escrito pelo apóstolo João enquanto estava exilado na ilha de Patmos no final do primeiro século.",
-      "Contém mensagens dirigidas às sete congregações da província da Ásia.",
-      "Apresenta visões grandiosas de selos, trombetas, pragas e da guerra do Armagedom.",
-      "Abre o quadro da restauração do Paraíso, da Nova Jerusalém e da vitória final do Reino de Deus."
-    ],
-    "curiosidade": "O livro do Apocalipse (Apocalipse 22:20) encerra o cânon bíblico com a oração fervorosa: 'Amém! Venha, Senhor Jesus'.",
     "dificuldade": "dificil"
   }
 ]
