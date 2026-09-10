@@ -83,15 +83,14 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
 
       <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 pb-24">
         {gameState === 'CONFIG' && (
-          <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-8 pb-12">
-            <div className="text-center space-y-1">
-              <p className="text-4xl">✨</p>
-              <h2 className="text-2xl font-black text-purple-900 uppercase tracking-widest">Quiz Bíblico</h2>
-              <p className="text-sm text-purple-600">Teste seu conhecimento de múltipla escolha!</p>
+          <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-4 px-2">
+
+            <div className="text-center">
+              <h2 className="text-xl font-black text-purple-900 uppercase tracking-widest">✨ Quiz Bíblico</h2>
             </div>
 
             <div>
-              <p className="text-sm font-bold text-purple-800 mb-2">Nível de Dificuldade</p>
+              <p className="text-xs font-bold text-slate-500 uppercase mb-2">Dificuldade</p>
               <div className="flex space-x-3">
                 {([
                   { key: 'facil',   emoji: '🟢', label: 'Fácil' },
@@ -99,19 +98,19 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
                   { key: 'dificil', emoji: '🔴', label: 'Difícil' },
                 ] as const).map(({ key, emoji, label }) => (
                   <button key={key} onClick={() => setDificuldade(key)}
-                    className={`flex-1 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex flex-col items-center
+                    className={`flex-1 py-2.5 rounded-xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex items-center justify-center space-x-1.5
                       ${dificuldade === key ? 'bg-slate-200 text-purple-600' : 'bg-slate-200 text-slate-400'}`}>
-                    <span className="text-2xl mb-1">{emoji}</span>
-                    <span className="text-xs font-black">{label}</span>
+                    <span>{emoji}</span>
+                    <span>{label}</span>
                   </button>
                 ))}
               </div>
             </div>
 
             <div>
-              <label htmlFor="q-rounds" className="block text-sm font-bold text-purple-800 mb-1">Número de Perguntas</label>
-              <select id="q-rounds" value={maxQuestions} onChange={e => setMaxQuestions(Number(e.target.value))}
-                className="w-full p-4 border-2 border-purple-200 rounded-2xl focus:border-purple-500 focus:outline-none bg-white font-bold text-purple-900 shadow-sm">
+              <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Perguntas</label>
+              <select value={maxQuestions} onChange={e => setMaxQuestions(Number(e.target.value))}
+                className="w-full p-2.5 border border-purple-200 rounded-xl focus:border-purple-500 focus:outline-none bg-white text-purple-900 text-sm">
                 <option value={5}>5 Perguntas</option>
                 <option value={10}>10 Perguntas</option>
                 <option value={20}>20 Perguntas</option>
@@ -119,9 +118,8 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
               </select>
             </div>
 
-            <div className="flex-1" />
-
-            <button onClick={startGame} className="w-full py-5 bg-slate-200 text-purple-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
+            <button onClick={startGame}
+              className="w-full py-4 bg-slate-200 text-purple-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all mt-2">
               🎮 Iniciar Quiz
             </button>
           </div>

@@ -143,61 +143,48 @@ function parseBiblicalTexts(text: string) {
 
 function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxQuestions, setMaxQuestions, onStart }: any) {
   return (
-    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-8 pb-12">
-      <h2 className="text-2xl font-bold text-center text-slate-800">Selecione o Modo</h2>
-      
-      <div className="flex space-x-4">
-        <button
-          onClick={() => setIsGroup(false)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
+    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-4 px-2">
+
+      <div className="text-center">
+        <h2 className="text-xl font-black text-slate-800 uppercase tracking-widest">📖 Jogo de Revelar</h2>
+      </div>
+
+      <div className="flex space-x-3">
+        <button onClick={() => setIsGroup(false)}
+          className={`flex-1 py-3 rounded-xl font-black text-sm uppercase tracking-widest transition-all active:shadow-none active:translate-y-[4px]
             ${!isGroup
-              ? 'bg-slate-200 text-sky-600 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-              : 'bg-slate-200 text-slate-500 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-            }`}
-        >
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_4px_0_0_#38bdf8]'
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_4px_0_0_#cbd5e1]'}`}>
           👤 Solo
         </button>
-        <button
-          onClick={() => setIsGroup(true)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all
+        <button onClick={() => setIsGroup(true)}
+          className={`flex-1 py-3 rounded-xl font-black text-sm uppercase tracking-widest transition-all active:shadow-none active:translate-y-[4px]
             ${isGroup
-              ? 'bg-slate-200 text-sky-600 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-              : 'bg-slate-200 text-slate-500 shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px]'
-            }`}
-        >
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_4px_0_0_#38bdf8]'
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_4px_0_0_#cbd5e1]'}`}>
           👥 Grupo
         </button>
       </div>
 
       {isGroup && (
-        <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
-          <div>
-            <label htmlFor="team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
-            <input 
-              id="team1" name="team1"
-              type="text" value={team1} onChange={e => setTeam1(e.target.value)}
-              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
-            />
+        <div className="flex space-x-3">
+          <div className="flex-1">
+            <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Equipe 1</label>
+            <input type="text" value={team1} onChange={e => setTeam1(e.target.value)}
+              className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm" />
           </div>
-          <div>
-            <label htmlFor="team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
-            <input 
-              id="team2" name="team2"
-              type="text" value={team2} onChange={e => setTeam2(e.target.value)}
-              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
-            />
+          <div className="flex-1">
+            <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Equipe 2</label>
+            <input type="text" value={team2} onChange={e => setTeam2(e.target.value)}
+              className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm" />
           </div>
         </div>
       )}
 
-      <div className="animate-in fade-in slide-in-from-top-4 duration-300">
-        <label htmlFor="maxQuestions" className="block text-sm font-medium text-slate-700 mb-1">Número de Perguntas</label>
-        <select 
-          id="maxQuestions" name="maxQuestions"
-          value={maxQuestions} 
-          onChange={e => setMaxQuestions(Number(e.target.value))}
-          className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white"
-        >
+      <div>
+        <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Perguntas</label>
+        <select value={maxQuestions} onChange={e => setMaxQuestions(Number(e.target.value))}
+          className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm">
           <option value={10}>10 Perguntas (Rápido)</option>
           <option value={20}>20 Perguntas (Normal)</option>
           <option value={30}>30 Perguntas (Longo)</option>
@@ -205,9 +192,8 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
         </select>
       </div>
 
-      <div className="flex-1" />
-
-      <button onClick={onStart} className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
+      <button onClick={onStart}
+        className="w-full py-4 bg-slate-200 text-emerald-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all mt-2">
         🚀 Começar Jogo
       </button>
     </div>
