@@ -45,31 +45,43 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
 
       <div className="flex space-x-4">
         <button onClick={() => setIsGroup(false)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px]
-            ${!isGroup ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all active:shadow-none active:translate-y-[6px]
+            ${!isGroup 
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_6px_0_0_#38bdf8]' 
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_6px_0_0_#cbd5e1]'}`}>
           👤 Solo
         </button>
         <button onClick={() => setIsGroup(true)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px]
-            ${isGroup ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
+          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all active:shadow-none active:translate-y-[6px]
+            ${isGroup 
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_6px_0_0_#38bdf8]' 
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_6px_0_0_#cbd5e1]'}`}>
           👥 Grupo
         </button>
       </div>
 
-      {isGroup && (
-        <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
+      <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
+        {!isGroup ? (
           <div>
-            <label htmlFor="p-team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
-            <input id="p-team1" name="p-team1" type="text" value={team1} onChange={e => setTeam1(e.target.value)}
+            <label htmlFor="p-team1-solo" className="block text-sm font-medium text-slate-700 mb-1">Nome do Jogador</label>
+            <input id="p-team1-solo" name="p-team1-solo" type="text" value={team1 === 'Equipe Fé' ? 'Jogador 1' : team1} onChange={e => setTeam1(e.target.value)}
               className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
           </div>
-          <div>
-            <label htmlFor="p-team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
-            <input id="p-team2" name="p-team2" type="text" value={team2} onChange={e => setTeam2(e.target.value)}
-              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
-          </div>
-        </div>
-      )}
+        ) : (
+          <>
+            <div>
+              <label htmlFor="p-team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
+              <input id="p-team1" name="p-team1" type="text" value={team1 === 'Jogador 1' ? 'Equipe Fé' : team1} onChange={e => setTeam1(e.target.value)}
+                className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
+            </div>
+            <div>
+              <label htmlFor="p-team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
+              <input id="p-team2" name="p-team2" type="text" value={team2} onChange={e => setTeam2(e.target.value)}
+                className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
+            </div>
+          </>
+        )}
+      </div>
 
       {/* Nível de Dificuldade */}
       <div>
