@@ -179,18 +179,26 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
 
             {/* Explicação e Próximo */}
             {isAnswered && (
-              <div className="mt-6 animate-in slide-in-from-bottom-4 duration-300 bg-white rounded-3xl p-5 border-2 border-purple-100 shadow-lg">
-                <p className="text-xs font-black uppercase text-purple-600 tracking-widest mb-2">
-                  {selectedOption === perguntaAtual.resposta_correta ? 'Acertou! 🎉' : 'Errou...'}
-                </p>
-                <p className="text-sm text-slate-700 italic mb-5 leading-relaxed">
-                  {perguntaAtual.explicacao}
-                </p>
-                <button onClick={handleNext}
-                  className="w-full py-4 bg-slate-200 text-purple-600 font-black uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all">
-                  Continuar ➡️
-                </button>
-              </div>
+              <>
+                <div className="mt-6 mb-28 animate-in slide-in-from-bottom-4 duration-300 bg-white rounded-3xl p-5 border-2 border-purple-100 shadow-lg relative z-10">
+                  <p className="text-xs font-black uppercase text-purple-600 tracking-widest mb-2">
+                    {selectedOption === perguntaAtual.resposta_correta ? 'Acertou! 🎉' : 'Errou...'}
+                  </p>
+                  <p className="text-sm text-slate-700 italic leading-relaxed">
+                    {perguntaAtual.explicacao}
+                  </p>
+                </div>
+
+                {/* Dock Inferior */}
+                <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50 bg-gradient-to-t from-purple-50 via-purple-50 to-transparent pt-12">
+                  <div className="max-w-md mx-auto">
+                    <button onClick={handleNext}
+                      className="w-full py-5 bg-slate-200 text-purple-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
+                      Continuar ➡️
+                    </button>
+                  </div>
+                </div>
+              </>
             )}
           </div>
         )}
