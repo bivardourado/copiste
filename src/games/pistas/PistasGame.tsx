@@ -324,7 +324,6 @@ function GameOverScreen({ scores, teams, onRestart }: any) {
 
   return (
     <div className="flex flex-col h-full max-w-md mx-auto items-center justify-center space-y-6 pb-28">
-      <p className="text-6xl">🏆</p>
       <h2 className="text-2xl font-black text-slate-800 uppercase tracking-widest text-center">Fim de Jogo!</h2>
 
       {teams.length > 1 && (
