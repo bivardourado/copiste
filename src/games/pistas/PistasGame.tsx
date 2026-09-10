@@ -208,18 +208,55 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
 // ─── REVEALED ────────────────────────────────────────────────────────────────
 function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
   return (
-    <div className="flex flex-col h-full max-w-md mx-auto items-center justify-center space-y-6 pb-28">
-      <div className={`w-full rounded-3xl p-6 text-center space-y-3 ${acertou ? 'bg-amber-400 border-2 border-amber-500' : 'bg-slate-100 border-2 border-slate-800'}`}>
-        <p className="text-5xl">{acertou ? '🎉' : '😅'}</p>
-        <p className="text-xs font-black uppercase tracking-widest text-slate-500">{acertou ? 'Correto!' : 'Era...'}</p>
-        <h2 className="text-3xl font-black text-slate-900">{carta.resposta}</h2>
-        {acertou && <p className="text-2xl font-black text-emerald-700">+{pontos} pts</p>}
-      </div>
-      <div className="w-full bg-white/80 text-slate-800 rounded-2xl p-4 border border-amber-100">
-        <p className="text-xs font-black text-amber-600 mb-1">💡 Curiosidade</p>
-        <p className="text-sm text-slate-700 italic leading-relaxed">{carta.curiosidade}</p>
+    <div className="flex flex-col h-full max-w-md mx-auto items-stretch justify-center space-y-4 pb-28 px-4">
+      
+      {/* Card Principal da Resposta */}
+      <div className={`relative w-full rounded-[2rem] p-8 text-center overflow-hidden transition-all duration-500 transform animate-in zoom-in-95
+        ${acertou 
+          ? 'bg-gradient-to-br from-amber-300 via-amber-400 to-amber-500 shadow-[0_20px_40px_-15px_rgba(251,191,36,0.6)] border-2 border-amber-200' 
+          : 'bg-gradient-to-br from-slate-100 to-slate-200 shadow-xl border border-slate-300'
+        }`}
+      >
+        {/* Efeito de Brilho (Shine) no fundo */}
+        {acertou && <div className="absolute -top-20 -right-20 w-48 h-48 bg-white/40 blur-3xl rounded-full" />}
+        {acertou && <div className="absolute -bottom-20 -left-20 w-48 h-48 bg-amber-200/40 blur-3xl rounded-full" />}
+
+        <div className="relative z-10 flex flex-col items-center space-y-4">
+          {/* Ícone 3D flutuante */}
+          <div className="text-6xl drop-shadow-md animate-bounce mb-2">
+            {acertou ? '🎉' : '😅'}
+          </div>
+          
+          <p className={`text-xs font-black uppercase tracking-[0.2em] ${acertou ? 'text-amber-800' : 'text-slate-500'}`}>
+            {acertou ? 'Resposta Correta!' : 'A Resposta Era...'}
+          </p>
+          
+          <h2 className={`text-4xl font-black tracking-tight leading-none ${acertou ? 'text-amber-950' : 'text-slate-800'}`}>
+            {carta.resposta}
+          </h2>
+          
+          {acertou && (
+            <div className="mt-4 bg-white/30 backdrop-blur-md px-6 py-2 rounded-full border border-white/40 shadow-sm inline-flex items-center space-x-2">
+              <span className="text-2xl font-black text-emerald-700">+{pontos}</span>
+              <span className="text-sm font-bold text-emerald-800 uppercase tracking-widest mt-1">pontos</span>
+            </div>
+          )}
+        </div>
       </div>
 
+      {/* Card da Curiosidade */}
+      <div className="w-full bg-white/90 backdrop-blur-md rounded-3xl p-6 border-2 border-sky-100 shadow-lg relative overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
+        <div className="absolute top-0 left-0 w-2 h-full bg-sky-400 rounded-l-3xl" />
+        <div className="flex items-center space-x-2 mb-3">
+          <span className="bg-sky-100 text-sky-600 p-1.5 rounded-lg"><Lightbulb size={18} strokeWidth={3} /></span>
+          <p className="text-xs font-black text-sky-600 uppercase tracking-widest">Você Sabia?</p>
+        </div>
+        <p className="text-slate-700 font-medium leading-relaxed">
+          {carta.curiosidade}
+        </p>
+      </div>
+
+      {/* Dock Inferior */}
       <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
         <div className="max-w-md mx-auto">
           <button onClick={onNext}
