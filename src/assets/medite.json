@@ -1,0 +1,33 @@
+[
+  {
+    "livro": "Gênesis",
+    "capitulo": 1,
+    "perguntas": [
+      {
+        "pergunta": "O que Deus criou no primeiro dia?",
+        "resposta_esperada": "Deus criou a luz e a separou das trevas, chamando a luz de Dia e as trevas de Noite.",
+        "versiculo_referencia": "Gênesis 1:3-5"
+      },
+      {
+        "pergunta": "O que Deus fez no segundo dia?",
+        "resposta_esperada": "Fez o firmamento (expansão) para separar as águas debaixo das águas de cima, e o chamou de Céu.",
+        "versiculo_referencia": "Gênesis 1:6-8"
+      },
+      {
+        "pergunta": "Quais luzeiros foram criados no quarto dia?",
+        "resposta_esperada": "O luzeiro maior (sol) para governar o dia, o menor (lua) para a noite, e as estrelas.",
+        "versiculo_referencia": "Gênesis 1:16"
+      },
+      {
+        "pergunta": "Qual foi a ordem dada aos animais marinhos e aves no quinto dia?",
+        "resposta_esperada": "Que fossem fecundos, se multiplicassem e enchessem as águas e a terra.",
+        "versiculo_referencia": "Gênesis 1:22"
+      },
+      {
+        "pergunta": "Qual foi a coroa da criação no sexto dia, e como foram criados?",
+        "resposta_esperada": "O ser humano, criado à imagem e semelhança de Deus, como homem e mulher.",
+        "versiculo_referencia": "Gênesis 1:26-27"
+      }
+    ]
+  }
+]

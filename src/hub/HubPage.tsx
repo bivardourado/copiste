@@ -69,6 +69,19 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
             <p className="text-sm text-slate-500">Múltipla escolha clássica</p>
           </div>
         </button>
+
+        <button
+          onClick={() => onSelectGame('medite')}
+          className="flex items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md hover:border-emerald-300 transition-all active:scale-95 group"
+        >
+          <div className="bg-emerald-100 text-emerald-600 p-3 rounded-xl group-hover:bg-emerald-500 group-hover:text-white transition-colors">
+            <BookOpen size={28} />
+          </div>
+          <div className="ml-4 text-left">
+            <h2 className="text-xl font-bold text-slate-800">Medite na Bíblia</h2>
+            <p className="text-sm text-slate-500">Reflita capítulo por capítulo</p>
+          </div>
+        </button>
       </div>
 
       {installPrompt && !installed && (
