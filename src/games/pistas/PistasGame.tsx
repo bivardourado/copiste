@@ -206,9 +206,9 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
 }
 
 // ─── SHOW ANSWER ─────────────────────────────────────────────────────────────
-function ShowAnswerScreen({ carta, pontos, onAcertou, onErrou }: any) {
+function ShowAnswerScreen({ carta, pontos, onAcertou, onErrou, onVoltar }: any) {
   return (
-    <div className="flex flex-col h-full max-w-md mx-auto items-stretch justify-center space-y-4 pb-28 px-4">
+    <div className="flex flex-col h-full max-w-md mx-auto items-stretch justify-center space-y-4 pb-36 px-4">
       
       {/* Card Principal da Resposta (Neutro, revelando a resposta) */}
       <div className="relative w-full rounded-[2rem] p-8 text-center overflow-hidden transition-all duration-500 transform animate-in zoom-in-95 bg-gradient-to-br from-sky-100 to-sky-200 shadow-xl border border-sky-300">
@@ -227,19 +227,23 @@ function ShowAnswerScreen({ carta, pontos, onAcertou, onErrou }: any) {
         </div>
       </div>
 
-      {/* Dock Inferior com Acertou/Errou */}
+      {/* Dock Inferior com Acertou/Errou/Voltar */}
       <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
-        <div className="max-w-md mx-auto">
-          <p className="text-center text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">A equipe acertou?</p>
+        <div className="max-w-md mx-auto space-y-3">
+          <button onClick={onVoltar}
+            className="w-full py-4 bg-slate-200 text-sky-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+            <span>↩ Voltar às Pistas</span>
+          </button>
+          
           <div className="flex space-x-3">
             <button onClick={onErrou}
-              className="flex-1 py-4 bg-slate-200 text-rose-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
-              <XCircle strokeWidth={3} size={24} />
-              <span>Errou</span>
+              className="flex-1 py-4 bg-slate-200 text-rose-600 font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              <XCircle strokeWidth={3} size={20} />
+              <span>Ninguém</span>
             </button>
             <button onClick={onAcertou}
-              className="flex-1 py-4 bg-slate-200 text-emerald-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
-              <CheckCircle strokeWidth={3} size={24} />
+              className="flex-1 py-4 bg-slate-200 text-emerald-600 font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              <CheckCircle strokeWidth={3} size={20} />
               <span>Acertou!</span>
             </button>
           </div>
@@ -384,6 +388,11 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
     setGameState('SHOW_ANSWER')
   }
 
+  const handleVoltar = () => {
+    setTurnIndex(prev => prev + 1)
+    setGameState('PLAYING')
+  }
+
   const handleAcertou = () => {
     const pontos = PONTOS_POR_PISTA[pistasVisiveis - 1] ?? 50
     setScores(prev => ({ ...prev, [currentTeam]: (prev[currentTeam] ?? 0) + pontos }))
@@ -450,6 +459,7 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
             pontos={PONTOS_POR_PISTA[pistasVisiveis - 1] ?? 50}
             onAcertou={handleAcertou}
             onErrou={handleErrou}
+            onVoltar={handleVoltar}
           />
         )}
         {gameState === 'REVEALED' && carta && (
