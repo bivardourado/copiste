@@ -293,7 +293,7 @@ function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
         <div className="max-w-md mx-auto">
           <button onClick={onNext}
             className="w-full py-5 bg-slate-200 text-sky-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
-            Próxima Carta ➡️
+            Próxima Carta
           </button>
         </div>
       </div>

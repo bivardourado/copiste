@@ -194,7 +194,7 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
                   <div className="max-w-md mx-auto">
                     <button onClick={handleNext}
                       className="w-full py-5 bg-slate-200 text-purple-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
-                      Continuar ➡️
+                      Continuar
                     </button>
                   </div>
                 </div>
