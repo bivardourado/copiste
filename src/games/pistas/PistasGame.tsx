@@ -318,12 +318,12 @@ function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
 }
 
 // ─── GAME OVER ───────────────────────────────────────────────────────────────
-function GameOverScreen({ scores, teams, onRestart }: any) {
+function GameOverScreen({ scores, teams, onRestart, onBackToHub }: any) {
   const sorted = [...teams].sort((a, b) => scores[b] - scores[a])
   const winner = sorted[0]
 
   return (
-    <div className="flex flex-col h-full max-w-md mx-auto items-center justify-center space-y-6 pb-28">
+    <div className="flex flex-col h-full max-w-md mx-auto items-center justify-center space-y-6 pb-36">
       <h2 className="text-2xl font-black text-slate-800 uppercase tracking-widest text-center">Fim de Jogo!</h2>
 
       {teams.length > 1 && (
@@ -346,11 +346,15 @@ function GameOverScreen({ scores, teams, onRestart }: any) {
         ))}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
-        <div className="max-w-md mx-auto">
+      <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50 space-y-3">
+        <div className="max-w-md mx-auto space-y-3">
           <button onClick={onRestart}
-            className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[8px] transition-all">
+            className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
             🔄 Jogar Novamente
+          </button>
+          <button onClick={onBackToHub}
+            className="w-full py-4 bg-slate-200 text-slate-500 font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] transition-all">
+            ← Outros Jogos
           </button>
         </div>
       </div>
@@ -486,6 +490,7 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
             scores={scores}
             teams={teams}
             onRestart={() => setGameState('CONFIG')}
+            onBackToHub={onBackToHub}
           />
         )}
       </main>
