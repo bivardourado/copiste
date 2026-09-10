@@ -136,7 +136,6 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
         ) : (
           teams.map((t: string) => (
             <div key={t} className={`flex flex-col items-center transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
-              <span className="text-[9px] uppercase tracking-widest text-slate-500 font-bold">Equipe</span>
               <span className="text-[11px] uppercase font-black text-slate-700 text-center max-w-[90px] leading-tight">{t}</span>
               <span className={`text-2xl font-black ${t === currentTeam ? 'text-amber-400' : 'text-slate-500'}`}>
                 {scores[t]} <span className="text-xs font-bold opacity-50">pts</span>
