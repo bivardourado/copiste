@@ -11,7 +11,7 @@ type Pista = {
   dificuldade?: string
 }
 
-type GameState = 'CONFIG' | 'PLAYING' | 'REVEALED' | 'GAMEOVER'
+type GameState = 'CONFIG' | 'PLAYING' | 'SHOW_ANSWER' | 'REVEALED' | 'GAMEOVER'
 
 const PONTOS_POR_PISTA = [500, 300, 200, 100, 50]
 
@@ -23,10 +23,10 @@ const tipoLabel: Record<string, string> = {
 }
 
 const tipoColor: Record<string, string> = {
-  personagem: 'bg-sky-500',
-  evento: 'bg-slate-9500',
-  lugar: 'bg-emerald-500',
-  livro: 'bg-purple-500',
+  personagem: 'bg-emerald-100 text-emerald-800',
+  evento: 'bg-amber-100 text-amber-800',
+  lugar: 'bg-sky-100 text-sky-800',
+  livro: 'bg-purple-100 text-purple-800',
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -112,7 +112,7 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
 }
 
 // ─── PLAYING ─────────────────────────────────────────────────────────────────
-function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, currentIndex, total, onMaisPista, onAcertou, onErrou, onEndGame }: any) {
+function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, currentIndex, total, onMaisPista, onReveal, onEndGame }: any) {
   const pontosAtual = PONTOS_POR_PISTA[pistasVisiveis - 1] ?? 50
   const todasReveladas = pistasVisiveis >= carta.pistas.length
 
@@ -182,20 +182,68 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
         <div className="max-w-md mx-auto space-y-3">
           {!todasReveladas && (
             <button onClick={onMaisPista}
-              className="w-full py-3 bg-sky-500 text-white font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              className="w-full py-3 bg-sky-500 text-white font-black text-sm uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
               <Eye size={18} />
               <span>+ Revelar Pista ({carta.pistas.length - pistasVisiveis} restantes)</span>
             </button>
           )}
+          <button onClick={onReveal}
+            className="w-full py-5 bg-slate-200 text-sky-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all flex items-center justify-center">
+            Ver Resposta
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// ─── SHOW ANSWER ─────────────────────────────────────────────────────────────
+function ShowAnswerScreen({ carta, pontos, onAcertou, onErrou }: any) {
+  return (
+    <div className="flex flex-col h-full max-w-md mx-auto items-stretch justify-center space-y-4 pb-28 px-4">
+      
+      {/* Card Principal da Resposta (Neutro, revelando a resposta) */}
+      <div className="relative w-full rounded-[2rem] p-8 text-center overflow-hidden transition-all duration-500 transform animate-in zoom-in-95 bg-gradient-to-br from-sky-100 to-sky-200 shadow-xl border border-sky-300">
+        <div className="relative z-10 flex flex-col items-center space-y-4">
+          <div className="text-6xl drop-shadow-md mb-2">👀</div>
+          <p className="text-xs font-black uppercase tracking-[0.2em] text-sky-700">
+            A Resposta É...
+          </p>
+          <h2 className="text-4xl font-black tracking-tight leading-none text-sky-950">
+            {carta.resposta}
+          </h2>
+          
+          <div className="mt-4 bg-white/50 backdrop-blur-md px-6 py-2 rounded-full border border-sky-300 shadow-sm inline-flex items-center space-x-2">
+            <span className="text-sm font-bold text-sky-800 uppercase tracking-widest">Vale {pontos} pts</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Card da Curiosidade */}
+      <div className="w-full bg-white/90 backdrop-blur-md rounded-3xl p-6 border-2 border-sky-100 shadow-lg relative overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
+        <div className="absolute top-0 left-0 w-2 h-full bg-sky-400 rounded-l-3xl" />
+        <div className="flex items-center space-x-2 mb-3">
+          <span className="bg-sky-100 text-sky-600 p-1.5 rounded-lg"><Lightbulb size={18} strokeWidth={3} /></span>
+          <p className="text-xs font-black text-sky-600 uppercase tracking-widest">Você Sabia?</p>
+        </div>
+        <p className="text-slate-700 font-medium leading-relaxed">
+          {carta.curiosidade}
+        </p>
+      </div>
+
+      {/* Dock Inferior com Acertou/Errou */}
+      <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
+        <div className="max-w-md mx-auto">
+          <p className="text-center text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">A equipe acertou?</p>
           <div className="flex space-x-3">
             <button onClick={onErrou}
-              className="flex-1 py-4 bg-slate-200 text-rose-600 border-none font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
-              <XCircle strokeWidth={3} size={20} />
+              className="flex-1 py-4 bg-slate-200 text-rose-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              <XCircle strokeWidth={3} size={24} />
               <span>Errou</span>
             </button>
             <button onClick={onAcertou}
-              className="flex-1 py-4 bg-slate-200 text-emerald-600 font-black text-base uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-[0_0px_0_0_#94a3b8] active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
-              <CheckCircle strokeWidth={3} size={20} />
+              className="flex-1 py-4 bg-slate-200 text-emerald-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all flex items-center justify-center space-x-2">
+              <CheckCircle strokeWidth={3} size={24} />
               <span>Acertou!</span>
             </button>
           </div>
@@ -243,6 +291,7 @@ function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
           )}
         </div>
       </div>
+
 
       {/* Card da Curiosidade */}
       <div className="w-full bg-white/90 backdrop-blur-md rounded-3xl p-6 border-2 border-sky-100 shadow-lg relative overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
@@ -348,6 +397,10 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
   const currentTeam = teams[turnIndex % teams.length]
   const carta = cartas[currentIndex]
 
+  const handleVerResposta = () => {
+    setGameState('SHOW_ANSWER')
+  }
+
   const handleAcertou = () => {
     const pontos = PONTOS_POR_PISTA[pistasVisiveis - 1] ?? 50
     setScores(prev => ({ ...prev, [currentTeam]: (prev[currentTeam] ?? 0) + pontos }))
@@ -404,9 +457,16 @@ export function PistasGame({ onBackToHub }: { onBackToHub: () => void }) {
             currentIndex={currentIndex}
             total={cartas.length}
             onMaisPista={() => setPistasVisiveis(prev => Math.min(prev + 1, carta.pistas.length))}
+            onReveal={handleVerResposta}
+            onEndGame={() => setGameState('GAMEOVER')}
+          />
+        )}
+        {gameState === 'SHOW_ANSWER' && carta && (
+          <ShowAnswerScreen
+            carta={carta}
+            pontos={PONTOS_POR_PISTA[pistasVisiveis - 1] ?? 50}
             onAcertou={handleAcertou}
             onErrou={handleErrou}
-            onEndGame={() => setGameState('GAMEOVER')}
           />
         )}
         {gameState === 'REVEALED' && carta && (
