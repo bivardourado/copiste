@@ -36,77 +36,79 @@ function shuffle<T>(arr: T[]): T[] {
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, maxRounds, setMaxRounds, dificuldade, setDificuldade, onStart }: any) {
   return (
-    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-6 pb-12">
-      <div className="text-center space-y-1">
-        <p className="text-4xl">🕵️</p>
-        <h2 className="text-2xl font-black text-slate-800 uppercase tracking-widest">Jogo das Pistas</h2>
-        <p className="text-sm text-slate-500">Quanto menos pistas usar, mais pontos!</p>
+    <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-4 px-2">
+
+      {/* Título compacto */}
+      <div className="text-center">
+        <h2 className="text-xl font-black text-slate-800 uppercase tracking-widest">🕵️ Jogo das Pistas</h2>
       </div>
 
-      <div className="flex space-x-4">
+      {/* Solo / Grupo */}
+      <div className="flex space-x-3">
         <button onClick={() => setIsGroup(false)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all active:shadow-none active:translate-y-[6px]
-            ${!isGroup 
-              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_6px_0_0_#38bdf8]' 
-              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_6px_0_0_#cbd5e1]'}`}>
+          className={`flex-1 py-3 rounded-xl font-black text-sm uppercase tracking-widest transition-all active:shadow-none active:translate-y-[4px]
+            ${!isGroup
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_4px_0_0_#38bdf8]'
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_4px_0_0_#cbd5e1]'}`}>
           👤 Solo
         </button>
         <button onClick={() => setIsGroup(true)}
-          className={`flex-1 py-4 rounded-2xl font-black text-base uppercase tracking-widest transition-all active:shadow-none active:translate-y-[6px]
-            ${isGroup 
-              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_6px_0_0_#38bdf8]' 
-              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_6px_0_0_#cbd5e1]'}`}>
+          className={`flex-1 py-3 rounded-xl font-black text-sm uppercase tracking-widest transition-all active:shadow-none active:translate-y-[4px]
+            ${isGroup
+              ? 'bg-white text-sky-600 border-2 border-sky-400 shadow-[0_4px_0_0_#38bdf8]'
+              : 'bg-slate-100 text-slate-400 border-2 border-transparent shadow-[0_4px_0_0_#cbd5e1]'}`}>
           👥 Grupo
         </button>
       </div>
 
-      <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
+      {/* Nomes */}
+      <div className="space-y-2">
         {!isGroup ? (
           <div>
-            <label htmlFor="p-team1-solo" className="block text-sm font-medium text-slate-700 mb-1">Nome do Jogador</label>
-            <input id="p-team1-solo" name="p-team1-solo" type="text" value={team1 === 'Equipe Fé' ? 'Jogador 1' : team1} onChange={e => setTeam1(e.target.value)}
-              className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
+            <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Nome do Jogador</label>
+            <input type="text" value={team1 === 'Equipe Fé' ? 'Jogador 1' : team1} onChange={e => setTeam1(e.target.value)}
+              className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm" />
           </div>
         ) : (
-          <>
-            <div>
-              <label htmlFor="p-team1" className="block text-sm font-medium text-slate-700 mb-1">Equipe 1</label>
-              <input id="p-team1" name="p-team1" type="text" value={team1 === 'Jogador 1' ? 'Equipe Fé' : team1} onChange={e => setTeam1(e.target.value)}
-                className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
+          <div className="flex space-x-3">
+            <div className="flex-1">
+              <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Equipe 1</label>
+              <input type="text" value={team1 === 'Jogador 1' ? 'Equipe Fé' : team1} onChange={e => setTeam1(e.target.value)}
+                className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm" />
             </div>
-            <div>
-              <label htmlFor="p-team2" className="block text-sm font-medium text-slate-700 mb-1">Equipe 2</label>
-              <input id="p-team2" name="p-team2" type="text" value={team2} onChange={e => setTeam2(e.target.value)}
-                className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800" />
+            <div className="flex-1">
+              <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Equipe 2</label>
+              <input type="text" value={team2} onChange={e => setTeam2(e.target.value)}
+                className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm" />
             </div>
-          </>
+          </div>
         )}
       </div>
 
-      {/* Nível de Dificuldade */}
+      {/* Dificuldade */}
       <div>
-        <p className="text-sm font-medium text-slate-700 mb-2">Nível de Dificuldade</p>
+        <p className="text-xs font-bold text-slate-500 uppercase mb-2">Dificuldade</p>
         <div className="flex space-x-3">
           {([
-            { key: 'facil',   emoji: '🟢', label: 'Fácil',   sub: 'Histórias conhecidas' },
-            { key: 'medio',   emoji: '🟡', label: 'Médio',   sub: 'Nível intermediário'  },
-            { key: 'dificil', emoji: '🔴', label: 'Difícil', sub: 'Pouco conhecidas'    },
-          ] as const).map(({ key, emoji, label, sub }) => (
+            { key: 'facil',   emoji: '🟢', label: 'Fácil'   },
+            { key: 'medio',   emoji: '🟡', label: 'Médio'   },
+            { key: 'dificil', emoji: '🔴', label: 'Difícil' },
+          ] as const).map(({ key, emoji, label }) => (
             <button key={key} onClick={() => setDificuldade(key)}
-              className={`flex-1 py-3 rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex flex-col items-center
+              className={`flex-1 py-2.5 rounded-xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_4px_0_0_#94a3b8] active:shadow-none active:translate-y-[4px] flex items-center justify-center space-x-1.5
                 ${dificuldade === key ? 'bg-slate-200 text-sky-600' : 'bg-slate-200 text-slate-400'}`}>
-              <span className="text-2xl mb-1">{emoji}</span>
-              <span className="text-xs font-black">{label}</span>
-              <span className="text-[9px] normal-case font-normal opacity-70 mt-0.5 text-center leading-tight">{sub}</span>
+              <span>{emoji}</span>
+              <span>{label}</span>
             </button>
           ))}
         </div>
       </div>
 
+      {/* Rodadas */}
       <div>
-        <label htmlFor="p-rounds" className="block text-sm font-medium text-slate-700 mb-1">Número de Rodadas</label>
-        <select id="p-rounds" name="p-rounds" value={maxRounds} onChange={e => setMaxRounds(Number(e.target.value))}
-          className="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800">
+        <label className="block text-xs font-bold text-slate-500 uppercase mb-1">Rodadas</label>
+        <select value={maxRounds} onChange={e => setMaxRounds(Number(e.target.value))}
+          className="w-full p-2.5 border border-slate-300 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none bg-white text-slate-800 text-sm">
           <option value={5}>5 Rodadas (Rápido)</option>
           <option value={10}>10 Rodadas (Normal)</option>
           <option value={15}>15 Rodadas (Longo)</option>
@@ -114,9 +116,9 @@ function ConfigScreen({ isGroup, setIsGroup, team1, setTeam1, team2, setTeam2, m
         </select>
       </div>
 
-      <div className="flex-1" />
-
-      <button onClick={onStart} className="w-full py-5 bg-slate-200 text-emerald-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
+      {/* Botão */}
+      <button onClick={onStart}
+        className="w-full py-4 bg-slate-200 text-emerald-600 font-black text-lg uppercase tracking-widest rounded-2xl shadow-[0_6px_0_0_#94a3b8] active:shadow-none active:translate-y-[6px] transition-all mt-2">
         🚀 Começar Jogo
       </button>
     </div>
