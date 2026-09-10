@@ -1,6 +1,28 @@
-import { BookOpen, Search, CheckSquare } from 'lucide-react'
+import { BookOpen, Search, CheckSquare, Download } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
 export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => void }) {
+  const [installPrompt, setInstallPrompt] = useState<any>(null)
+  const [installed, setInstalled] = useState(false)
+
+  useEffect(() => {
+    const handler = (e: any) => {
+      e.preventDefault()
+      setInstallPrompt(e)
+    }
+    window.addEventListener('beforeinstallprompt', handler)
+    window.addEventListener('appinstalled', () => setInstalled(true))
+    return () => window.removeEventListener('beforeinstallprompt', handler)
+  }, [])
+
+  const handleInstall = async () => {
+    if (!installPrompt) return
+    installPrompt.prompt()
+    const { outcome } = await installPrompt.userChoice
+    if (outcome === 'accepted') setInstalled(true)
+    setInstallPrompt(null)
+  }
+
   return (
     <div className="flex flex-col items-center justify-center h-full p-6 space-y-8">
       <div className="text-center space-y-2">
@@ -48,6 +70,16 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
           </div>
         </button>
       </div>
+
+      {installPrompt && !installed && (
+        <button
+          onClick={handleInstall}
+          className="mt-8 flex items-center justify-center space-x-2 px-6 py-3 bg-slate-900 text-white rounded-full font-bold uppercase tracking-widest text-sm shadow-lg hover:bg-slate-800 transition-colors active:scale-95"
+        >
+          <Download size={18} />
+          <span>Instalar App</span>
+        </button>
+      )}
     </div>
   )
 }
