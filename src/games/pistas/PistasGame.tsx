@@ -219,18 +219,6 @@ function ShowAnswerScreen({ carta, pontos, onAcertou, onErrou }: any) {
         </div>
       </div>
 
-      {/* Card da Curiosidade */}
-      <div className="w-full bg-white/90 backdrop-blur-md rounded-3xl p-6 border-2 border-sky-100 shadow-lg relative overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
-        <div className="absolute top-0 left-0 w-2 h-full bg-sky-400 rounded-l-3xl" />
-        <div className="flex items-center space-x-2 mb-3">
-          <span className="bg-sky-100 text-sky-600 p-1.5 rounded-lg"><Lightbulb size={18} strokeWidth={3} /></span>
-          <p className="text-xs font-black text-sky-600 uppercase tracking-widest">Você Sabia?</p>
-        </div>
-        <p className="text-slate-700 font-medium leading-relaxed">
-          {carta.curiosidade}
-        </p>
-      </div>
-
       {/* Dock Inferior com Acertou/Errou */}
       <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50">
         <div className="max-w-md mx-auto">
@@ -290,19 +278,6 @@ function RevealedScreen({ carta, acertou, pontos, onNext }: any) {
             </div>
           )}
         </div>
-      </div>
-
-
-      {/* Card da Curiosidade */}
-      <div className="w-full bg-white/90 backdrop-blur-md rounded-3xl p-6 border-2 border-sky-100 shadow-lg relative overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
-        <div className="absolute top-0 left-0 w-2 h-full bg-sky-400 rounded-l-3xl" />
-        <div className="flex items-center space-x-2 mb-3">
-          <span className="bg-sky-100 text-sky-600 p-1.5 rounded-lg"><Lightbulb size={18} strokeWidth={3} /></span>
-          <p className="text-xs font-black text-sky-600 uppercase tracking-widest">Você Sabia?</p>
-        </div>
-        <p className="text-slate-700 font-medium leading-relaxed">
-          {carta.curiosidade}
-        </p>
       </div>
 
       {/* Dock Inferior */}
