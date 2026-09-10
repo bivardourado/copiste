@@ -4,29 +4,1548 @@
     "capitulo": 1,
     "perguntas": [
       {
-        "pergunta": "O que Deus criou no primeiro dia?",
-        "resposta_esperada": "Deus criou a luz e a separou das trevas, chamando a luz de Dia e as trevas de Noite.",
-        "versiculo_referencia": "Gênesis 1:3-5"
+        "pergunta": "Como o texto bíblico descreve o estado inicial da terra antes dos dias criativos e a ação inicial de Deus sobre ela?",
+        "resposta_esperada": "A terra era vazia e deserta, havia escuridão sobre as águas profundas, e a força ativa de Deus movia-se sobre as águas.",
+        "versiculo_referencia": "Gênesis 1:2"
       },
       {
-        "pergunta": "O que Deus fez no segundo dia?",
-        "resposta_esperada": "Fez o firmamento (expansão) para separar as águas debaixo das águas de cima, e o chamou de Céu.",
+        "pergunta": "O que Deus criou no segundo dia para fazer separação entre as águas?",
+        "resposta_esperada": "Deus criou uma vastidão entre as águas para separar as águas abaixo da vastidão das águas acima dela, chamando a vastidão de 'céu'.",
         "versiculo_referencia": "Gênesis 1:6-8"
       },
       {
-        "pergunta": "Quais luzeiros foram criados no quarto dia?",
-        "resposta_esperada": "O luzeiro maior (sol) para governar o dia, o menor (lua) para a noite, e as estrelas.",
-        "versiculo_referencia": "Gênesis 1:16"
+        "pergunta": "Por que Deus fez os dois grandes luzeiros e as estrelas no quarto dia da criação?",
+        "resposta_esperada": "Para fazerem separação entre o dia e a noite, servirem de sinais para marcar épocas, dias e anos, e iluminarem a terra, dominando o dia e a noite.",
+        "versiculo_referencia": "Gênesis 1:14-18"
       },
       {
-        "pergunta": "Qual foi a ordem dada aos animais marinhos e aves no quinto dia?",
-        "resposta_esperada": "Que fossem fecundos, se multiplicassem e enchessem as águas e a terra.",
-        "versiculo_referencia": "Gênesis 1:22"
+        "pergunta": "Qual foi a comissão dada por Deus aos primeiros seres humanos criados no sexto dia?",
+        "resposta_esperada": "Deus os abençoou e lhes disse para terem filhos, tornarem-se muitos, encherem e dominarem a terra, além de terem domínio sobre os peixes, criaturas voadoras e animais terrestres.",
+        "versiculo_referencia": "Gênesis 1:27-28"
       },
       {
-        "pergunta": "Qual foi a coroa da criação no sexto dia, e como foram criados?",
-        "resposta_esperada": "O ser humano, criado à imagem e semelhança de Deus, como homem e mulher.",
-        "versiculo_referencia": "Gênesis 1:26-27"
+        "pergunta": "Qual foi a provisão dada por Deus como alimento para os humanos e para os animais terrestres no momento da criação?",
+        "resposta_esperada": "Deus deu toda planta que dá semente e toda árvore frutífera como alimento para os humanos, e toda a vegetação verde como alimento para os animais selvagens, criaturas voadoras e tudo o que se move sobre a terra.",
+        "versiculo_referencia": "Gênesis 1:29-30"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 2,
+    "perguntas": [
+      {
+        "pergunta": "De que forma específica Jeová Deus formou o primeiro homem e deu-lhe vida?",
+        "resposta_esperada": "Jeová Deus formou o homem do pó do solo e soprou nas suas narinas o fôlego de vida, e o homem se tornou um ser vivente.",
+        "versiculo_referencia": "Gênesis 2:7"
+      },
+      {
+        "pergunta": "Quais eram os quatro rios em que se dividia o rio que nascia no Éden para regar o jardim?",
+        "resposta_esperada": "Os quatro rios eram Pisom (que contornava a terra de Havilá), Giom (que contornava a terra de Cuche), Hídequel (que ia para o leste da Assíria) e o Eufrates.",
+        "versiculo_referencia": "Gênesis 2:10-14"
+      },
+      {
+        "pergunta": "Qual foi a ordem solene dada por Jeová Deus ao homem sobre as árvores do jardim e qual seria a consequência da desobediência?",
+        "resposta_esperada": "O homem podia comer de toda árvore do jardim à vontade, mas não devia comer da árvore do conhecimento do que é bom e do que é mau, pois no dia em que dela comesse, certamente morreria.",
+        "versiculo_referencia": "Gênesis 2:16-17"
+      },
+      {
+        "pergunta": "Qual foi a motivação declarada por Jeová Deus para a criação da mulher?",
+        "resposta_esperada": "Jeová Deus declarou que não era bom que o homem ficasse sozinho, decidindo fazer-lhe uma ajudadora como complemento dele.",
+        "versiculo_referencia": "Gênesis 2:18"
+      },
+      {
+        "pergunta": "Como Jeová Deus criou a primeira mulher e como ela foi apresentada ao homem?",
+        "resposta_esperada": "Jeová Deus fez o homem cair num sono profundo, tirou-lhe uma das costelas e, dessa costela, fez a mulher e a levou ao homem.",
+        "versiculo_referencia": "Gênesis 2:21-22"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 3,
+    "perguntas": [
+      {
+        "pergunta": "Como a serpente abordou a mulher no jardim do Éden para induzi-la ao pecado?",
+        "resposta_esperada": "A serpente mentiu à mulher, afirmando que eles certamente não morreriam se comessem do fruto proibido, mas que seus olhos se abririam e eles seriam como Deus, sabendo o que é bom e o que é mau.",
+        "versiculo_referencia": "Gênesis 3:1-5"
+      },
+      {
+        "pergunta": "O que Adão e a mulher fizeram logo após comerem do fruto proibido ao ouvirem a voz de Jeová Deus no jardim?",
+        "resposta_esperada": "Ao ouvirem a voz de Jeová Deus andando pelo jardim por volta da hora em que a brisa soprava, Adão e sua esposa se esconderam da face de Jeová Deus entre as árvores do jardim.",
+        "versiculo_referencia": "Gênesis 3:8"
+      },
+      {
+        "pergunta": "Que promessa profética Jeová Deus proferiu ao julgar a serpente após a queda do homem?",
+        "resposta_esperada": "Deus declarou que poria inimizade entre a serpente e a mulher, e entre o descendente da serpente e o descendente dela; este esmagaria a cabeça da serpente, e a serpente feriria o calcanhar dele.",
+        "versiculo_referencia": "Gênesis 3:15"
+      },
+      {
+        "pergunta": "Por que Adão deu à sua esposa o nome de Eva após o julgamento de Deus?",
+        "resposta_esperada": "Adão chamou sua esposa de Eva porque ela se tornaria a mãe de todos os viventes.",
+        "versiculo_referencia": "Gênesis 3:20"
+      },
+      {
+        "pergunta": "O que Jeová Deus colocou ao leste do jardim do Éden após expulsar o homem para impedir o acesso à árvore da vida?",
+        "resposta_esperada": "Deus colocou ao leste do jardim do Éden os querubins e a lâmina chamejante de uma espada que girava continuamente, guardando o caminho para a árvore da vida.",
+        "versiculo_referencia": "Gênesis 3:24"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 4,
+    "perguntas": [
+      {
+        "pergunta": "Quem foram os dois primeiros filhos de Adão e Eva e quais eram suas respetivas ocupações?",
+        "resposta_esperada": "Os dois primeiros filhos foram Caim e Abel; Abel tornou-se pastor de ovelhas, e Caim tornou-se agricultor.",
+        "versiculo_referencia": "Gênesis 4:1-2"
+      },
+      {
+        "pergunta": "O que motivou a ira intensa e o abatimento de Caim contra Abel antes de cometer o assassinato?",
+        "resposta_esperada": "A ira de Caim acendeu-se porque Jeová olhou com favor para Abel e para a sua oferta de primogênitos do rebanho com gordura, mas não olhou com favor para Caim e sua oferta de produtos da terra.",
+        "versiculo_referencia": "Gênesis 4:3-5"
+      },
+      {
+        "pergunta": "Qual foi o primeiro homicídio registrado na Bíblia e como ele ocorreu?",
+        "resposta_esperada": "Caim atacou e matou seu irmão Abel enquanto estavam no campo, cometendo o primeiro homicídio.",
+        "versiculo_referencia": "Gênesis 4:8"
+      },
+      {
+        "pergunta": "Como Jeová Deus garantiu que Caim não fosse morto após o julgamento pelo assassinato de Abel?",
+        "resposta_esperada": "Jeová estabeleceu um sinal para Caim, a fim de que ele não fosse morto por quem o encontrasse.",
+        "versiculo_referencia": "Gênesis 4:15"
+      },
+      {
+        "pergunta": "Para onde Caim foi morar depois de sair de diante de Jeová e qual obra de construção ele realizou lá?",
+        "resposta_esperada": "Caim foi morar na terra do Exílio (Node), ao leste do Éden, onde começou a construir uma cidade e deu-lhe o nome do seu filho, Enoque.",
+        "versiculo_referencia": "Gênesis 4:16-17"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 5,
+    "perguntas": [
+      {
+        "pergunta": "Como o capítulo 5 reafirma o propósito e a ação de Deus ao criar a humanidade no início da história?",
+        "resposta_esperada": "Reafirma que Deus fez Adão à semelhança de Deus, criou homem e mulher, os abençoou e lhes deu o nome de 'homem' no dia em que foram criados.",
+        "versiculo_referencia": "Gênesis 5:1-2"
+      },
+      {
+        "pergunta": "Quem foi o filho de Adão nascido à sua imagem e semelhança, e quantos anos Adão viveu ao todo?",
+        "resposta_esperada": "O filho foi Sete, nascido quando Adão tinha 130 anos. Todos os dias da vida de Adão somaram 930 anos antes de ele morrer.",
+        "versiculo_referencia": "Gênesis 5:3-5"
+      },
+      {
+        "pergunta": "O que se destaca de especial na conduta e no fim da vida do patriarca Enoque?",
+        "resposta_esperada": "Enoque andou com o verdadeiro Deus e não foi mais visto porque Deus o tomou.",
+        "versiculo_referencia": "Gênesis 5:22-24"
+      },
+      {
+        "pergunta": "Qual foi a motivação de Lameque ao dar o nome de Noé ao seu filho?",
+        "resposta_esperada": "Lameque deu-lhe o nome de Noé declarando que ele lhes traria alívio do trabalho e do esforço doloroso de suas mãos, causados pelo solo que Jeová amaldiçoou.",
+        "versiculo_referencia": "Gênesis 5:29"
+      },
+      {
+        "pergunta": "Quantos anos Noé tinha quando se tornou pai e quais foram os nomes dos seus três filhos mencionados no capítulo?",
+        "resposta_esperada": "Noé completou 500 anos de idade e tornou-se pai de Sem, Cão e Jafé.",
+        "versiculo_referencia": "Gênesis 5:32"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 6,
+    "perguntas": [
+      {
+        "pergunta": "Quem foram os 'filhos do verdadeiro Deus' e os 'nefilins' mencionados no capítulo 6 de Gênesis?",
+        "resposta_esperada": "Os filhos do verdadeiro Deus foram seres espirituais que tomaram para si esposas humanas, e os nefilins foram os seus descendentes, homens valentes e de fama dos tempos antigos.",
+        "versiculo_referencia": "Gênesis 6:2, 4"
+      },
+      {
+        "pergunta": "Qual foi a reação e o sentimento de Jeová ao ver a extensão da maldade humana e da violência na terra?",
+        "resposta_esperada": "Jeová viu que toda inclinação dos pensamentos do coração do homem era só má todo o tempo; ele lamentou ter feito os homens na terra e seu coração se entristeceu.",
+        "versiculo_referencia": "Gênesis 6:5, 6"
+      },
+      {
+        "pergunta": "Quais foram as especificações de tamanho e estrutura da arca dadas por Deus a Noé?",
+        "resposta_esperada": "A arca devia ter 300 côvados de comprimento, 50 de largura e 30 de altura, ser feita de madeira resinosa, coberta com alcatrão por dentro e por fora, e ter três andares.",
+        "versiculo_referencia": "Gênesis 6:14-16"
+      },
+      {
+        "pergunta": "O que Deus anunciou que traria sobre a terra e qual pacto ele prometeu estabelecer com Noé?",
+        "resposta_esperada": "Deus anunciou que traria um dilúvio de águas para exterminar toda criatura que tem o fôlego de vida, mas estabeleceu seu pacto com Noé para preservá-lo vivo na arca junto com sua família.",
+        "versiculo_referencia": "Gênesis 6:17, 18"
+      },
+      {
+        "pergunta": "De que maneira e com qual objetivo as criaturas viventes deveriam ser levadas para dentro da arca?",
+        "resposta_esperada": "Deviam ser levados dois de cada tipo de criatura vivente, um macho e uma fêmea, para serem preservados vivos dentro da arca junto com Noé.",
+        "versiculo_referencia": "Gênesis 6:19, 20"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 7,
+    "perguntas": [
+      {
+        "pergunta": "Por que Jeová mandou Noé entrar na arca com toda a sua casa?",
+        "resposta_esperada": "Porque Jeová viu que Noé era o único homem justo diante dele no meio daquela geração.",
+        "versiculo_referencia": "Gênesis 7:1"
+      },
+      {
+        "pergunta": "Qual foi a diferença na quantidade de animais puros e impuros que Noé devia levar para a arca?",
+        "resposta_esperada": "De cada animal puro devia levar sete (ou sete pares), machos e fêmeas, e de cada animal impuro devia levar apenas dois, o macho e a fêmea.",
+        "versiculo_referencia": "Gênesis 7:2, 3"
+      },
+      {
+        "pergunta": "Quantos anos Noé tinha quando o dilúvio veio sobre a terra e por quanto tempo choveu ininterruptamente?",
+        "resposta_esperada": "Noé tinha 600 anos de idade e choveu sobre a terra por 40 dias e 40 noites.",
+        "versiculo_referencia": "Gênesis 7:4, 6, 12"
+      },
+      {
+        "pergunta": "Até que altura as águas do dilúvio cobriram os montes mais altos sob os céus e quanto tempo elas predominaram?",
+        "resposta_esperada": "As águas subiram até 15 côvados acima dos montes mais altos, cobrindo-os completamente, e predominaram sobre a terra por 150 dias.",
+        "versiculo_referencia": "Gênesis 7:19, 20, 24"
+      },
+      {
+        "pergunta": "O que aconteceu a todas as criaturas terrestres e humanas que ficaram fora da arca durante o dilúvio?",
+        "resposta_esperada": "Toda criatura vivente que se movia sobre a terra e tudo o que tinha o fôlego de vida nas narinas morreu, sendo eliminado da face da terra.",
+        "versiculo_referencia": "Gênesis 7:21-23"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 8,
+    "perguntas": [
+      {
+        "pergunta": "Onde a arca pousou quando as águas do dilúvio começaram a baixar e em qual data isso ocorreu?",
+        "resposta_esperada": "A arca pousou nas montanhas de Ararate no sétimo mês, no dia 17 do mês.",
+        "versiculo_referencia": "Gênesis 8:4"
+      },
+      {
+        "pergunta": "Quais foram as aves soltas por Noé para verificar se as águas tinham baixado e o que a pomba trouxe de volta?",
+        "resposta_esperada": "Noé soltou primeiro um corvo e depois uma pomba; na segunda vez que a pomba retornou, trazia no bico uma folha de oliveira fresca.",
+        "versiculo_referencia": "Gênesis 8:6-11"
+      },
+      {
+        "pergunta": "Quantos anos Noé tinha quando a terra ficou completamente seca e qual foi a ordem de Deus para a saída da arca?",
+        "resposta_esperada": "Noé tinha 601 anos de idade e, no segundo mês, no dia 27, Deus lhe ordenou que saísse da arca com sua esposa, seus filhos e todas as criaturas viventes.",
+        "versiculo_referencia": "Gênesis 8:13-17"
+      },
+      {
+        "pergunta": "Qual foi a primeira coisa que Noé fez ao sair da arca com sua família?",
+        "resposta_esperada": "Noé construiu um altar a Jeová, pegou alguns de todos os animais e aves puras e ofereceu ofertas queimadas no altar.",
+        "versiculo_referencia": "Gênesis 8:20"
+      },
+      {
+        "pergunta": "Que promessa Jeová fez em seu coração após sentir o aroma agradável das ofertas de Noé?",
+        "resposta_esperada": "Prometeu que nunca mais amaldiçoaria o solo por causa do homem nem destruiria todos os seres vivos, garantindo que enquanto a terra durar haverá semeadura, colheita, frio, calor, verão, inverno, dia e noite.",
+        "versiculo_referencia": "Gênesis 8:21, 22"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 9,
+    "perguntas": [
+      {
+        "pergunta": "Que ordem específica Deus deu sobre a alimentação humana e a santidade do sangue após o dilúvio?",
+        "resposta_esperada": "Deus permitiu comer todo animal vivo como alimento, mas proibiu estritamente comer carne com seu sangue, pois o sangue é a vida.",
+        "versiculo_referencia": "Gênesis 9:3, 4"
+      },
+      {
+        "pergunta": "Qual foi o pacto que Deus estabeleceu com Noé, sua descendência e todas as criaturas viventes?",
+        "resposta_esperada": "Deus prometeu que nunca mais todos os seres vivos seriam destruídos pelas águas de um dilúvio, nem haveria outro dilúvio para arruinar a terra.",
+        "versiculo_referencia": "Gênesis 9:9-11"
+      },
+      {
+        "pergunta": "Qual foi o sinal visível estabelecido por Deus nas nuvens para confirmar o seu pacto eterno?",
+        "resposta_esperada": "Deus colocou o seu arco-íris na nuvem como sinal do pacto entre ele e toda criatura vivente sobre a terra.",
+        "versiculo_referencia": "Gênesis 9:12-16"
+      },
+      {
+        "pergunta": "O que Cão fez ao ver a nudez de seu pai embriagado e de que forma Sem e Jafé agiram de modo diferente?",
+        "resposta_esperada": "Cão viu a nudez de seu pai e contou aos seus dois irmãos; Sem e Jafé pegaram uma capa, puseram-na sobre os ombros e entraram andando de costas com os rostos virados para cobrir a nudez de Noé sem olhá-la.",
+        "versiculo_referencia": "Gênesis 9:22, 23"
+      },
+      {
+        "pergunta": "Qual foi a profecia proferida por Noé contra Canaã e quantos anos Noé viveu ao todo?",
+        "resposta_esperada": "Noé declarou que Canaã seria maldito e se tornaria escravo de Sem e Jafé. Noé viveu 350 anos após o dilúvio, somando ao todo 950 anos de vida antes de morrer.",
+        "versiculo_referencia": "Gênesis 9:25-29"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 10,
+    "perguntas": [
+      {
+        "pergunta": "Quem foi Ninrode e por qual característica marcante ele se tornou conhecido no capítulo 10?",
+        "resposta_esperada": "Ninrode foi filho de Cuche e o primeiro a se tornar poderoso na terra, sendo conhecido como um poderoso caçador em oposição a Jeová.",
+        "versiculo_referencia": "Gênesis 10:8, 9"
+      },
+      {
+        "pergunta": "Quais foram as primeiras cidades que formavam o princípio do reino de Ninrode e para onde ele expandiu seus domínios?",
+        "resposta_esperada": "O princípio do seu reino foi Babel, Ereque, Acade e Calné, na terra de Sinear; depois ele saiu para a Assíria e construiu Nínive, Reobote-Ir, Calá e Resém.",
+        "versiculo_referencia": "Gênesis 10:10-12"
+      },
+      {
+        "pergunta": "Quais eram as fronteiras do território ocupado pelos cananeus mencionadas no capítulo 10?",
+        "resposta_esperada": "O território dos cananeus se estendia de Sídon até Gerar, perto de Gaza, e se estendia perto de Sodoma, Gomorra, Admá e Zeboim, até Lasa.",
+        "versiculo_referencia": "Gênesis 10:19"
+      },
+      {
+        "pergunta": "Quem foi Éber e por que um dos seus filhos recebeu o nome de Pelegue?",
+        "resposta_esperada": "Éber foi descendente de Sem; seu filho foi chamado Pelegue porque nos dias dele a população da terra foi dividida.",
+        "versiculo_referencia": "Gênesis 10:24, 25"
+      },
+      {
+        "pergunta": "Como o capítulo 10 resume a origem das nações que se espalharam pela terra após o dilúvio?",
+        "resposta_esperada": "O capítulo alista as famílias dos filhos de Noé (Sem, Cão e Jafé) segundo suas linhagens, línguas, terras e nações, a partir das quais os povos se espalharam pela terra depois do dilúvio.",
+        "versiculo_referencia": "Gênesis 10:5, 20, 31, 32"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 11,
+    "perguntas": [
+      {
+        "pergunta": "Qual era a intenção dos homens ao começarem a construir uma cidade e uma torre na terra de Sinear?",
+        "resposta_esperada": "Eles queriam construir uma cidade e uma torre cujo topo chegasse aos céus para fazerem para si um nome célebre e não serem espalhados por toda a face da terra.",
+        "versiculo_referencia": "Gênesis 11:4"
+      },
+      {
+        "pergunta": "De que maneira Jeová impediu a continuação da construção da cidade e da torre de Babel?",
+        "resposta_esperada": "Jeová confundiu o idioma de toda a terra para que não entendessem o idioma uns dos outros e os espalhou dali por toda a face da terra.",
+        "versiculo_referencia": "Gênesis 11:7-9"
+      },
+      {
+        "pergunta": "Quem foram os três filhos de Terá mencionados na linhagem genealógica no final do capítulo 11?",
+        "resposta_esperada": "Os três filhos de Terá foram Abrão, Naor e Harã.",
+        "versiculo_referencia": "Gênesis 11:26-27"
+      },
+      {
+        "pergunta": "Qual era a situação da esposa de Abrão, Sarai, antes de saírem de sua terra natal?",
+        "resposta_esperada": "Sarai era estéril e não tinha filhos.",
+        "versiculo_referencia": "Gênesis 11:30"
+      },
+      {
+        "pergunta": "De qual cidade Terá e sua família saíram inicialmente com o objetivo de ir para a terra de Canaã, e em qual cidade se estabeleceram e Terá morreu?",
+        "resposta_esperada": "Eles saíram de Ur dos caldeus e chegaram a Harã, onde passaram a morar e onde Terá morreu aos 205 anos.",
+        "versiculo_referencia": "Gênesis 11:31-32"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 12,
+    "perguntas": [
+      {
+        "pergunta": "Qual foi a ordem dada por Jeová a Abrão quando ele ainda estava em Harã e qual promessa foi feita em relação a todas as famílias da terra?",
+        "resposta_esperada": "Jeová mandou que Abrão saísse da sua terra, dos seus parentes e da casa do seu pai para a terra que lhe mostraria, prometendo que todas as famílias da terra seriam abençoadas por meio dele.",
+        "versiculo_referencia": "Gênesis 12:1-3"
+      },
+      {
+        "pergunta": "Quantos anos Abrão tinha quando saiu de Harã e até que lugar específico na terra de Canaã ele atravessou antes de Jeová lhe aparecer?",
+        "resposta_esperada": "Abrão tinha 75 anos de idade ao sair de Harã e atravessou a terra até o lugar chamado Siquém, perto das árvores grandes de Moré.",
+        "versiculo_referencia": "Gênesis 12:4-6"
+      },
+      {
+        "pergunta": "O que Abrão fez depois que Jeová lhe apareceu em Siquém e prometeu dar aquela terra à sua descendência?",
+        "resposta_esperada": "Abrão construiu ali um altar a Jeová, que lhe havia aparecido.",
+        "versiculo_referencia": "Gênesis 12:7"
+      },
+      {
+        "pergunta": "O que motivou a ida de Abrão ao Egito e qual instrução ele deu à sua esposa Sarai ao se aproximarem do país?",
+        "resposta_esperada": "Houve uma fome severa na terra de Canaã. Abrão pediu a Sarai que dissesse ser sua irmã para que a vida dele fosse poupada por causa da beleza dela.",
+        "versiculo_referencia": "Gênesis 12:10-13"
+      },
+      {
+        "pergunta": "O que Jeová fez à casa de Faraó após Sarai ter sido levada para a casa dele, e qual foi a reação de Faraó?",
+        "resposta_esperada": "Jeová infligiu terríveis pragas a Faraó e aos da sua casa por causa de Sarai; Faraó chamou Abrão, questionou por que ele não disse que ela era sua esposa e o mandou embora com ela e tudo o que possuía.",
+        "versiculo_referencia": "Gênesis 12:17-20"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 13,
+    "perguntas": [
+      {
+        "pergunta": "Qual foi o motivo pelo qual Abrão e Ló não puderam continuar morando juntos na mesma terra após retornarem do Egito?",
+        "resposta_esperada": "Seus bens e rebanhos tinham aumentado tanto que a terra não era suficiente para que morassem juntos, o que gerou uma desavença entre os pastores dos rebanhos de Abrão e os de Ló.",
+        "versiculo_referencia": "Gênesis 13:5-7"
+      },
+      {
+        "pergunta": "Qual região Ló escolheu para morar quando se separou de Abrão e como essa região era descrita na época?",
+        "resposta_esperada": "Ló escolheu todo o distrito do Jordão até Zoar, que era uma região bem regada, como o jardim de Jeová e como a terra do Egito (antes de Jeová destruir Sodoma e Gomorra).",
+        "versiculo_referencia": "Gênesis 13:10-11"
+      },
+      {
+        "pergunta": "Como o texto bíblico descreve a conduta moral dos homens de Sodoma na época em que Ló armou suas tendas perto dali?",
+        "resposta_esperada": "Os homens de Sodoma eram maus e grandes pecadores contra Jeová.",
+        "versiculo_referencia": "Gênesis 13:13"
+      },
+      {
+        "pergunta": "Qual foi a promessa de Jeová a Abrão sobre a terra e sua descendência logo após a separação de Ló?",
+        "resposta_esperada": "Jeová prometeu dar toda a terra que Abrão conseguia ver (ao norte, sul, leste e oeste) a ele e à sua descendência como propriedade permanente, tornando sua descendência numerosa como as partículas de pó da terra.",
+        "versiculo_referencia": "Gênesis 13:14-16"
+      },
+      {
+        "pergunta": "Para onde Abrão mudou seu acampamento depois de percorrer a terra e o que erigiu naquele local?",
+        "resposta_esperada": "Abrão foi morar entre as árvores grandes de Manre, em Hebrom, e construiu ali um altar a Jeová.",
+        "versiculo_referencia": "Gênesis 13:18"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 14,
+    "perguntas": [
+      {
+        "pergunta": "Qual foi a razão da batalha no vale de Sidim entre os quatro reis liderados por Quedorlaomer e os cinco reis locais da região do Mar Morto?",
+        "resposta_esperada": "Os cinco reis serviram a Quedorlaomer por 12 anos, mas se rebelaram no 13º ano, o que levou Quedorlaomer e seus aliados a entrarem em guerra contra eles.",
+        "versiculo_referencia": "Gênesis 14:3-5, 8-9"
+      },
+      {
+        "pergunta": "Como Abrão reagiu ao saber que seu sobrinho Ló havia sido levado cativo pelos reis vitoriosos?",
+        "resposta_esperada": "Abrão mobilizou 318 homens treinados, nascidos na sua casa, perseguiu os reis até Dã, dividiu suas forças de noite, derrotou-os e os perseguiu até Hobá, resgatando Ló, seus bens e o povo.",
+        "versiculo_referencia": "Gênesis 14:14-16"
+      },
+      {
+        "pergunta": "Quem foi Melquisedeque, qual era sua dupla função e o que ele trouxe ao encontrar Abrão no vale de Savé?",
+        "resposta_esperada": "Melquisedeque era rei de Salém e sacerdote do Deus Altíssimo; ele trouxe pão e vinho para abençoar Abrão.",
+        "versiculo_referencia": "Gênesis 14:18-19"
+      },
+      {
+        "pergunta": "O que Abrão deu a Melquisedeque após ser abençoado por ele?",
+        "resposta_esperada": "Abrão deu a Melquisedeque um décimo de tudo.",
+        "versiculo_referencia": "Gênesis 14:20"
+      },
+      {
+        "pergunta": "Por que Abrão se recusou a aceitar qualquer bem ou recompensa oferecida pelo rei de Sodoma?",
+        "resposta_esperada": "Abrão jurou por Jeová, o Deus Altíssimo, que não pegaria nem um fio nem uma correia de sandália das coisas de Sodoma, para que o rei não dissesse que havia enriquecido a Abrão.",
+        "versiculo_referencia": "Gênesis 14:21-23"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 15,
+    "perguntas": [
+      {
+        "pergunta": "Qual era a preocupação expressa por Abrão ao falar com Jeová numa visão e quem ele mencionou como provável herdeiro de sua casa?",
+        "resposta_esperada": "Abrão preocupava-se por continuar sem filhos e mencionou que o herdeiro de sua casa seria Eliezer de Damasco.",
+        "versiculo_referencia": "Gênesis 15:2-3"
+      },
+      {
+        "pergunta": "A que elemento da criação Jeová comparou a futura quantidade da descendência de Abrão, e qual foi a reação de Abrão?",
+        "resposta_esperada": "Jeová mandou que Abrão olhasse para os céus e contasse as estrelas, afirmando que assim seria sua descendência; Abrão depositou fé em Jeová, e Ele o considerou justo.",
+        "versiculo_referencia": "Gênesis 15:5-6"
+      },
+      {
+        "pergunta": "O que Jeová revelou a Abrão sobre o futuro de sua descendência durante o sono profundo que caiu sobre ele?",
+        "resposta_esperada": "Revelou que sua descendência seria residente estrangeira numa terra alheia, onde seria escravizada e afligida por 400 anos, mas que Deus julgaria essa nação e eles sairiam com muitos bens na quarta geração.",
+        "versiculo_referencia": "Gênesis 15:13-16"
+      },
+      {
+        "pergunta": "Que sinal visível passou entre os pedaços dos animais sacrificados quando o sol se pôs para selar o pacto de Jeová com Abrão?",
+        "resposta_esperada": "Apareceu uma fornalha fumegante e uma tocha acesa passou entre os pedaços dos animais.",
+        "versiculo_referencia": "Gênesis 15:17"
+      },
+      {
+        "pergunta": "Quais eram os limites geográficos da terra prometida por Jeová à descendência de Abrão no pacto estabelecido no capítulo 15?",
+        "resposta_esperada": "Do rio do Egito até o grande rio, o rio Eufrates.",
+        "versiculo_referencia": "Gênesis 15:18"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 16,
+    "perguntas": [
+      {
+        "pergunta": "Qual foi a proposta de Sarai a Abrão para ter filhos, visto que ela era estéril?",
+        "resposta_esperada": "Sarai propôs que Abrão tivesse relações com sua serva egípcia, Agar, para que talvez pudesse ter filhos por meio dela.",
+        "versiculo_referencia": "Gênesis 16:1-2"
+      },
+      {
+        "pergunta": "O que aconteceu quando Agar percebeu que estava grávida e qual foi a reação de Sarai?",
+        "resposta_esperada": "Agar começou a desprezar sua senhora Sarai; diante disso, Sarai se queixou com Abrão e começou a humilhar Agar, fazendo com que ela fugisse.",
+        "versiculo_referencia": "Gênesis 16:4-6"
+      },
+      {
+        "pergunta": "Onde o anjo de Jeová encontrou Agar e qual instrução ele lhe deu?",
+        "resposta_esperada": "O anjo de Jeová a encontrou junto a uma fonte de água no deserto, no caminho de Sur, e ordenou que ela voltasse para sua senhora e se sujeitasse a ela.",
+        "versiculo_referencia": "Gênesis 16:7-9"
+      },
+      {
+        "pergunta": "Que nome o anjo de Jeová ordenou que Agar desse ao seu filho e como ele descreveu o futuro dessa criança?",
+        "resposta_esperada": "O anjo ordenou que o filho se chamasse Ismael e profetizou que ele seria como um jumento selvagem, com sua mão contra todos e a mão de todos contra ele.",
+        "versiculo_referencia": "Gênesis 16:11-12"
+      },
+      {
+        "pergunta": "Qual foi o nome dado ao poço onde Agar esteve e quantos anos Abrão tinha quando Ismael nasceu?",
+        "resposta_esperada": "O poço foi chamado Beer-Laai-Roi (entre Cades e Berede), e Abrão tinha 86 anos de idade quando Agar lhe deu Ismael.",
+        "versiculo_referencia": "Gênesis 16:14, 16"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 17,
+    "perguntas": [
+      {
+        "pergunta": "Quantos anos Abrão tinha quando Jeová estabeleceu o pacto da circuncisão e como seu nome foi alterado?",
+        "resposta_esperada": "Abrão tinha 99 anos de idade; Jeová mudou seu nome para Abraão, que significa 'pai de uma multidão; pai de muitos'.",
+        "versiculo_referencia": "Gênesis 17:1, 5"
+      },
+      {
+        "pergunta": "Qual era o sinal do pacto exigido por Deus e com que idade os meninos deveriam cumpri-lo?",
+        "resposta_esperada": "O sinal do pacto era a circuncisão de todos do sexo masculino, que deveria ser realizada aos oito dias de idade.",
+        "versiculo_referencia": "Gênesis 17:10-12"
+      },
+      {
+        "pergunta": "Que novo nome Deus deu a Sarai e que promessa fez a respeito dela?",
+        "resposta_esperada": "Deus mudou o nome de Sarai para Sara e prometeu abençoá-la, dando a Abraão um filho por meio dela e fazendo dela nações e reis de povos.",
+        "versiculo_referencia": "Gênesis 17:15-16"
+      },
+      {
+        "pergunta": "Como Abraão reagiu ao ouvir que teria um filho com Sara e qual foi o nome designado por Deus para esse filho?",
+        "resposta_esperada": "Abraão prostrou-se com o rosto por terra e riu no coração devido à sua idade e à de Sara; Deus declarou que o filho se chamaria Isaque.",
+        "versiculo_referencia": "Gênesis 17:17, 19"
+      },
+      {
+        "pergunta": "O que Deus prometeu a Abraão a respeito de Ismael após o pedido de Abraão em favor dele?",
+        "resposta_esperada": "Deus prometeu abençoar Ismael, multiplicá-lo muitíssimo, fazer com que produzisse 12 maiorais e torná-lo uma grande nação.",
+        "versiculo_referencia": "Gênesis 17:18, 20"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 18,
+    "perguntas": [
+      {
+        "pergunta": "Onde Abraão estava quando recebeu a visita dos três homens e como ele os acolheu?",
+        "resposta_esperada": "Abraão estava sentado à entrada da sua tenda, perto das árvores grandes de Manre, e os acolheu com grande hospitalidade, oferecendo-lhes água para os pés, pão, um bezerro tenro e bom, manteiga e leite.",
+        "versiculo_referencia": "Gênesis 18:1-8"
+      },
+      {
+        "pergunta": "Qual foi a reação de Sara ao ouvir a promessa de que teria um filho e qual foi a indagação de Jeová diante disso?",
+        "resposta_esperada": "Sara riu consigo mesma por estar idosa; Jeová então perguntou a Abraão por que Sara riu, dizendo: 'Há alguma coisa que seja extraordinária demais para Jeová?'",
+        "versiculo_referencia": "Gênesis 18:12-14"
+      },
+      {
+        "pergunta": "Por que Jeová decidiu descer para examinar Sodoma e Gomorra?",
+        "resposta_esperada": "Porque o clamor contra Sodoma e Gomorra era imenso e o seu pecado era muito grave.",
+        "versiculo_referencia": "Gênesis 18:20-21"
+      },
+      {
+        "pergunta": "Qual foi o menor número de homens justos pelo qual Abraão suplicou e Jeová concordou em poupar a cidade de Sodoma?",
+        "resposta_esperada": "Abraão suplicou até o número de 10 homens justos, e Jeová respondeu que não destruiria a cidade por causa dos 10.",
+        "versiculo_referencia": "Gênesis 18:32"
+      },
+      {
+        "pergunta": "O que Jeová declarou a respeito do futuro de Abraão e sua comissão em relação à sua família?",
+        "resposta_esperada": "Jeová declarou que Abraão certamente se tornaria uma nação grande e poderosa, e que ele ordenaria aos seus filhos e à sua casa que guardassem o caminho de Jeová, fazendo o que é correto e justo.",
+        "versiculo_referencia": "Gênesis 18:18-19"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 19,
+    "perguntas": [
+      {
+        "pergunta": "Como os anjos protegeram Ló da multidão violenta dos homens de Sodoma na porta da sua casa?",
+        "resposta_esperada": "Os anjos puxaram Ló para dentro de casa, fecharam a porta e feriram os homens que estavam na entrada com cegueira.",
+        "versiculo_referencia": "Gênesis 19:9-11"
+      },
+      {
+        "pergunta": "Para qual cidade Ló pediu autorização para fugir em vez de ir para a região montanhosa e qual é o significado desse nome?",
+        "resposta_esperada": "Ló pediu permissão para fugir para a cidade de Zoar, cujo nome significa 'pequenez'.",
+        "versiculo_referencia": "Gênesis 19:18-22"
+      },
+      {
+        "pergunta": "Como Jeová destruiu Sodoma e Gomorra e o que aconteceu com a esposa de Ló por ter olhado para trás?",
+        "resposta_esperada": "Jeová fez chover fogo e enxofre dos céus sobre as cidades e o distrito; a esposa de Ló olhou para trás e se transformou em uma coluna de sal.",
+        "versiculo_referencia": "Gênesis 19:24-26"
+      },
+      {
+        "pergunta": "Qual foi a estratégia das duas filhas de Ló na caverna para preservarem a descendência de seu pai?",
+        "resposta_esperada": "Elas embriagaram seu pai com vinho em duas noites consecutivas e se deitaram com ele sem que ele percebesse.",
+        "versiculo_referencia": "Gênesis 19:31-35"
+      },
+      {
+        "pergunta": "Quais foram os dois filhos nascidos das filhas de Ló e de quais povos eles se tornaram os patriarcas?",
+        "resposta_esperada": "A primogênita deu à luz Moabe, pai dos atuais moabitas; a mais nova deu à luz Ben-Ami, pai dos atuais amonitas.",
+        "versiculo_referencia": "Gênesis 19:37-38"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 20,
+    "perguntas": [
+      {
+        "pergunta": "Para onde Abraão mudou seu acampamento e qual rei tomou Sara para si após Abraão dizer que ela era sua irmã?",
+        "resposta_esperada": "Abraão mudou seu acampamento para a terra do Neguebe, morando em Gerar; Abimeleque, rei de Gerar, mandou buscar Sara e a tomou.",
+        "versiculo_referencia": "Gênesis 20:1-2"
+      },
+      {
+        "pergunta": "Como Deus advertiu Abimeleque sobre Sara e qual foi a defesa apresentada pelo rei?",
+        "resposta_esperada": "Deus veio a Abimeleque num sonho de noite e disse que ele estava morto porque a mulher pertencia a outro homem; Abimeleque defendeu-se dizendo que agiu de coração honesto e mãos inocentes, pois Abraão e Sara disseram ser irmãos.",
+        "versiculo_referencia": "Gênesis 20:3-5"
+      },
+      {
+        "pergunta": "O que Deus revelou a Abimeleque sobre o papel espiritual de Abraão e o que aconteceria se ele devolvesse Sara?",
+        "resposta_esperada": "Deus revelou que Abraão era um profeta e faria súplicas por Abimeleque para que ele continuasse vivo.",
+        "versiculo_referencia": "Gênesis 20:7"
+      },
+      {
+        "pergunta": "Qual foi a explicação dada por Abraão a Abimeleque para ter ocultado que Sara era sua esposa, e qual era o parentesco real entre eles?",
+        "resposta_esperada": "Abraão disse que pensou que não havia temor de Deus naquele lugar e que o matariam por causa dela; ele explicou também que ela era realmente sua irmã, filha do seu pai, mas não da sua mãe.",
+        "versiculo_referencia": "Gênesis 20:11-12"
+      },
+      {
+        "pergunta": "O que Abimeleque deu a Abraão ao devolver Sara e qual foi o milagre realizado após a oração de Abraão?",
+        "resposta_esperada": "Abimeleque deu-lhe ovelhas, bois, servos, servas e 1.000 peças de prata; Abraão fez súplicas a Deus, e Deus curou Abimeleque, sua esposa e suas escravas, pois Jeová havia tornado estéreis todas as mulheres da casa de Abimeleque por causa de Sara.",
+        "versiculo_referencia": "Gênesis 20:14-18"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 21,
+    "perguntas": [
+      {
+        "pergunta": "Quantos anos Abraão tinha quando nasceu seu filho Isaque com Sara?",
+        "resposta_esperada": "Abraão tinha 100 anos de idade quando se tornou pai de Isaque.",
+        "versiculo_referencia": "Gênesis 21:5"
+      },
+      {
+        "pergunta": "Qual foi a reação e o pedido de Sara ao ver o filho de Agar, a egípcia, caçoando de Isaque durante o banquete de desmame?",
+        "resposta_esperada": "Sara disse a Abraão para expulsar a escrava e o filho dela, declarando que o filho da escrava não seria herdeiro com seu filho Isaque.",
+        "versiculo_referencia": "Gênesis 21:9-10"
+      },
+      {
+        "pergunta": "O que Deus disse a Abraão para tranquilizá-lo a respeito de atentar à voz de Sara sobre Ismael?",
+        "resposta_esperada": "Deus disse a Abraão para não se afligir e escutar a voz de Sara, pois o que seria chamado seu descendente viria por meio de Isaque, mas também faria do filho da escrava uma nação por ser seu descendente.",
+        "versiculo_referencia": "Gênesis 21:12-13"
+      },
+      {
+        "pergunta": "Como Deus socorreu Agar e Ismael no deserto de Berseba quando acabou a água do recipiente?",
+        "resposta_esperada": "Deus ouviu a aflição do rapaz, o anjo de Deus chamou Agar do céu para consolá-la e Deus abriu os olhos dela, fazendo-a ver um poço de água.",
+        "versiculo_referencia": "Gênesis 21:17-19"
+      },
+      {
+        "pergunta": "O que motivou o pacto entre Abraão e Abimeleque em Berseba e qual é o significado do nome do local?",
+        "resposta_esperada": "O pacto ocorreu porque Abimeleque reconheceu que Deus estava com Abraão em tudo o que ele fazia; fizeram um juramento de paz e o lugar foi chamado de Berseba, que significa 'poço do juramento' ou 'poço de sete'.",
+        "versiculo_referencia": "Gênesis 21:22-23, 31"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 22,
+    "perguntas": [
+      {
+        "pergunta": "Para qual região Deus ordenou que Abraão viajasse a fim de oferecer seu filho Isaque como oferta queimada?",
+        "resposta_esperada": "Deus ordenou que Abraão fosse à terra de Moriá e oferecesse Isaque como oferta queimada num dos montes que Ele indicaria.",
+        "versiculo_referencia": "Gênesis 22:2"
+      },
+      {
+        "pergunta": "Qual foi a resposta de Abraão quando Isaque perguntou onde estava a ovelha para a oferta queimada enquanto subiam o monte?",
+        "resposta_esperada": "Abraão respondeu: 'Meu filho, o próprio Deus providenciará a ovelha para a oferta queimada.'",
+        "versiculo_referencia": "Gênesis 22:7-8"
+      },
+      {
+        "pergunta": "O que impediu Abraão de sacrificar Isaque no altar e o que ele ofereceu em lugar de seu filho?",
+        "resposta_esperada": "O anjo de Jeová o chamou do céu ordenando que não ferisse o rapaz, e Abraão viu um carneiro preso num matagal pelos chifres, oferecendo-o em lugar de Isaque.",
+        "versiculo_referencia": "Gênesis 22:11-13"
+      },
+      {
+        "pergunta": "Qual foi a promessa solene repetida por Jeová a Abraão após a demonstração de obediência no monte Moriá?",
+        "resposta_esperada": "Jeová jurou por si mesmo que abençoaria Abraão, multiplicaria sua descendência como as estrelas dos céus e a areia à beira do mar, e que por meio da sua descendência todas as nações da terra obteriam uma bênção.",
+        "versiculo_referencia": "Gênesis 22:16-18"
+      },
+      {
+        "pergunta": "Quem foram os pais de Rebeca, mencionada na notícia recebida por Abraão sobre a família de Naor ao final do capítulo 22?",
+        "resposta_esperada": "Rebeca era filha de Betuel, que por sua vez era um dos oito filhos que Milca deu a Naor, irmão de Abraão.",
+        "versiculo_referencia": "Gênesis 22:20-23"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 23,
+    "perguntas": [
+      {
+        "pergunta": "Com que idade Sara morreu e em qual localidade ocorreu o seu falecimento?",
+        "resposta_esperada": "Sara morreu aos 127 anos de idade em Quiriate-Arba, isto é, em Hebrom, na terra de Canaã.",
+        "versiculo_referencia": "Gênesis 23:1-2"
+      },
+      {
+        "pergunta": "Como os filhos de Hete se referiram a Abraão quando este lhes pediu um local para servir de sepultura?",
+        "resposta_esperada": "Eles se referiram a Abraão dizendo que ele era um 'maioral de Deus' (ou grande maioral) entre eles.",
+        "versiculo_referencia": "Gênesis 23:5-6"
+      },
+      {
+        "pergunta": "Qual era o nome da caverna e do seu proprietário na negociação da compra da sepultura para Sara?",
+        "resposta_esperada": "A caverna chamava-se Macpela, e pertenceu a Efrom, filho de Zoar, o hitita.",
+        "versiculo_referencia": "Gênesis 23:8-10"
+      },
+      {
+        "pergunta": "Qual foi a quantia de prata pesada por Abraão para adquirir o campo e a caverna de Macpela?",
+        "resposta_esperada": "Abraão pesou 400 siclos de prata, segundo o peso usado pelos mercadores.",
+        "versiculo_referencia": "Gênesis 23:15-16"
+      },
+      {
+        "pergunta": "O que exatamente foi confirmado como propriedade legal de Abraão após a transação diante dos filhos de Hete em frente a Manre?",
+        "resposta_esperada": "Foram confirmados como propriedade de Abraão o campo de Efrom em Macpela, a caverna que ficava nele e todas as árvores dentro dos limites do campo.",
+        "versiculo_referencia": "Gênesis 23:17-18"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 24,
+    "perguntas": [
+      {
+        "pergunta": "Qual juramento solene Abraão exigiu do seu servo mais velho ao encarregá-lo de buscar uma esposa para Isaque?",
+        "resposta_esperada": "Abraão o fez jurar por Jeová, pondo a mão debaixo da sua coxa, que não tomaria para Isaque uma esposa dentre as filhas dos cananeus, mas iria à sua terra e aos seus parentes.",
+        "versiculo_referencia": "Gênesis 24:2-4"
+      },
+      {
+        "pergunta": "Qual foi a orientação estrita de Abraão caso a mulher escolhida não estivesse disposta a vir para a terra de Canaã?",
+        "resposta_esperada": "Abraão proibiu expressamente que o servo levasse Isaque de volta à terra de onde saíram, afirmando que Jeová enviaria o Seu anjo à frente para que ele tomasse de lá a esposa.",
+        "versiculo_referencia": "Gênesis 24:5-8"
+      },
+      {
+        "pergunta": "Qual sinal específico o servo de Abraão pediu a Jeová junto à fonte de água na Mesopotâmia para identificar a esposa de Isaque?",
+        "resposta_esperada": "O servo pediu que a moça a quem ele pedisse água do jarro respondesse dando-lhe de beber e oferecendo-se para dar água também aos seus camelos até ficarem saciados.",
+        "versiculo_referencia": "Gênesis 24:12-14"
+      },
+      {
+        "pergunta": "Qual foi a resposta de Labão e Betuel após ouvirem o relato do servo de Abraão sobre como Jeová o havia guiado?",
+        "resposta_esperada": "Eles responderam: 'Isso vem de Jeová. Não podemos falar-lhe nem contra nem a favor. Aqui está Rebeca diante de você. Pegue-a e vá, e que ela se torne esposa do filho do seu senhor.'",
+        "versiculo_referencia": "Gênesis 24:50-51"
+      },
+      {
+        "pergunta": "O que Isaque estava fazendo no campo por volta do anoitecer quando avistou a chegada dos camelos que traziam Rebeca?",
+        "resposta_esperada": "Isaque tinha saído para passear no campo, por volta do anoitecer, a fim de meditar.",
+        "versiculo_referencia": "Gênesis 24:62-63"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 25,
+    "perguntas": [
+      {
+        "pergunta": "Que providência Abraão tomou em relação aos filhos das suas concubinas para proteger a herança de Isaque?",
+        "resposta_esperada": "Abraão deu presentes aos filhos que teve com suas concubinas e, enquanto ainda vivia, enviou-os para o leste, longe de seu filho Isaque, a quem deu tudo o que possuía.",
+        "versiculo_referencia": "Gênesis 25:5-6"
+      },
+      {
+        "pergunta": "Quantos anos viveu Abraão ao todo e por quem ele foi sepultado na caverna de Macpela?",
+        "resposta_esperada": "Abraão viveu 175 anos e foi enterrado por seus filhos Isaque e Ismael na caverna de Macpela, junto de Sara.",
+        "versiculo_referencia": "Gênesis 25:7-10"
+      },
+      {
+        "pergunta": "O que Jeová revelou a Rebeca quando ela O consultou devido à luta dos bebês em seu ventre durante a gravidez?",
+        "resposta_esperada": "Jeová revelou que havia duas nações dentro dela e que dois povos se separariam do seu ventre; uma nação seria mais forte que a outra, e o mais velho serviria o mais novo.",
+        "versiculo_referencia": "Gênesis 25:22-23"
+      },
+      {
+        "pergunta": "Como o texto descreve as características físicas e o estilo de vida de Esaú e de Jacó ao crescerem?",
+        "resposta_esperada": "Esaú nasceu todo vermelho e peludo, tornando-se um caçador habilidoso dos campos; Jacó nasceu segurando o calcanhar de Esaú e tornou-se um homem irrepreensível que morava em tendas.",
+        "versiculo_referencia": "Gênesis 25:25-27"
+      },
+      {
+        "pergunta": "Por qual alimento Esaú vendeu seu direito de primogenitura a Jacó e fez um juramento?",
+        "resposta_esperada": "Esaú vendeu seu direito de primogenitura em troca de pão e de um ensopado de lentilhas vermelhas preparado por Jacó.",
+        "versiculo_referencia": "Gênesis 25:30-34"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 26,
+    "perguntas": [
+      {
+        "pergunta": "Por que Jeová mandou Isaque não descer ao Egito e qual promessa Ele confirmou com ele?",
+        "resposta_esperada": "Jeová mandou Isaque morar como estrangeiro na terra indicada sem descer ao Egito, prometendo abençoá-lo, dar todas aquelas terras à sua descendência e cumprir o juramento feito a Abraão, porque Abraão escutou a voz de Deus e cumpriu seus requisitos.",
+        "versiculo_referencia": "Gênesis 26:2-5"
+      },
+      {
+        "pergunta": "O que Isaque respondeu aos homens de Gerar sobre Rebeca e como o rei Abimeleque descobriu a verdade?",
+        "resposta_esperada": "Isaque respondeu que Rebeca era sua irmã por medo de ser morto por causa da beleza dela. Abimeleque descobriu a verdade ao olhar pela janela e ver Isaque fazendo carinho em Rebeca, sua esposa.",
+        "versiculo_referencia": "Gênesis 26:7-9"
+      },
+      {
+        "pergunta": "Quais foram os nomes dados por Isaque aos poços cavados por seus servos no vale de Gerar e por que receberam esses nomes?",
+        "resposta_esperada": "Chamou o primeiro poço de Eseque (que significa 'briga') e o segundo de Sitna (que significa 'acusação'), porque os pastores de Gerar discutiram por causa deles; e chamou o terceiro de Reobote (que significa 'lugares amplos'), porque Jeová lhes dera amplo espaço para prosperar.",
+        "versiculo_referencia": "Gênesis 26:19-22"
+      },
+      {
+        "pergunta": "O que motivou Abimeleque, Ausate e Ficol a procurarem Isaque em Berseba para fazer um pacto?",
+        "resposta_esperada": "Eles viram claramente que Jeová estava com Isaque e desejaram fazer um pacto de paz e um juramento mútuo, reconhecendo que Isaque era o abençoado de Jeová.",
+        "versiculo_referencia": "Gênesis 26:26-29"
+      },
+      {
+        "pergunta": "Quais foram as esposas que Esaú tomou aos 40 anos de idade e qual foi o impacto dessa escolha sobre seus pais?",
+        "resposta_esperada": "Esaú tomou como esposas Judite, filha de Beeri, o hitita, e Basemate, filha de Elom, o hitita, e elas foram uma fonte de grande amargura para Isaque e Rebeca.",
+        "versiculo_referencia": "Gênesis 26:34-35"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 27,
+    "perguntas": [
+      {
+        "pergunta": "Como Rebeca instruiu Jacó a obter a bênção de seu pai Isaque no lugar de Esaú?",
+        "resposta_esperada": "Rebeca mandou Jacó pegar dois cabritos para ela preparar um prato saboroso, vestiu Jacó com as melhores roupas de Esaú e cobriu suas mãos e pescoço com as peles dos cabritos para simular a pele peluda de Esaú.",
+        "versiculo_referencia": "Gênesis 27:8-16"
+      },
+      {
+        "pergunta": "O que causou desconfiança em Isaque quando Jacó se aproximou para servi-lo e como ele expressou isso?",
+        "resposta_esperada": "Isaque achou estranho a caça ter sido encontrada tão rápido e disse ao apalpá-lo: 'A voz é a voz de Jacó, mas as mãos são as mãos de Esaú.'",
+        "versiculo_referencia": "Gênesis 27:20-22"
+      },
+      {
+        "pergunta": "Qual foi a reação de Esaú ao descobrir que Jacó havia recebido a bênção do primogênito e o que Isaque declarou sobre o futuro de Esaú?",
+        "resposta_esperada": "Esaú tremeu e clamou com grande amargura pedindo uma bênção. Isaque declarou que a morada de Esaú seria longe dos solos férteis, que ele viveria pela espada e serviria a seu irmão, mas que eventualmente romperias o jugo de Jacó de seu pescoço.",
+        "versiculo_referencia": "Gênesis 27:34, 38-40"
+      },
+      {
+        "pergunta": "Qual era o plano de Esaú contra Jacó após perder a bênção e qual foi a orientação de Rebeca para proteger Jacó?",
+        "resposta_esperada": "Esaú planejava matar Jacó após os dias de luto por seu pai. Ao saber disso, Rebeca orientou Jacó a fugir imediatamente para a casa de seu irmão Labão, em Harã, e morar lá por um tempo até a raiva de Esaú passar.",
+        "versiculo_referencia": "Gênesis 27:41-45"
+      },
+      {
+        "pergunta": "Como Rebeca justificou a Isaque a necessidade de enviar Jacó embora, sem mencionar o plano de assassinato de Esaú?",
+        "resposta_esperada": "Rebeca declarou a Isaque que odiava sua vida por causa das filhas de Hete e que de nada adiantaria viver se Jacó também tomasse uma esposa dentre as filhas daquela terra.",
+        "versiculo_referencia": "Gênesis 27:46"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 28,
+    "perguntas": [
+      {
+        "pergunta": "Que ordem e instrução Isaque deu a Jacó antes de enviá-lo a Padã-Arã?",
+        "resposta_esperada": "Isaque ordenou que Jacó não tomasse esposa dentre as filhas de Canaã, mas fosse a Padã-Arã, à casa de Betuel, e tomasse esposa entre as filhas de Labão, irmão de sua mãe.",
+        "versiculo_referencia": "Gênesis 28:1-2"
+      },
+      {
+        "pergunta": "Ao ver que seu pai não se agradava das mulheres cananeias, o que Esaú fez para tentar remediar a situação?",
+        "resposta_esperada": "Esaú foi a Ismael e, além das esposas que já tinha, tomou como esposa Maalate, filha de Ismael e irmã de Nebaiote.",
+        "versiculo_referencia": "Gênesis 28:8-9"
+      },
+      {
+        "pergunta": "O que Jacó viu e ouviu em seu sonho no caminho para Harã?",
+        "resposta_esperada": "Viu uma escada posta na terra cujo topo chegava aos céus e anjos subindo e descendo por ela; e viu Jeová acima dela prometendo dar-lhe aquela terra, multiplicar sua descendência como o pó da terra e abençoar todas as famílias da terra por meio dele.",
+        "versiculo_referencia": "Gênesis 28:12-14"
+      },
+      {
+        "pergunta": "Qual foi a promessa pessoal de proteção e garantia dada por Jeová a Jacó enquanto ele dormia em certo lugar?",
+        "resposta_esperada": "Jeová prometeu que estaria com Jacó, o protegeria aonde quer que fosse, o traria de volta àquela terra e não o deixaria até cumprir tudo o que havia prometido.",
+        "versiculo_referencia": "Gênesis 28:15"
+      },
+      {
+        "pergunta": "O que Jacó fez na manhã seguinte ao sonho para marcar o local e que nome deu àquela cidade?",
+        "resposta_esperada": "Jacó pegou a pedra em que apoiou a cabeça, colocou-a em pé como coluna, derramou óleo sobre ela e deu ao lugar o nome de Betel (que anteriormente se chamava Luz).",
+        "versiculo_referencia": "Gênesis 28:18-19"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 29,
+    "perguntas": [
+      {
+        "pergunta": "Como foi o primeiro encontro de Jacó com Raquel junto ao poço em Harã?",
+        "resposta_esperada": "Quando viu Raquel trazendo as ovelhas de seu tio Labão, Jacó aproximou-se, rolou a pedra da boca do poço, deu água ao rebanho, beijou Raquel, chorou alto e contou-lhe que era parente de seu pai e filho de Rebeca.",
+        "versiculo_referencia": "Gênesis 29:9-12"
+      },
+      {
+        "pergunta": "Qual foi o acordo inicial feito entre Labão e Jacó referente ao casamento com Raquel?",
+        "resposta_esperada": "Jacó ofereceu trabalhar e servir a Labão durante sete anos em troca de poder se casar com Raquel, sua filha mais nova, por quem estava apaixonado.",
+        "versiculo_referencia": "Gênesis 29:18-20"
+      },
+      {
+        "pergunta": "Como Labão enganou Jacó na noite do casamento e qual foi a justificativa que deu no dia seguinte?",
+        "resposta_esperada": "À noite, Labão levou sua filha mais velha, Leia, para ter relações com Jacó. Na manhã seguinte, justificou-se dizendo que naquele lugar não era costume dar a filha mais nova antes da primogênita.",
+        "versiculo_referencia": "Gênesis 29:23-26"
+      },
+      {
+        "pergunta": "Sob quais condições Jacó pôde também receber Raquel como esposa?",
+        "resposta_esperada": "Labão disse a Jacó para celebrar a semana de casamento de Leia e depois lhe daria também Raquel, em troca de Jacó servi-lo por mais sete anos.",
+        "versiculo_referencia": "Gênesis 29:27-30"
+      },
+      {
+        "pergunta": "Quais foram os quatro primeiros filhos nascidos de Leia e quais os significados dos seus nomes declarados no texto?",
+        "resposta_esperada": "Foram Rubem ('veja, um filho!'), Simeão ('ouvir'), Levi ('adesão; unido') e Judá ('louvado'), pois Jeová viu que Leia não era amada e abriu o seu ventre.",
+        "versiculo_referencia": "Gênesis 29:31-35"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 30,
+    "perguntas": [
+      {
+        "pergunta": "Por causa do ciúme e da esterilidade, qual foi a iniciativa de Raquel para ter filhos por meio de Jacó e quais meninos nasceram dessa união?",
+        "resposta_esperada": "Raquel deu a Jacó sua serva Bila como esposa. Bila ficou grávida e deu à luz dois filhos: Dã (que significa 'juiz') e Naftali (que significa 'minhas lutas').",
+        "versiculo_referencia": "Gênesis 30:3-8"
+      },
+      {
+        "pergunta": "Como Leia voltou a ter filhos por meio de sua serva e mais tarde por si mesma?",
+        "resposta_esperada": "Leia deu sua serva Zilpa a Jacó, gerando Gade e Aser; depois, trocou as mandrágoras achadas por Rubem por uma noite com Jacó, gerando Issacar, Zebulão e a filha Diná.",
+        "versiculo_referencia": "Gênesis 30:9-21"
+      },
+      {
+        "pergunta": "O que motivou a mudança de situação de Raquel e qual foi o nome do filho que ela deu à luz?",
+        "resposta_esperada": "Deus lembrou-se de Raquel, ouviu as suas súplicas e abriu o seu ventre; ela deu à luz um filho e chamou-o de José (que significa 'que Jah acrescente').",
+        "versiculo_referencia": "Gênesis 30:22-24"
+      },
+      {
+        "pergunta": "Qual foi a proposta de pagamento feita por Jacó a Labão para continuar a cuidar dos seus rebanhos?",
+        "resposta_esperada": "Jacó propôs separar de todo o rebanho qualquer ovelha pintada ou malhada, todo carneirinho marrom-escuro e toda cabra malhada ou pintada, para que estes fossem o seu salário dali em diante.",
+        "versiculo_referencia": "Gênesis 30:31-33"
+      },
+      {
+        "pergunta": "Que método Jacó utilizou para aumentar a quantidade de animais fortes e malhados em seu rebanho?",
+        "resposta_esperada": "Jacó pegou varas verdes de estoraque, amendoeira e plátano, fez nelas manchas brancas descascando-as, e colocou as varas nos bebedouros diante dos animais robustos quando entravam no cio, fazendo com que nascessem crias listradas, pintadas e malhadas.",
+        "versiculo_referencia": "Gênesis 30:37-41"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 31,
+    "perguntas": [
+      {
+        "pergunta": "O que Raquel furtou de seu pai Labão quando Jacó partiu secretamente para a terra de Canaã?",
+        "resposta_esperada": "Raquel furtou os ídolos domésticos (terafins) que pertenciam ao seu pai.",
+        "versiculo_referencia": "Gênesis 31:19"
+      },
+      {
+        "pergunta": "Que aviso Deus deu a Labão num sonho durante a noite enquanto este perseguia Jacó?",
+        "resposta_esperada": "Deus lhe disse para ter cuidado com o que iria dizer a Jacó, fosse algo bom ou algo mau.",
+        "versiculo_referencia": "Gênesis 31:24"
+      },
+      {
+        "pergunta": "Como Raquel conseguiu esconder os ídolos domésticos furtados quando Labão vasculhou a sua tenda?",
+        "resposta_esperada": "Ela colocou os ídolos no cesto das mulheres que ficava na sela do camelo e sentou-se em cima deles, alegando que não podia se levantar por estar com o incômodo habitual das mulheres.",
+        "versiculo_referencia": "Gênesis 31:34-35"
+      },
+      {
+        "pergunta": "Durante quantos anos ao todo Jacó serviu na casa de Labão e como seu salário foi alterado?",
+        "resposta_esperada": "Jacó serviu 20 anos (14 pelas suas duas filhas e 6 pelo rebanho), e Labão mudou o seu salário dez vezes.",
+        "versiculo_referencia": "Gênesis 31:41"
+      },
+      {
+        "pergunta": "Que nome Jacó deu ao monte de pedras erigido como testemunho do pacto entre ele e Labão?",
+        "resposta_esperada": "Jacó chamou o monte de pedras de Galeede (enquanto Labão o chamou de Jegar-Saaduta).",
+        "versiculo_referencia": "Gênesis 31:47"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 32,
+    "perguntas": [
+      {
+        "pergunta": "Quem se encontrou com Jacó no início do capítulo 32 e que nome ele deu àquele lugar?",
+        "resposta_esperada": "Anjos de Deus se encontraram com ele, e Jacó chamou o lugar de Maanaim, declarando ser o acampamento de Deus.",
+        "versiculo_referencia": "Gênesis 32:1-2"
+      },
+      {
+        "pergunta": "Qual foi a reação e a estratégia de Jacó ao saber que seu irmão Esaú vinha ao seu encontro com 400 homens?",
+        "resposta_esperada": "Jacó ficou aflito e com muito medo, e dividiu o povo e os rebanhos em dois grupos para que, se um fosse atacado, o outro pudesse escapar.",
+        "versiculo_referencia": "Gênesis 32:6-8"
+      },
+      {
+        "pergunta": "Que presente pacificador Jacó separou e enviou à frente em grupos para entregar a Esaú?",
+        "resposta_esperada": "Separou centenas de animais, incluindo cabras, bodes, ovelhas, carneiros, camelas amamentando com as crias, vacas, touros, jumentas e jumentos.",
+        "versiculo_referencia": "Gênesis 32:13-15"
+      },
+      {
+        "pergunta": "O que aconteceu durante a luta de Jacó com um homem no ponto de travessia do Jaboque até o raiar do dia?",
+        "resposta_esperada": "A articulação do quadril de Jacó se deslocou quando o homem tocou nela, e Jacó recusou-se a deixá-lo ir até que o abençoasse.",
+        "versiculo_referencia": "Gênesis 32:24-26"
+      },
+      {
+        "pergunta": "Qual novo nome Jacó recebeu após lutar com Deus e com homens, e que nome ele deu ao lugar da luta?",
+        "resposta_esperada": "Seu nome foi mudado para Israel, e ele deu ao lugar o nome de Peniel (ou Penuel), pois disse que viu a Deus face a face e sua vida foi preservada.",
+        "versiculo_referencia": "Gênesis 32:28-30"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 33,
+    "perguntas": [
+      {
+        "pergunta": "Como foi o gesto de humildade de Jacó ao se aproximar de Esaú e como Esaú o recebeu?",
+        "resposta_esperada": "Jacó passou à frente de sua família e se curvou por terra sete vezes; Esaú correu ao seu encontro, o abraçou, o beijou e eles choraram.",
+        "versiculo_referencia": "Gênesis 33:3-4"
+      },
+      {
+        "pergunta": "Por que Jacó recusou a proposta de viajar no mesmo passo de Esaú ou de aceitar a escolta dos homens de Esaú?",
+        "resposta_esperada": "Porque as crianças eram frágeis e os rebanhos estavam amamentando, de modo que se fossem forçados a andar depressa demais por um só dia, o rebanho inteiro morreria.",
+        "versiculo_referencia": "Gênesis 33:13-14"
+      },
+      {
+        "pergunta": "Para onde Jacó viajou após se despedir de Esaú e que construções ele fez ali, dando nome ao local?",
+        "resposta_esperada": "Jacó viajou para Sucote, onde construiu uma casa para si e fez barracas (abrigos) para o seu rebanho.",
+        "versiculo_referencia": "Gênesis 33:17"
+      },
+      {
+        "pergunta": "O que Jacó adquiriu dos filhos de Hamor em Siquém e por qual valor?",
+        "resposta_esperada": "Adquiriu um pedaço do campo onde havia armado a sua tenda por 100 peças de dinheiro.",
+        "versiculo_referencia": "Gênesis 33:19"
+      },
+      {
+        "pergunta": "Que estrutura Jacó erigiu perto de Siquém e como a chamou?",
+        "resposta_esperada": "Erigiu um altar e o chamou de 'Deus, o Deus de Israel'.",
+        "versiculo_referencia": "Gênesis 33:20"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 34,
+    "perguntas": [
+      {
+        "pergunta": "Quem violentou Diná, filha de Jacó e Leia, quando ela saiu para visitar as mulheres daquela terra?",
+        "resposta_esperada": "Siquém, filho de Hamor, o maioral daquela terra.",
+        "versiculo_referencia": "Gênesis 34:1-2"
+      },
+      {
+        "pergunta": "Qual foi a condição enganosa imposta pelos filhos de Jacó para consentirem no casamento de Diná e na aliança com os siquemitas?",
+        "resposta_esperada": "Exigiram que todos os homens da cidade de Siquém fossem circuncidados, assim como os israelitas eram.",
+        "versiculo_referencia": "Gênesis 34:14-16"
+      },
+      {
+        "pergunta": "Quais filhos de Jacó lideraram o ataque à cidade de Siquém no terceiro dia após a circuncisão e o que fizeram?",
+        "resposta_esperada": "Simeão e Levi pegaram suas espadas, atacaram a cidade indefesa, mataram todos os homens (incluindo Hamor e Siquém) e resgataram Diná.",
+        "versiculo_referencia": "Gênesis 34:25-26"
+      },
+      {
+        "pergunta": "O que os outros filhos de Jacó fizeram na cidade de Siquém após o massacre dos homens?",
+        "resposta_esperada": "Saquearam a cidade, levando os rebanhos, os bens, as crianças e as mulheres como despojo.",
+        "versiculo_referencia": "Gênesis 34:27-29"
+      },
+      {
+        "pergunta": "Qual foi a preocupação expressa por Jacó a Simeão e Levi devido às suas ações em Siquém?",
+        "resposta_esperada": "Jacó disse que eles trouxeram grandes dificuldades tornando-o odiado (com mau cheiro) entre os cananeus e perizeus, e que, por serem poucos, poderiam ser destruídos.",
+        "versiculo_referencia": "Gênesis 34:30"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 35,
+    "perguntas": [
+      {
+        "pergunta": "Que instrução Deus deu a Jacó no início do capítulo 35 e que ordem prévia Jacó deu à sua casa?",
+        "resposta_esperada": "Deus mandou Jacó ir a Betel e fazer ali um altar; Jacó ordenou à sua casa que se livrasse dos deuses estrangeiros, se purificasse e trocasse de roupa.",
+        "versiculo_referencia": "Gênesis 35:1-2"
+      },
+      {
+        "pergunta": "O que Jacó fez com os deuses estrangeiros e os brincos entregues por sua família?",
+        "resposta_esperada": "Jacó os enterrou debaixo da árvore grande (carvalho) que havia perto de Siquém.",
+        "versiculo_referencia": "Gênesis 35:4"
+      },
+      {
+        "pergunta": "Quem era Débora, onde ela morreu e sob qual árvore foi enterrada?",
+        "resposta_esperada": "Débora era a ama de Rebeca; ela morreu perto de Betel e foi enterrada ao sopé de um carvalho chamado Alom-Bacute.",
+        "versiculo_referencia": "Gênesis 35:8"
+      },
+      {
+        "pergunta": "Qual foi o último filho nascido a Jacó, onde ocorreu o nascimento e qual foi a complicação desse parto?",
+        "resposta_esperada": "Foi Benjamim (chamado de Ben-Oni pela mãe); nasceu no caminho para Éfrata (Betel a Belém) e sua mãe Raquel morreu durante o parto difícil.",
+        "versiculo_referencia": "Gênesis 35:16-18"
+      },
+      {
+        "pergunta": "Qual era a idade de Isaque ao morrer e por quem ele foi enterrado?",
+        "resposta_esperada": "Isaque viveu 180 anos e foi enterrado por seus filhos Esaú e Jacó.",
+        "versiculo_referencia": "Gênesis 35:28-29"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 36,
+    "perguntas": [
+      {
+        "pergunta": "Quem foram as esposas de Esaú tomadas dentre as filhas de Canaã mencionadas no início do capítulo 36?",
+        "resposta_esperada": "As esposas de Esaú foram Ada (filha de Elom, o hitita), Oolibama (filha de Aná e neta de Zibeão, o heveu) e Basemate (filha de Ismael e irmã de Nebaiote).",
+        "versiculo_referencia": "Gênesis 36:2-3"
+      },
+      {
+        "pergunta": "Qual foi o motivo pelo qual Esaú se mudou com toda a sua família e rebanhos para a região montanhosa de Seir, afastando-se de seu irmão Jacó?",
+        "resposta_esperada": "Esaú mudou-se porque os bens deles tinham se tornado tantos que eles não podiam mais morar juntos, e a terra em que moravam não era suficiente para mantê-los por causa dos seus rebanhos.",
+        "versiculo_referencia": "Gênesis 36:6-8"
+      },
+      {
+        "pergunta": "Quem foram os filhos de Esaú nascidos através de sua esposa Oolibama na terra de Canaã?",
+        "resposta_esperada": "Os filhos de Oolibama foram Jeús, Jalão e Corá.",
+        "versiculo_referencia": "Gênesis 36:5"
+      },
+      {
+        "pergunta": "Que descoberta notável feita por Aná, filho de Zibeão, é destacada na genealogia dos horeus?",
+        "resposta_esperada": "Aná foi quem achou as fontes termais no deserto enquanto cuidava dos jumentos de Zibeão, seu pai.",
+        "versiculo_referencia": "Gênesis 36:24"
+      },
+      {
+        "pergunta": "Quem foi o primeiro rei mencionado que reinou na terra de Edom antes de haver qualquer rei sobre os israelitas, e qual era o nome da sua cidade?",
+        "resposta_esperada": "O primeiro rei foi Bela, filho de Beor, e o nome da sua cidade era Dinabá.",
+        "versiculo_referencia": "Gênesis 36:31-32"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 37,
+    "perguntas": [
+      {
+        "pergunta": "Qual era a idade de José quando cuidava das ovelhas com seus irmãos e que presente especial seu pai Israel mandou fazer para ele por amá-lo mais do que a todos os seus filhos?",
+        "resposta_esperada": "José tinha 17 anos de idade, e seu pai Israel mandou fazer para ele uma túnica especial.",
+        "versiculo_referencia": "Gênesis 37:2-3"
+      },
+      {
+        "pergunta": "Qual foi o segundo sonho contado por José a seus irmãos e ao seu pai, e qual foi a reação de Jacó ao ouvi-lo?",
+        "resposta_esperada": "José sonhou que o sol, a lua e 11 estrelas se curvavam diante dele. Seu pai o repreendeu perguntando se ele, a mãe e os irmãos realmente viriam a se curvar por terra diante dele, mas guardou a declaração na mente.",
+        "versiculo_referencia": "Gênesis 37:9-11"
+      },
+      {
+        "pergunta": "Qual irmão de José tentou salvá-lo da morte sugerindo que apenas o jogassem numa cisterna sem derramar sangue, pretendendo devolvê-lo ao pai mais tarde?",
+        "resposta_esperada": "O irmão que tentou salvá-lo foi Rubem.",
+        "versiculo_referencia": "Gênesis 37:21-22"
+      },
+      {
+        "pergunta": "Por qual valor os irmãos de José o venderam aos ismaelitas e para onde José foi levado?",
+        "resposta_esperada": "José foi vendido por 20 peças de prata e os ismaelitas o levaram ao Egito.",
+        "versiculo_referencia": "Gênesis 37:28"
+      },
+      {
+        "pergunta": "A quem os mercadores no Egito venderam José após levá-lo para lá?",
+        "resposta_esperada": "Venderam José a Potifar, oficial da corte de Faraó e chefe da guarda.",
+        "versiculo_referencia": "Gênesis 37:36"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 38,
+    "perguntas": [
+      {
+        "pergunta": "Quem foram os três filhos que a filha do cananeu Sua deu a Judá?",
+        "resposta_esperada": "Os três filhos foram Er, Onã e Selá.",
+        "versiculo_referencia": "Gênesis 38:2-5"
+      },
+      {
+        "pergunta": "Por que Jeová entregou Onã à morte após o falecimento do seu irmão Er?",
+        "resposta_esperada": "Porque Onã sabia que a descendência não seria considerada sua e, quando se deitava com a esposa do seu irmão, desperdiçava o sêmen derramando-o no chão para não dar descendência ao seu irmão, o que era mau aos olhos de Jeová.",
+        "versiculo_referencia": "Gênesis 38:8-10"
+      },
+      {
+        "pergunta": "Quais foram os três objetos pessoais entregues por Judá a Tamar como garantia até que ele lhe enviasse um cabrito?",
+        "resposta_esperada": "Os objetos foram o seu anel de selar, o seu cordão e o seu bastão.",
+        "versiculo_referencia": "Gênesis 38:18"
+      },
+      {
+        "pergunta": "Como Judá reagiu quando Tamar lhe enviou os objetos de garantia no momento em que a levaram para ser queimada?",
+        "resposta_esperada": "Judá examinou os objetos e declarou que ela era mais justa do que ele, pois ele não a tinha dado a Selá, seu filho.",
+        "versiculo_referencia": "Gênesis 38:25-26"
+      },
+      {
+        "pergunta": "Quais foram os nomes dos filhos gêmeos nascidos de Tamar e por que o primeiro a sair completamente recebeu o nome de Peres?",
+        "resposta_esperada": "Os filhos foram Peres e Zerá. Ele recebeu o nome de Peres porque abriu uma brecha ao sair antes de seu irmão.",
+        "versiculo_referencia": "Gênesis 38:27-30"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 39,
+    "perguntas": [
+      {
+        "pergunta": "Qual cargo Potifar confiou a José ao perceber que Jeová estava com ele e tornava bem-sucedido tudo o que ele fazia?",
+        "resposta_esperada": "Potifar o encarregou da sua casa e pôs sob a responsabilidade dele tudo o que possuía, tornando-o seu servo particular.",
+        "versiculo_referencia": "Gênesis 39:4-5"
+      },
+      {
+        "pergunta": "Qual foi a resposta de José diante das investidas diárias da esposa de Potifar para que ele se deitasse com ela?",
+        "resposta_esperada": "José recusou declarando que seu senhor não lhe negava nada a não ser ela, por ser sua esposa, e perguntou como poderia cometer essa grande maldade e realmente pecar contra Deus.",
+        "versiculo_referencia": "Gênesis 39:8-9"
+      },
+      {
+        "pergunta": "O que José deixou nas mãos da esposa de Potifar quando ela o agarrou pela roupa para tentar forçá-lo a se deitar com ela?",
+        "resposta_esperada": "José deixou a sua roupa nas mãos dela e fugiu para fora.",
+        "versiculo_referencia": "Gênesis 39:12"
+      },
+      {
+        "pergunta": "O que Potifar fez com José após ouvir a acusação falsa de sua esposa?",
+        "resposta_esperada": "Potifar ficou irado, pegou José e o entregou à prisão, o lugar onde ficavam detidos os prisioneiros do rei.",
+        "versiculo_referencia": "Gênesis 39:19-20"
+      },
+      {
+        "pergunta": "Como Jeová favoreceu José enquanto ele estava na prisão no Egito?",
+        "resposta_esperada": "Jeová continuava com José, demonstrava-lhe amor leal e lhe concedia favor aos olhos do carcereiro-chefe, que o encarregou de todos os prisioneiros e da administração da prisão.",
+        "versiculo_referencia": "Gênesis 39:21-23"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 40,
+    "perguntas": [
+      {
+        "pergunta": "Quais dois importantes funcionários do rei do Egito foram presos na cadeia da casa do chefe da guarda onde José estava detido?",
+        "resposta_esperada": "O chefe dos copeiros e o chefe dos padeiros do rei do Egito.",
+        "versiculo_referencia": "Gênesis 40:1-3"
+      },
+      {
+        "pergunta": "Qual foi a declaração de José aos dois prisioneiros ao notá-los abatidos na manhã seguinte aos seus sonhos?",
+        "resposta_esperada": "José lhes disse: 'Não pertencem a Deus as interpretações? Relatem os sonhos a mim, por favor.'",
+        "versiculo_referencia": "Gênesis 40:8"
+      },
+      {
+        "pergunta": "Qual era o conteúdo do sonho do chefe dos copeiros e qual foi a interpretação dada por José?",
+        "resposta_esperada": "Ele viu uma videira com três raminhos que brotava, florescia e dava uvas maduras, e ele espremia as uvas no copo de Faraó e dava o copo na mão dele. A interpretação era que os três raminhos representavam três dias, e em três dias Faraó o restituiria ao seu cargo de copeiro.",
+        "versiculo_referencia": "Gênesis 40:9-13"
+      },
+      {
+        "pergunta": "Qual foi a interpretação dada por José para o sonho do chefe dos padeiros sobre os três cestos de pão branco?",
+        "resposta_esperada": "José explicou que os três cestos eram três dias, e daqui a três dias Faraó cortaria a cabeça do padeiro, pendurando-o num madeiro, e as aves comeriam a sua carne.",
+        "versiculo_referencia": "Gênesis 40:18-19"
+      },
+      {
+        "pergunta": "O que aconteceu no terceiro dia após os sonhos durante a comemoração do aniversário de Faraó, e como o chefe dos copeiros agiu em relação a José?",
+        "resposta_esperada": "Faraó restituiu o chefe dos copeiros ao seu cargo e pendurou o chefe dos padeiros num madeiro, conforme José havia interpretado; porém, o chefe dos copeiros não se lembrou de José e esqueceu-se dele.",
+        "versiculo_referencia": "Gênesis 40:20-23"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 41,
+    "perguntas": [
+      {
+        "pergunta": "Quais foram os dois sonhos de Faraó que nenhum dos sacerdotes-magos e sábios do Egito conseguiu interpretar?",
+        "resposta_esperada": "Faraó sonhou primeiro com sete vacas gordas e bonitas que saíram do rio Nilo e depois sete vacas magras e feias que engoliram as sete vacas gordas; no segundo sonho, viu sete espigas de cereal cheias e boas numa única haste, seguidas por sete espigas mirradas e ressecadas pelo vento leste que engoliram as sete espigas boas.",
+        "versiculo_referencia": "Gênesis 41:1-8, 22-24"
+      },
+      {
+        "pergunta": "Qual foi a interpretação que José deu aos sonhos de Faraó e qual conselho prático ele ofereceu?",
+        "resposta_esperada": "José explicou que os dois sonhos tinham o mesmo significado: haveria sete anos de grande fartura em todo o Egito, seguidos por sete anos de fome severa; ele aconselhou Faraó a encarregar um homem prudente e sábio para armazenar estoques de cereais durante os anos de fartura.",
+        "versiculo_referencia": "Gênesis 41:25-36"
+      },
+      {
+        "pergunta": "Como Faraó honrou José ao nomeá-lo administrador e governador de toda a terra do Egito?",
+        "resposta_esperada": "Faraó tirou seu anel de selar e o pôs na mão de José, vestiu-o com roupas de linho fino, colocou-lhe um colar de ouro no pescoço, fez com que andasse no seu segundo carro de honra e deu-lhe o nome de Zafenate-Paneia e como esposa Asenate, filha de Potífera.",
+        "versiculo_referencia": "Gênesis 41:40-45"
+      },
+      {
+        "pergunta": "Quantos anos José tinha ao comparecer perante Faraó e quais foram os dois filhos nascidos a ele antes do início da fome?",
+        "resposta_esperada": "José tinha 30 anos de idade. Seus dois filhos foram Manassés (porque Deus o fez esquecer toda a sua desgraça e a casa de seu pai) e Efraim (porque Deus lhe deu filhos na terra da sua aflição).",
+        "versiculo_referencia": "Gênesis 41:46, 50-52"
+      },
+      {
+        "pergunta": "O que Faraó disse ao povo egípcio quando a fome se apoderou da terra e eles começaram a clamar por pão?",
+        "resposta_esperada": "Faraó disse a todos os egípcios: 'Vão a José e façam o que ele lhes disser.'",
+        "versiculo_referencia": "Gênesis 41:55"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 42,
+    "perguntas": [
+      {
+        "pergunta": "Por que Jacó enviou apenas dez de seus filhos ao Egito para comprar cereais, mantendo Benjamim em casa?",
+        "resposta_esperada": "Jacó não enviou Benjamim, irmão de José, com os outros irmãos porque disse que poderia lhe acontecer um acidente fatal.",
+        "versiculo_referencia": "Gênesis 42:1-4"
+      },
+      {
+        "pergunta": "Como José tratou seus irmãos no primeiro encontro no Egito e de que crime os acusou?",
+        "resposta_esperada": "José reconheceu os seus irmãos, mas agiu como um estranho, falou duramente com eles e os acusou repetidamente de serem espiões que vieram para ver os pontos fracos do país.",
+        "versiculo_referencia": "Gênesis 42:7-14"
+      },
+      {
+        "pergunta": "Qual foi o teste estabelecido por José para que os irmãos provassem que eram homens honestos e não espiões?",
+        "resposta_esperada": "José exigiu que um dos irmãos ficasse preso na casa de detenção (Simeão) enquanto os outros levariam os cereais para matar a fome de suas famílias e voltariam trazendo o irmão mais novo (Benjamim).",
+        "versiculo_referencia": "Gênesis 42:18-20, 24"
+      },
+      {
+        "pergunta": "O que os irmãos de José disseram entre si ao sofrerem essa aflição no Egito, sem saberem que José os entendia?",
+        "resposta_esperada": "Eles disseram que estavam sendo punidos por causa do pecado cometido contra o seu irmão José, pois viram a sua aflição quando implorava compaixão e não escutaram, e Rubem lembrou que os havia alertado para não pecarem contra o menino.",
+        "versiculo_referencia": "Gênesis 42:21-23"
+      },
+      {
+        "pergunta": "Como Jacó reagiu quando os filhos retornaram a Canaã, relataram o ocorrido e viram que o dinheiro havia sido devolvido nas suas sacas?",
+        "resposta_esperada": "Jacó ficou com medo e lamentou dizendo que eles o deixaram sem filhos, pois José e Simeão já não existiam e agora queriam levar Benjamim, recusando-se a deixá-lo ir para não fazer seus cabelos brancos descerem com pesar à Sepultura.",
+        "versiculo_referencia": "Gênesis 42:35-38"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 43,
+    "perguntas": [
+      {
+        "pergunta": "Qual foi a garantia que Judá deu a seu pai Jacó para convencê-lo a permitir que Benjamim fosse ao Egito?",
+        "resposta_esperada": "Judá ofereceu-se como fiança por Benjamim, declarando que carregaria esse pecado diante do seu pai para sempre se falhasse em trazê-lo de volta são e salvo.",
+        "versiculo_referencia": "Gênesis 43:8-9"
+      },
+      {
+        "pergunta": "Quais presentes Jacó mandou os seus filhos levarem ao governante do Egito junto com o dinheiro em dobro?",
+        "resposta_esperada": "Jacó mandou levarem alguns dos melhores produtos da terra: um pouco de bálsamo, um pouco de mel, ládano, casca resinosa de árvore, nozes de pistache e amêndoas.",
+        "versiculo_referencia": "Gênesis 43:11"
+      },
+      {
+        "pergunta": "Por que os irmãos de José ficaram com medo quando foram levados à casa dele ao chegarem ao Egito?",
+        "resposta_esperada": "Eles temeram que estivessem sendo trazidos por causa do dinheiro devolvido nas suas sacas da primeira vez, achando que seriam atacados, escravizados e teriam seus jumentos tomados.",
+        "versiculo_referencia": "Gênesis 43:17-18"
+      },
+      {
+        "pergunta": "Como José reagiu ao ver seu irmão Benjamim no banquete em sua casa?",
+        "resposta_esperada": "José ficou profundamente comovido no seu coração, procurou um lugar para chorar, entrou num quarto privativo e chorou; depois lavou o rosto, se controlou e mandou servir a refeição.",
+        "versiculo_referencia": "Gênesis 43:29-31"
+      },
+      {
+        "pergunta": "O que causou pasmo entre os irmãos de José durante o banquete em sua casa?",
+        "resposta_esperada": "Eles foram sentados diante dele exatamente segundo o seu direito de primogenitura até o mais jovem, e a porção de alimento dada a Benjamim era cinco vezes maior do que as porções de todos os outros.",
+        "versiculo_referencia": "Gênesis 43:33-34"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 44,
+    "perguntas": [
+      {
+        "pergunta": "O que José ordenou ao seu encarregado que colocasse na saca de Benjamim antes de os irmãos partirem?",
+        "resposta_esperada": "Ordenou que colocasse o seu cálice de prata na boca da saca do irmão mais novo, junto com o dinheiro pelos seus cereais.",
+        "versiculo_referencia": "Gênesis 44:1-2"
+      },
+      {
+        "pergunta": "Como os irmãos reagiram quando o encarregado de José os alcançou e o cálice de prata foi encontrado na saca de Benjamim?",
+        "resposta_esperada": "Eles rasgaram as suas roupas, puseram cada um a sua carga de volta no jumento e retornaram à cidade, prostrando-se por terra diante de José.",
+        "versiculo_referencia": "Gênesis 44:12-14"
+      },
+      {
+        "pergunta": "Quando confrontados por José, qual foi a atitude de Judá quanto à culpa e à punição pelo cálice encontrado?",
+        "resposta_esperada": "Judá reconheceu que o verdadeiro Deus havia descoberto o erro dos escravos e ofereceu que todos se tornassem escravos de José, embora José dissesse que apenas aquele com quem o cálice fora encontrado se tornaria seu escravo.",
+        "versiculo_referencia": "Gênesis 44:16-17"
+      },
+      {
+        "pergunta": "Qual foi a comovente explicação dada por Judá a José sobre o impacto da perda de Benjamim para o seu pai idoso?",
+        "resposta_esperada": "Judá explicou que a alma de seu pai estava amarrada à alma do rapaz, e que se eles voltassem sem Benjamim, seu pai morreria assim que visse que o rapaz não estava com eles, fazendo os seus cabelos brancos descerem com pesar à Sepultura.",
+        "versiculo_referencia": "Gênesis 44:20, 30-31"
+      },
+      {
+        "pergunta": "Que proposta final Judá fez a José para salvar Benjamim e permitir que o rapaz voltasse para casa?",
+        "resposta_esperada": "Judá implorou para ficar no lugar do rapaz como escravo do seu senhor, permitindo que o rapaz voltasse com os seus irmãos, pois não suportaria ver o seu pai ser atingido por essa desgraça.",
+        "versiculo_referencia": "Gênesis 44:32-34"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 45,
+    "perguntas": [
+      {
+        "pergunta": "Como José revelou sua verdadeira identidade aos seus irmãos e qual foi a reação imediata deles?",
+        "resposta_esperada": "José mandou todos os seus servos saírem, chorou alto e disse aos seus irmãos: 'Eu sou José. Meu pai ainda está vivo?'; seus irmãos ficaram pasmados por causa dele e não conseguiram responder nada.",
+        "versiculo_referencia": "Gênesis 45:1-3"
+      },
+      {
+        "pergunta": "Como José confortou seus irmãos quanto a terem-no vendido como escravo aos egípcios?",
+        "resposta_esperada": "José disse para não ficarem aflitos nem censurarem uns aos outros, porque na verdade foi Deus quem o enviou na frente deles para preservar vidas e mantê-los vivos por meio de um grande livramento.",
+        "versiculo_referencia": "Gênesis 45:4-8"
+      },
+      {
+        "pergunta": "Para qual região da terra do Egito José mandou que seu pai e toda a sua casa se mudassem?",
+        "resposta_esperada": "José mandou que morassem na terra de Gósen, onde ficariam perto dele com seus filhos, netos, ovelhas, bois e tudo o que possuíam.",
+        "versiculo_referencia": "Gênesis 45:10"
+      },
+      {
+        "pergunta": "O que Faraó ordenou aos irmãos de José que fizessem ao saber da chegada da família de José?",
+        "resposta_esperada": "Faraó mandou que levassem carroças da terra do Egito para transportar suas crianças e esposas, buscassem seu pai e trouxessem toda a família, prometendo dar-lhes o melhor da terra do Egito.",
+        "versiculo_referencia": "Gênesis 45:16-20"
+      },
+      {
+        "pergunta": "Como Jacó (Israel) reagiu ao receber a notícia de que José estava vivo e era o governante de todo o Egito?",
+        "resposta_esperada": "A princípio o coração de Jacó ficou entorpecido porque não acreditou neles, mas ao ver as carroças enviadas por José, o seu espírito se reanimou e ele exclamou: 'Basta! Meu filho José ainda está vivo! Preciso ir vê-lo antes de eu morrer!'",
+        "versiculo_referencia": "Gênesis 45:25-28"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 46,
+    "perguntas": [
+      {
+        "pergunta": "O que Jeová disse a Jacó numa visão noturna em Berseba quando ele estava a caminho do Egito?",
+        "resposta_esperada": "Deus disse para Jacó não ter medo de descer ao Egito, pois ali faria dele uma grande nação, iria com ele, o traria de volta e José poria a mão sobre os seus olhos.",
+        "versiculo_referencia": "Gênesis 46:2-4"
+      },
+      {
+        "pergunta": "Quantas pessoas da casa de Jacó ao todo entraram no Egito?",
+        "resposta_esperada": "Entraram 70 pessoas da casa de Jacó no Egito.",
+        "versiculo_referencia": "Gênesis 46:27"
+      },
+      {
+        "pergunta": "Quem Jacó enviou na sua frente para avisar a José que eles estavam chegando a Gósen?",
+        "resposta_esperada": "Jacó enviou Judá na sua frente para dizer a José que eles estavam indo para Gósen.",
+        "versiculo_referencia": "Gênesis 46:28"
+      },
+      {
+        "pergunta": "Como foi o reencontro entre Jacó e José na terra de Gósen?",
+        "resposta_esperada": "José aprontou seu carro de guerra, foi ao encontro de Israel em Gósen e, ao se apresentar a ele, imediatamente o abraçou e chorou por muito tempo.",
+        "versiculo_referencia": "Gênesis 46:29"
+      },
+      {
+        "pergunta": "Por que José orientou sua família a dizer a Faraó que eram criadores de rebanhos desde a juventude?",
+        "resposta_esperada": "Para que pudessem morar na terra de Gósen, pois todo pastor de ovelhas era detestável para os egípcios.",
+        "versiculo_referencia": "Gênesis 46:33-34"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 47,
+    "perguntas": [
+      {
+        "pergunta": "O que Faraó concedeu à família de Jacó após ser apresentado a eles por José?",
+        "resposta_esperada": "Faraó colocou a terra do Egito à disposição deles e ordenou que morassem na melhor parte do país, na terra de Gósen, e encarregou os homens capazes de cuidarem dos seus rebanhos.",
+        "versiculo_referencia": "Gênesis 47:5-6"
+      },
+      {
+        "pergunta": "Quantos anos Jacó disse a Faraó que tinha no momento em que foi apresentado a ele?",
+        "resposta_esperada": "Jacó disse a Faraó que os anos das suas peregrinações eram 130 anos.",
+        "versiculo_referencia": "Gênesis 47:8-9"
+      },
+      {
+        "pergunta": "Como José administrou a venda de alimentos no Egito quando o dinheiro do povo acabou durante a fome?",
+        "resposta_esperada": "José aceitou os rebanhos e animais em troca de comida no primeiro ano, e no ano seguinte comprou toda a terra dos egípcios e o próprio povo para servirem a Faraó.",
+        "versiculo_referencia": "Gênesis 47:16-20"
+      },
+      {
+        "pergunta": "Qual foi o decreto estabelecido por José quanto à produção agrícola das terras pertencentes a Faraó?",
+        "resposta_esperada": "Um quinto da produção da terra devia ser dado a Faraó, e quatro partes ficavam com o povo para semear e se alimentar, exceto a terra dos sacerdotes, que não se tornou de Faraó.",
+        "versiculo_referencia": "Gênesis 47:24, 26"
+      },
+      {
+        "pergunta": "Que juramento Jacó exigiu de José quando percebeu que a hora da sua morte se aproximava?",
+        "resposta_esperada": "Jacó pediu a José que pusesse a mão debaixo da sua coxa e lhe jurasse que não o enterraria no Egito, mas o levaria para fora do país e o enterraria na sepultura dos seus antepassados.",
+        "versiculo_referencia": "Gênesis 47:29-31"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 48,
+    "perguntas": [
+      {
+        "pergunta": "O que Jacó declarou a respeito dos dois filhos de José, Efraim e Manassés, nascidos no Egito?",
+        "resposta_esperada": "Jacó adotou Efraim e Manassés como seus próprios filhos, afirmando que eles seriam dele assim como Rubem e Simeão eram dele.",
+        "versiculo_referencia": "Gênesis 48:5"
+      },
+      {
+        "pergunta": "De que maneira Jacó cruzou as mãos ao abençoar os filhos de José, Efraim e Manassés?",
+        "resposta_esperada": "Jacó estendeu a mão direita e a pôs sobre a cabeça de Efraim, o mais novo, e a mão esquerda sobre a cabeça de Manassés, o primogênito, cruzando as mãos de propósito.",
+        "versiculo_referencia": "Gênesis 48:13-14"
+      },
+      {
+        "pergunta": "Como José reagiu ao ver a mão direita de seu pai sobre a cabeça de Efraim?",
+        "resposta_esperada": "José não gostou e tentou mudar a mão do pai da cabeça de Efraim para a de Manassés, lembrando que Manassés era o primogênito.",
+        "versiculo_referencia": "Gênesis 48:17-18"
+      },
+      {
+        "pergunta": "Qual foi a explicação de Jacó para dar a bênção maior ao filho mais novo, Efraim?",
+        "resposta_esperada": "Jacó disse que sabia disso, mas que o irmão mais novo (Efraim) se tornaria maior do que o mais velho, e sua descendência seria numerosa o suficiente para formar nações.",
+        "versiculo_referencia": "Gênesis 48:19"
+      },
+      {
+        "pergunta": "Quem foi a esposa amada de Jacó cuja morte em Canaã ele relembrou ao falar com José?",
+        "resposta_esperada": "Jacó relembrou a morte de Raquel no caminho de Efrate (Belém).",
+        "versiculo_referencia": "Gênesis 48:7"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 49,
+    "perguntas": [
+      {
+        "pergunta": "O que Jacó profetizou a respeito da tribo de Judá em seu leito de morte?",
+        "resposta_esperada": "Profetizou que o cetro não se afastará de Judá nem o bastão de comandante dentre os seus pés até que venha Siló, e a ele pertencerá a obediência dos povos.",
+        "versiculo_referencia": "Gênesis 49:10"
+      },
+      {
+        "pergunta": "Como Jacó descreveu a tribo de Issacar em sua bênção profética?",
+        "resposta_esperada": "Descreveu Issacar como um jumento de ossos fortes que viu que o descanso era bom e a terra agradável, curvando os ombros para carregar fardos e sujeitando-se ao trabalho escravo.",
+        "versiculo_referencia": "Gênesis 49:14-15"
+      },
+      {
+        "pergunta": "Que figura de linguagem Jacó usou ao profetizar sobre a tribo de José?",
+        "resposta_esperada": "Descreveu José como o ramo de uma árvore fértil junto a uma nascente, cujos ramos se estendem por cima do muro, cujo arco permaneceu forte apesar dos arqueiros o hostilizarem.",
+        "versiculo_referencia": "Gênesis 49:22-24"
+      },
+      {
+        "pergunta": "O que Jacó ordenou a todos os seus doze filhos sobre o local onde deveria ser sepultado?",
+        "resposta_esperada": "Ordenou que o enterrassem na caverna no campo de Macpela, em frente de Manre, comprada de Efrom, o hitita, onde Abraão, Sara, Isaque, Rebeca e Leia foram enterrados.",
+        "versiculo_referencia": "Gênesis 49:29-32"
+      },
+      {
+        "pergunta": "O que aconteceu com Jacó imediatamente após ele terminar de dar as instruções aos seus filhos?",
+        "resposta_esperada": "Jacó recolheu os pés à cama, deu seu último suspiro e foi reunido ao seu povo.",
+        "versiculo_referencia": "Gênesis 49:33"
+      }
+    ]
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": 50,
+    "perguntas": [
+      {
+        "pergunta": "Quantos dias durou o período de embalsamamento de Jacó e quantos dias os egípcios choraram por ele?",
+        "resposta_esperada": "O embalsamamento levou 40 dias inteiros, e os egípcios continuaram a chorar por ele durante 70 dias.",
+        "versiculo_referencia": "Gênesis 50:2-3"
+      },
+      {
+        "pergunta": "Como passou a ser chamado o local da amarga lamentação feita na região do Jordão durante o sepultamento de Jacó?",
+        "resposta_esperada": "Foi chamado pelos habitantes cananeus de Abel-Mizraim.",
+        "versiculo_referencia": "Gênesis 50:11"
+      },
+      {
+        "pergunta": "Que temor invadiu os irmãos de José após a morte de seu pai Jacó?",
+        "resposta_esperada": "Tiveram medo de que José guardasse rancor e lhes retribuísse todo o mal que haviam feito contra ele.",
+        "versiculo_referencia": "Gênesis 50:15"
+      },
+      {
+        "pergunta": "Como José consolou e tranquilizou seus irmãos quando estes lhe pediram perdão?",
+        "resposta_esperada": "José disse para não terem medo, afirmando que embora quisessem fazer o mal, Deus quis que as coisas acabassem bem para preservar vidas, e prometeu continuar sustentando a eles e suas crianças.",
+        "versiculo_referencia": "Gênesis 50:19-21"
+      },
+      {
+        "pergunta": "Quantos anos José viveu ao todo e que ordem solene ele deu aos filhos de Israel a respeito de seus restos mortais?",
+        "resposta_esperada": "José viveu 110 anos e fez os filhos de Israel jurarem que levariam seus ossos para fora do Egito quando Deus voltasse a atenção para eles.",
+        "versiculo_referencia": "Gênesis 50:22, 24-25"
       }
     ]
   }
