@@ -134,14 +134,23 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
             <span className="text-3xl font-black text-amber-400">{scores[teams[0]]} <span className="text-sm font-bold opacity-50">pts</span></span>
           </div>
         ) : (
-          teams.map((t: string) => (
-            <div key={t} className={`flex flex-col items-center transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
-              <span className="text-[11px] uppercase font-black text-slate-700 text-center max-w-[90px] leading-tight">{t}</span>
-              <span className={`text-2xl font-black ${t === currentTeam ? 'text-amber-400' : 'text-slate-500'}`}>
-                {scores[t]} <span className="text-xs font-bold opacity-50">pts</span>
-              </span>
-            </div>
-          ))
+          teams.map((t: string) => {
+            // Separa a primeira palavra do resto para forçar a quebra de linha elegante
+            const words = t.split(' ')
+            const firstLine = words[0]
+            const secondLine = words.slice(1).join(' ')
+            return (
+              <div key={t} className={`flex flex-col items-center justify-end h-16 transition-all duration-300 ${t === currentTeam ? 'scale-110' : 'opacity-40 grayscale'}`}>
+                <div className="text-center flex flex-col items-center justify-end h-8 mb-1">
+                  <span className="text-[9px] uppercase tracking-widest text-slate-500 font-bold leading-none mb-0.5">{firstLine}</span>
+                  {secondLine && <span className="text-[11px] uppercase font-black text-slate-700 leading-none">{secondLine}</span>}
+                </div>
+                <span className={`text-2xl font-black leading-none ${t === currentTeam ? 'text-amber-400' : 'text-slate-500'}`}>
+                  {scores[t]} <span className="text-xs font-bold opacity-50">pts</span>
+                </span>
+              </div>
+            )
+          })
         )}
       </div>
 
