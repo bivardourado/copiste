@@ -160,7 +160,7 @@ function PlayingScreen({ carta, pistasVisiveis, scores, teams, currentTeam, curr
         </div>
 
         {/* Pergunta */}
-        <p className="text-center font-black text-slate-500 uppercase tracking-widest text-xs mb-4 shrink-0">
+        <p className="text-center font-black text-amber-400 uppercase tracking-widest text-2xl mb-6 shrink-0 drop-shadow-sm">
           {carta.tipo === 'personagem' ? '🤔 Quem sou eu?' :
            carta.tipo === 'evento' ? '⚡ Que evento é esse?' :
            carta.tipo === 'lugar' ? '📍 Que lugar é esse?' : '📖 Que livro é esse?'}
