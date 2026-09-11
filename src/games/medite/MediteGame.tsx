@@ -17,6 +17,39 @@ type CapituloData = {
 
 type GameState = 'SELECT_BOOK' | 'SELECT_CHAPTER' | 'PLAYING' | 'DONE'
 
+// Converte nome do livro para o slug da URL do JW.org
+function livroParaSlug(livro: string): string {
+  const mapa: Record<string, string> = {
+    'Gênesis': 'genesis', 'Êxodo': 'exodo', 'Levítico': 'levitico',
+    'Números': 'numeros', 'Deuteronômio': 'deuteronomio', 'Josué': 'josue',
+    'Juízes': 'juizes', 'Rute': 'rute', '1 Samuel': '1-samuel',
+    '2 Samuel': '2-samuel', '1 Reis': '1-reis', '2 Reis': '2-reis',
+    '1 Crônicas': '1-cronicas', '2 Crônicas': '2-cronicas', 'Esdras': 'esdras',
+    'Neemias': 'neemias', 'Ester': 'ester', 'Jó': 'jo', 'Salmos': 'salmos',
+    'Provérbios': 'proverbios', 'Eclesiastes': 'eclesiastes', 'Cânticos': 'canticos',
+    'Isaías': 'isaias', 'Jeremias': 'jeremias', 'Lamentações': 'lamentacoes',
+    'Ezequiel': 'ezequiel', 'Daniel': 'daniel', 'Oséias': 'oseias',
+    'Joel': 'joel', 'Amós': 'amos', 'Obadias': 'obadias', 'Jonas': 'jonas',
+    'Miquéias': 'miqueias', 'Naum': 'naum', 'Habacuque': 'habacuque',
+    'Sofonias': 'sofonias', 'Ageu': 'ageu', 'Zacarias': 'zacarias',
+    'Malaquias': 'malaquias', 'Mateus': 'mateus', 'Marcos': 'marcos',
+    'Lucas': 'lucas', 'João': 'joao', 'Atos': 'atos', 'Romanos': 'romanos',
+    '1 Coríntios': '1-corintios', '2 Coríntios': '2-corintios',
+    'Gálatas': 'galatas', 'Efésios': 'efesios', 'Filipenses': 'filipenses',
+    'Colossenses': 'colossenses', '1 Tessalonicenses': '1-tessalonicenses',
+    '2 Tessalonicenses': '2-tessalonicenses', '1 Timóteo': '1-timoteo',
+    '2 Timóteo': '2-timoteo', 'Tito': 'tito', 'Filemom': 'filemom',
+    'Hebreus': 'hebreus', 'Tiago': 'tiago', '1 Pedro': '1-pedro',
+    '2 Pedro': '2-pedro', '1 João': '1-joao', '2 João': '2-joao',
+    '3 João': '3-joao', 'Judas': 'judas', 'Apocalipse': 'apocalipse',
+  }
+  return mapa[livro] ?? livro.toLowerCase()
+}
+
+function jwOrgUrl(livro: string, capitulo: number): string {
+  return `https://www.jw.org/pt/biblioteca/biblia/biblia-de-estudo/livros/${livroParaSlug(livro)}/${capitulo}/`
+}
+
 export function MediteGame({ onBackToHub }: { onBackToHub: () => void }) {
   const [gameState, setGameState] = useState<GameState>('SELECT_BOOK')
   const [selectedBook, setSelectedBook] = useState<{ nome: string, capitulos: number } | null>(null)
@@ -160,7 +193,7 @@ export function MediteGame({ onBackToHub }: { onBackToHub: () => void }) {
         {/* TELA 3: JOGANDO / MEDITANDO */}
         {gameState === 'PLAYING' && capituloAtual && (
           <div className="max-w-md mx-auto h-full flex flex-col">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-3">
               <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                 {capituloAtual.livro} {capituloAtual.capitulo}
               </span>
@@ -168,6 +201,17 @@ export function MediteGame({ onBackToHub }: { onBackToHub: () => void }) {
                 Pergunta {perguntaIndex + 1} de {capituloAtual.perguntas.length}
               </span>
             </div>
+
+            {/* Link para ler o capítulo no JW.org */}
+            <a
+              href={jwOrgUrl(capituloAtual.livro, capituloAtual.capitulo)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center space-x-2 mb-6 py-2.5 px-4 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-700 font-bold text-sm hover:bg-emerald-100 transition-colors"
+            >
+              <span>📖</span>
+              <span>Leia o capítulo aqui</span>
+            </a>
 
             <div className="flex-1">
               <h2 className="text-xl font-black text-slate-800 mb-8 leading-relaxed">
