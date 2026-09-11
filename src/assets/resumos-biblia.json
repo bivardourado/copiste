@@ -1,0 +1,266 @@
+[
+  {
+    "livro": "Gênesis",
+    "resumo": "O livro das origens apresenta a criação do universo e a formação do povo de Deus. Acompanhe a fé de Abraão, Isaque, Jacó e José, e descubra como Jeová iniciou o cumprimento do seu propósito humano."
+  },
+  {
+    "livro": "Êxodo",
+    "resumo": "Relata a libertação do povo de Israel da escravidão no Egito por meio de milagres impressionantes. Conheça a liderança de Moisés, a instituição da Páscoa e a entrega da Lei no Monte Sinai."
+  },
+  {
+    "livro": "Levítico",
+    "resumo": "Um guia fundamental sobre santidade, adoração pura e sacrifícios aprovados por Deus. Veja como as leis dadas a Arão e aos sacerdotes destacam a importância de ser santo para Jeová."
+  },
+  {
+    "livro": "Números",
+    "resumo": "Narra os 40 anos da jornada de Israel pelo deserto rumo à Terra Prometida. Descubra os recenseamentos da nação, os desafios da fé e a fidelidade de Jeová em guiar seu povo."
+  },
+  {
+    "livro": "Deuteronômio",
+    "resumo": "Discursos comoventes de Moisés incentivando a nova geração a amar e obedecer a Jeová. Encontre exortações profundas sobre lealdade antes de entrar na terra prometida aos antepassados."
+  },
+  {
+    "livro": "Josué",
+    "resumo": "Narra a conquista e a divisão da Terra Prometida sob a corajosa liderança de Josué. Testemunhe milagres como a queda das muralhas de Jericó e veja que nenhuma promessa de Deus falha."
+  },
+  {
+    "livro": "Juízes",
+    "resumo": "Apresenta o período em que Jeová levantou libertadores corajosos como Débora, Gideão e Sansão para salvar Israel. Veja como a misericórdia de Deus atua quando seu povo se arrepende sinceramente."
+  },
+  {
+    "livro": "Rute",
+    "resumo": "Uma emocionante história de amor leal, lealdade familiar e fé entre Rute e sua sogra Noemi. Acompanhe como Jeová abençoou a virtude de Rute e Boaz, inserindo-os na linhagem do Messias."
+  },
+  {
+    "livro": "1 Samuel",
+    "resumo": "Registra a transição do período dos juízes para a monarquia em Israel. Acompanhe a vida do profeta Samuel, a queda do rei Saul e a ascensão do jovem Davi, um homem segundo o coração de Deus."
+  },
+  {
+    "livro": "2 Samuel",
+    "resumo": "Narra o marcante reinado de Davi como rei de todo o Israel em Jerusalém. Veja suas vitórias militares, o pacto do Reino feito por Jeová e os frutos do verdadeiro arrependimento."
+  },
+  {
+    "livro": "1 Reis",
+    "resumo": "Acompanhe a glória do reinado de Salomão, a construção do templo e a posterior divisão do reino. Descubra o confronto corajoso do profeta Elias contra a adoração falsa de Baal."
+  },
+  {
+    "livro": "2 Reis",
+    "resumo": "Relata a história dos reis de Israel e Judá, os milagres de Eliseu e o triste declínio espiritual da nação. Veja o cumprimento das profecias divinas com a destruição de Jerusalém e o exílio."
+  },
+  {
+    "livro": "1 Crônicas",
+    "resumo": "Apresenta valiosas genealogias desde Adão e uma visão detalhada do reinado do rei Davi. Veja os preparativos organizacionais para o serviço sagrado e a construção do templo de Jeová."
+  },
+  {
+    "livro": "2 Crônicas",
+    "resumo": "Foca no reino de Judá, desde o esplendor do governo de Salomão até o decreto libertador de Ciro. Descubra as grandes reformas de reis fiéis como Asa, Jeosafá, Ezequias e Josias."
+  },
+  {
+    "livro": "Esdras",
+    "resumo": "Narra o alegre retorno dos judeus do cativeiro em Babilônia e a reconstrução do templo em Jerusalém. Acompanhe o zelo do copista Esdras em restaurar a adoração pura e ensinar a Lei."
+  },
+  {
+    "livro": "Neemias",
+    "resumo": "A inspiradora reconstrução das muralhas de Jerusalém em apenas 52 dias sob a liderança de Neemias. Veja o poder da oração, da determinação e das reformas para proteger o povo de Deus."
+  },
+  {
+    "livro": "Ester",
+    "resumo": "Um drama empolgante na corte persa onde a corajosa rainha Ester e Mordecai arriscam a vida. Testemunhe como a providência divina salvou o povo judeu da aniquilação total."
+  },
+  {
+    "livro": "Jó",
+    "resumo": "A profunda provação de integridade vivida por Jó e seus debates sobre o sofrimento humano. Descubra a resposta vitoriosa à acusação do Diabo e a restauração das bênçãos de Jeová."
+  },
+  {
+    "livro": "Salmos",
+    "resumo": "Uma coleção inspirada de cânticos, orações e poéticos louvores ao Criador Jeová. Encontre consolo para a alma, expressões de gratidão e profundas profecias sobre o Messias."
+  },
+  {
+    "livro": "Provérbios",
+    "resumo": "Tesouros de sabedoria prática para o dia a dia escritos principalmente pelo rei Salomão. Aprenda sobre o temor de Jeová, a escolha de amizades sólidas e o caminho para uma vida bem-sucedida."
+  },
+  {
+    "livro": "Eclesiastes",
+    "resumo": "Uma reflexão realista sobre o objetivo da vida e a futilidade das buscas humanas sem Deus. Descubra por que temer ao verdadeiro Deus e guardar seus mandamentos é a essência da existência."
+  },
+  {
+    "livro": "Cânticos",
+    "resumo": "Um belo poema sobre o amor inabalável entre uma jovem sulamita e um humilde pastor. Veja a exaltação da fidelidade e da pureza moral contra todas as atrações do rei Salomão."
+  },
+  {
+    "livro": "Isaías",
+    "resumo": "Conhecido como o profeta evangélico, apresenta profecias impactantes sobre o julgamento e o consolo de Deus. Maravilhe-se com detalhes precisos sobre o Messias e a promessa de novos céus e nova terra."
+  },
+  {
+    "livro": "Jeremias",
+    "resumo": "A missão destemida de Jeremias ao avisar Judá sobre o iminente julgamento de Jeová. Veja seu exemplo de perseverança diante da oposição e a promessa da restauração de um novo pacto."
+  },
+  {
+    "livro": "Lamentações",
+    "resumo": "Cinco poéticos cânticos fúnebres expressando profunda dor pela destruição de Jerusalém. Sinta a tristeza pelo pecado da nação e a confiança firme na misericórdia renovada de Jeová."
+  },
+  {
+    "livro": "Ezequiel",
+    "resumo": "Visões impressionantes do carro celestial de Jeová e mensagens solenes para os exilados em Babilônia. Explore as profecias sobre a restauração da adoraçâo pura e o templo visionário."
+  },
+  {
+    "livro": "Daniel",
+    "resumo": "Relatos de fé inabalável em Babilônia e visões proféticas extraordinárias sobre impérios mundiais. Descubra a proteção divina na cova dos leões e o estabelecimento do Reino eterno de Deus."
+  },
+  {
+    "livro": "Oséias",
+    "resumo": "A vida familiar de Oséias ilustra o amor leal de Jeová por Israel a despeito da infidelidade da nação. Um convite tocante para voltar a Deus com arrependimento sincero."
+  },
+  {
+    "livro": "Joel",
+    "resumo": "A descrição de uma devastadora praga de insetos que aponta para o grande e atemorizante dia de Jeová. Veja a promessa do derramamento do espírito santo e a salvação dos que invocarem a Deus."
+  },
+  {
+    "livro": "Amós",
+    "resumo": "Um humilde pastor de Tecoa enviado para denunciar a injustiça social e o formalismo religioso de Israel. Aprenda a odiar o mal, amar o bem e buscar a Jeová para continuar vivendo."
+  },
+  {
+    "livro": "Obadias",
+    "resumo": "A menor profecia do Antigo Testamento anuncia o julgamento de Deus contra Edom por sua violência contra Israel. Uma garantia inspiradora de que o Reino pertencerá a Jeová."
+  },
+  {
+    "livro": "Jonas",
+    "resumo": "A emocionante história do profeta fujão engolido por um grande peixe e enviado a Nínive. Veja uma demonstração marcante da grande misericórdia e paciência de Deus para com todos os povos."
+  },
+  {
+    "livro": "Miquéias",
+    "resumo": "Denúncias contra a ganância dos líderes e a promessa da vinda do Governante messiânico em Belém. Descubra o que Jeová exige de nós: praticar a justiça, amar a lealdade e andar modestamente com Deus."
+  },
+  {
+    "livro": "Naum",
+    "resumo": "A mensagem de julgamento contra Nínive, a sanguinária capital da Assíria. Veja como Jeová é uma fortaleza no dia da aflição para os que buscam refúgio nele."
+  },
+  {
+    "livro": "Habacuque",
+    "resumo": "Um diálogo sincero entre o profeta e Deus sobre a aparente prevalência da injustiça e a vinda dos caldeus. Fortaleça sua fé com a certeza de que o justo viverá pela sua fidelidade."
+  },
+  {
+    "livro": "Sofonias",
+    "resumo": "Avisos claros sobre a proximidade do grande dia da ira de Jeová contra a idolatria. Encontre esperança no convite para buscar a mansidão e a justiça a fim de ser escondido nesse dia."
+  },
+  {
+    "livro": "Ageu",
+    "resumo": "Mensagens diretas motivando os exilados retornados a dar prioridade à reconstrução da casa de Jeová. Veja como Deus promete encher seu templo de glória e abençoar seu povo obediente."
+  },
+  {
+    "livro": "Zacarias",
+    "resumo": "Visões simbólicas e mensagens animadoras para a restauração de Jerusalém e do templo. Maravilhe-se com profecias detalhadas sobre a entrada humilde do Rei Messias montado num jumentinho."
+  },
+  {
+    "livro": "Malaquias",
+    "resumo": "O último livro profético do Antigo Testamento condena a adoração insincera e profanações do sacerdócio. Veja a promessa do mensageiro do pacto e a vinda do sol da justiça."
+  },
+  {
+    "livro": "Mateus",
+    "resumo": "O Evangelho dirigido aos judeus destaca Jesus como o Rei prometido e herdeiro de Davi. Explore o Sermão do Monte, as ilustrações sobre o Reino e a grande comissão de fazer discípulos."
+  },
+  {
+    "livro": "Marcos",
+    "resumo": "Um relato dinâmico e de ação rápida sobre o ministério de Jesus escrito por Marcos. Veja os milagres poderosos do Filho de Deus como um servo compassivo que deu sua vida em resgate."
+  },
+  {
+    "livro": "Lucas",
+    "resumo": "Um relato meticuloso e emocionante enfatizando o amor de Jesus pelos pobres, doentes e marginalizados. Acompanhe parábolas inesquecíveis como o filho pródigo e o bom samaritano."
+  },
+  {
+    "livro": "João",
+    "resumo": "Enfatiza a origem preexistente de Jesus como a Palavra e o amor profundo de Deus pela humanidade. Descubra os grandes sinais de Jesus e seus discursos íntimos sobre a vida eterna."
+  },
+  {
+    "livro": "Atos",
+    "resumo": "O empolgante nascimento e expansão da congregação cristã pelo poder do espírito santo. Acompanhe a obra destemida de Pedro e as viagens missionárias do apóstolo Paulo."
+  },
+  {
+    "livro": "Romanos",
+    "resumo": "A monumental explicação sobre como judeus e gentios são declarados justos por meio da fé em Jesus Cristo. Descubra verdades profundas sobre a misericórdia de Deus, a vida no espírito e a conduta cristã."
+  },
+  {
+    "livro": "1 Coríntios",
+    "resumo": "Conselhos práticos de Paulo para resolver divisões, imoralidade e questões de adoração na congregação. Contempla o hino inesquecível ao amor e o ensino esclarecedor sobre a ressurreição."
+  },
+  {
+    "livro": "2 Coríntios",
+    "resumo": "Uma carta profunda sobre o consolo divino, a defesa do ministério apostólico e a generosidade cristã. Veja como o poder de Deus se aperfeiçoa nas fraquezas humanas."
+  },
+  {
+    "livro": "Gálatas",
+    "resumo": "Uma defesa apaixonada da liberdade cristã contra os que queriam impor a Lei mosaica. Aprenda a andar pelo espírito santo e a cultivar seus frutos em vez de confiar nas obras da Lei."
+  },
+  {
+    "livro": "Efésios",
+    "resumo": "Destaca o propósito de Deus de reunir todas as coisas em Cristo e a unidade da congregação. Descubra conselhos preciosos para a vida familiar e como vestir a armadura completa de Deus."
+  },
+  {
+    "livro": "Filipenses",
+    "resumo": "Uma carta calorosa repleta de alegria, gratidão e incentivo à mentalidade humilde de Cristo. Encontre consolo sobre como manter a paz de Deus que supera todo o entendimento."
+  },
+  {
+    "livro": "Colossenses",
+    "resumo": "Enfatiza a posição suprema de Jesus Cristo como cabeça da congregação e meio de salvação. Um alerta contra filosofias humanas e um convite para vestir a nova personalidade."
+  },
+  {
+    "livro": "1 Tessalonicenses",
+    "resumo": "Elogia a fé ativa e o amor leal dos cristãos em Tessalônica em meio a perseguições. Traz belas exortações sobre manter a pureza moral e a esperança firme da presença de Cristo."
+  },
+  {
+    "livro": "2 Tessalonicenses",
+    "resumo": "Esclarecimentos sobre a vinda do dia de Jeová e a revelação do homem que é contra a lei. Um incentivo para permanecer firme na verdade e trabalhar arduamente com diligência."
+  },
+  {
+    "livro": "1 Timóteo",
+    "resumo": "Instruções pastorais de Paulo para o jovem Timóteo sobre a organização congregacional e qualificações de superintendentes. Destaca a importância do ensino sadio e da devoção a Deus com contentamento."
+  },
+  {
+    "livro": "2 Timóteo",
+    "resumo": "A emocionante carta de despedida de Paulo encarcerado em Roma incentivando Timóteo a perseverar no ministério. Enfatiza que toda a Escritura é inspirada por Deus e proveitosa para ensinar."
+  },
+  {
+    "livro": "Tito",
+    "resumo": "Orientações para Tito organizar as congregações em Creta, designar anciãos e combater falsos ensinos. Destaca o papel da boa conduta cristã para adornar o ensino de Deus."
+  },
+  {
+    "livro": "Filemom",
+    "resumo": "Um apelo pessoal e comovente de Paulo ao cristão Filemom para receber o escravo fugitivo Onésimo como um irmão amado. Um exemplo prático de perdão, amor e reconciliação cristã."
+  },
+  {
+    "livro": "Hebreus",
+    "resumo": "Demonstra com maestria a superioridade de Jesus Cristo, do novo pacto e do sacerdócio celestial sobre a Lei Mosaica. Uma exaltação dos grandes exemplos de fé da história bíblica."
+  },
+  {
+    "livro": "Tiago",
+    "resumo": "Conselhos práticos sobre a fé em ação, o controle da língua e a paciência nas provações. Mostra de forma direta que a fé sem obras está morta."
+  },
+  {
+    "livro": "1 Pedro",
+    "resumo": "Uma carta edificante para fortalecer os cristãos perseguidos a manterem uma excelente conduta entre as nações. Encoraja a depositar toda a ansiedade sobre Deus, porque ele cuida de nós."
+  },
+  {
+    "livro": "2 Pedro",
+    "resumo": "Alertas urgentes contra falsos instrutores e zombadores nos últimos dias. Reafirma a certeza da promessa dos novos céus e nova terra onde morará a justiça."
+  },
+  {
+    "livro": "1 João",
+    "resumo": "Uma mensagem amorosa sobre andar na luz, o amor fraternal e a superação do mundo. Afirma com ternura a certeza da vida eterna para os que crêem no Filho de Deus."
+  },
+  {
+    "livro": "2 João",
+    "resumo": "Uma breve exortação para continuar andando no amor e nos mandamentos divinos. Alerta severamente contra impostores que não confessam a vinda de Jesus Cristo."
+  },
+  {
+    "livro": "3 João",
+    "resumo": "Carta de elogio a Gaio por sua hospitalidade aos irmãos itinerantes que trabalham pela verdade. Contrapõe a conduta orgulhosa de Diótrefes com o bom exemplo de Demétrio."
+  },
+  {
+    "livro": "Judas",
+    "resumo": "Um chamado vigoroso para travar uma luta árdua pela fé contra homens ímpios que se infiltraram na congregação. Adverte sobre os julgamentos divinos do passado e a importância da pureza."
+  },
+  {
+    "livro": "Apocalipse",
+    "resumo": "A gloriosa revelação dada a João com visões proféticas sobre o triunfo final do Reino de Deus. Veja a destruição da grande Babilônia, a vitória sobre a serpente e a Nova Jerusalém."
+  }
+]

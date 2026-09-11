@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowLeft } from 'lucide-react'
 import { ANTIGO_TESTAMENTO, NOVO_TESTAMENTO } from '../../data/bibleData'
 import mediteData from '../../assets/medite.json'
+import resumosData from '../../assets/resumos-biblia.json'
 
 type PerguntaMedite = {
   pergunta: string
@@ -170,7 +171,8 @@ export function MediteGame({ onBackToHub }: { onBackToHub: () => void }) {
               <h2 className="text-3xl font-black text-blue-600 mb-2">{selectedBook.nome}</h2>
               <div className="h-1 w-16 bg-blue-400 mx-auto rounded-full mb-4"></div>
               <p className="text-slate-600 text-sm max-w-md mx-auto">
-                Explore os capítulos do livro de <span className="font-bold">{selectedBook.nome}</span> e mergulhe nas palavras inspiradas que moldaram a fé e a história do povo de Deus.
+                {(resumosData as {livro: string, resumo: string}[]).find(r => r.livro === selectedBook.nome)?.resumo
+                  ?? `Explore os capítulos do livro de ${selectedBook.nome} e mergulhe nas palavras inspiradas.`}
               </p>
             </div>
 
