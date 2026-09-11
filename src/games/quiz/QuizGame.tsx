@@ -74,14 +74,14 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
 
   return (
     <div className="flex flex-col h-full relative bg-purple-50 text-slate-800">
-      <header className="flex items-center p-4 bg-purple-100 border-b border-purple-200 shrink-0">
-        <button onClick={onBackToHub} className="p-2 -ml-2 text-purple-600 hover:bg-purple-200 rounded-full transition-colors">
-          <ArrowLeft size={24} />
+      <header className="flex items-center px-3 py-2 bg-purple-100 border-b border-purple-200 shrink-0">
+        <button onClick={onBackToHub} className="p-1.5 -ml-1 text-purple-600 hover:bg-purple-200 rounded-full transition-colors">
+          <ArrowLeft size={20} />
         </button>
-        <img src="/logo-copiste.png" alt="Copiste" className="h-8 ml-2" />
+        <img src="/logo-copiste.png" alt="Copiste" className="h-6 ml-2" />
       </header>
 
-      <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 pb-24">
+      <main className="flex-1 overflow-y-auto overflow-x-hidden p-3 pb-24">
         {gameState === 'CONFIG' && (
           <div className="flex flex-col items-stretch justify-center h-full max-w-md mx-auto space-y-4 px-2">
 
@@ -128,20 +128,20 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
         {gameState === 'PLAYING' && perguntaAtual && (
           <div className="flex flex-col h-full max-w-md mx-auto">
             {/* Top Bar */}
-            <div className="flex justify-between items-center mb-6 shrink-0">
-              <span className="bg-purple-200 text-purple-800 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest">
+            <div className="flex justify-between items-center mb-3 shrink-0">
+              <span className="bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest">
                 Pergunta {currentIndex + 1} de {perguntas.length}
               </span>
-              <span className="text-lg font-black text-purple-600">{score} pts</span>
+              <span className="text-base font-black text-purple-600">{score} pts</span>
             </div>
 
             {/* Pergunta */}
-            <h2 className="text-2xl font-black text-slate-800 leading-tight mb-8 text-center">
+            <h2 className="text-lg font-black text-slate-800 leading-snug mb-4 text-center">
               {perguntaAtual.pergunta}
             </h2>
 
             {/* Opções */}
-            <div className="space-y-4 flex-1">
+            <div className="space-y-2 flex-1">
               {perguntaAtual.opcoes.map((opcao, idx) => {
                 const isSelected = selectedOption === idx
                 const isCorrect = idx === perguntaAtual.resposta_correta
@@ -166,7 +166,7 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
                     key={idx}
                     onClick={() => handleSelectOption(idx)}
                     disabled={isAnswered}
-                    className={`w-full p-4 rounded-2xl font-bold text-lg text-left transition-all flex items-center justify-between ${btnStyle}`}
+                    className={`w-full p-3 rounded-2xl font-bold text-base text-left transition-all flex items-center justify-between ${btnStyle}`}
                   >
                     <span>{opcao}</span>
                     {icon && <span className="ml-2">{icon}</span>}
