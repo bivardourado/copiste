@@ -175,48 +175,31 @@ export function QuizGame({ onBackToHub }: { onBackToHub: () => void }) {
               })}
             </div>
 
-            {/* Modal Bottom Sheet: Explicação e Próximo */}
+            {/* Explicação inline + Dock fixo com Continuar */}
             {isAnswered && (
-              <div className="fixed inset-0 z-50 flex flex-col justify-end">
-                {/* Backdrop */}
-                <div className="absolute inset-0 bg-slate-900/20 backdrop-blur-sm animate-in fade-in duration-300" />
-                
-                {/* Modal Container */}
-                <div className="relative bg-white rounded-t-[2rem] p-6 pb-safe shadow-[0_-10px_40px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom-full duration-300">
+              <>
+                <div className="mt-6 mb-32 animate-in slide-in-from-bottom-4 duration-300 bg-white rounded-3xl p-5 border-2 border-purple-100 shadow-sm">
+                  <p className={`text-xs font-black uppercase tracking-widest mb-2 ${selectedOption === perguntaAtual.resposta_correta ? 'text-emerald-600' : 'text-rose-600'}`}>
+                    {selectedOption === perguntaAtual.resposta_correta ? 'Acertou! 🎉' : 'Errou...'}
+                  </p>
+                  <p className="text-sm text-slate-700 leading-relaxed">
+                    {perguntaAtual.explicacao}
+                  </p>
+                </div>
+
+                <div className="fixed bottom-0 left-0 right-0 p-4 pb-safe z-50 bg-gradient-to-t from-purple-50 via-purple-50 to-transparent pt-10">
                   <div className="max-w-md mx-auto">
-                    
-                    {/* Indicador de Acerto/Erro */}
-                    <div className="flex items-center space-x-3 mb-4">
-                      {selectedOption === perguntaAtual.resposta_correta ? (
-                        <>
-                          <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center">
-                            <CheckCircle size={28} />
-                          </div>
-                          <h3 className="text-2xl font-black uppercase tracking-widest text-emerald-600">Acertou!</h3>
-                        </>
-                      ) : (
-                        <>
-                          <div className="w-12 h-12 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center">
-                            <XCircle size={28} />
-                          </div>
-                          <h3 className="text-2xl font-black uppercase tracking-widest text-rose-600">Errou</h3>
-                        </>
-                      )}
-                    </div>
-
-                    <div className="bg-purple-50 p-4 rounded-2xl mb-6">
-                      <p className="text-slate-700 leading-relaxed text-sm">
-                        {perguntaAtual.explicacao}
-                      </p>
-                    </div>
-
                     <button onClick={handleNext}
-                      className="w-full py-5 bg-slate-200 text-purple-600 font-black text-xl uppercase tracking-widest rounded-2xl shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px] transition-all">
+                      className={`w-full py-5 font-black text-xl uppercase tracking-widest rounded-2xl transition-all
+                        ${selectedOption === perguntaAtual.resposta_correta
+                          ? 'bg-slate-200 text-emerald-600 shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px]'
+                          : 'bg-slate-200 text-rose-600 shadow-[0_8px_0_0_#94a3b8] active:shadow-none active:translate-y-[8px]'
+                        }`}>
                       Continuar
                     </button>
                   </div>
                 </div>
-              </div>
+              </>
             )}
           </div>
         )}
