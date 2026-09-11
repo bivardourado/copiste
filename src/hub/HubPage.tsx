@@ -79,7 +79,7 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
           </div>
           <div className="ml-4 text-left">
             <h2 className="text-xl font-bold text-slate-800">Medite na Bíblia</h2>
-            <p className="text-sm text-slate-500">Reflita capítulo por capítulo</p>
+            <p className="text-sm text-slate-500">5 perguntas por capítulo da Bíblia</p>
           </div>
         </button>
       </div>
