@@ -70,6 +70,7 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
           </div>
         </button>
 
+        {/* MEDITE NA BÍBLIA — temporariamente fora do ar para revisão do conteúdo
         <button
           onClick={() => onSelectGame('medite')}
           className="flex items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md hover:border-emerald-300 transition-all active:scale-95 group"
@@ -82,6 +83,7 @@ export function HubPage({ onSelectGame }: { onSelectGame: (gameId: string) => vo
             <p className="text-sm text-slate-500">5 perguntas por capítulo da Bíblia</p>
           </div>
         </button>
+        */}
       </div>
 
       {installPrompt && !installed && (
