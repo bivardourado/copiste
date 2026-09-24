@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 import { IosInstallPrompt } from './components/IosInstallPrompt'
+import { InAppBrowserWarning } from './components/InAppBrowserWarning'
 import { HubPage } from './hub/HubPage'
 import { RevelarGame } from './games/revelar/RevelarGame'
 import { PistasGame } from './games/pistas/PistasGame'
@@ -21,6 +22,9 @@ export default function App() {
       
       {/* Componente que verifica atualizações do app */}
       <PwaUpdater />
+
+      {/* Aviso e Ejeção para WhatsApp/Instagram */}
+      <InAppBrowserWarning />
 
       {/* Aviso de instalação para usuários de iPhone/iOS */}
       <IosInstallPrompt />
